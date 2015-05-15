@@ -24,7 +24,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
 body{
   overflow-y: auto;
   color:#191919;
@@ -32,7 +31,9 @@ body{
   background: #003C74 !important;
   line-height: 1;
 }
-
+textarea{
+  margin: 5px 0px 5px 0 !important;
+}
 
 /* FUENTES DE LETRAS*/
 @font-face {
@@ -352,49 +353,62 @@ table.dataTable thead .sorting:after {
   border: 1px solid #cdcdda;
   border-radius: 3px;
   height: 27px;
-  padding: 10px;
+  padding: 5px;
 }
 .text-40 {
   width: 40px;
   border: 1px solid #cdcdda;
   border-radius: 3px;
-  height: 27px;
-  padding: 10px;
+  height: 25px;
+  padding: 5px;
 }
 .text-65 {
   width: 60px;
   border: 1px solid #cdcdda;
   border-radius: 3px;
-  height: 27px;
-  padding: 10px;
+  height: 25px;
+  padding: 5px;
 }
 .text-110 {
   width: 110px;
   border: 1px solid #cdcdda;
   border-radius: 3px;
-  height: 27px;
-  padding: 10px;
+  height: 25px;
+  padding: 5px;
 }
 .text-140{
   width: 140px;
   border: 1px solid #cdcdda;
   border-radius: 3px;
-  height: 27px;
-  padding: 10px;
+  height: 25px;
+  padding: 5px;
 }
 .text-150{
   width: 150px;
   border: 1px solid #cdcdda;
   border-radius: 3px;
-  height: 27px;
-  padding: 10px;
+  height: 25px;
+  padding: 5px;
 }
 .text-210{
   width: 210px;
   border: 1px solid #cdcdda;
   border-radius: 3px;
-  height: 27px;
-  padding: 10px;
+  height: 25px;
+  padding: 5px;
+}
+.area-default{
+  width: 185px;
+  font-size: 13px !important;
+}
+.area-235{
+  width: 235px;
+  font-size: 13px !important;
+}
+.area-246{
+  width: 246px;
+  height: 45px;
+  font-size: 13px !important;
 }
 .img-lgs{
   width: 175px;
@@ -687,9 +701,20 @@ fieldset.partidos-politicos input[type="radio"]{
 .fr{
   float: right !important;
 }
-.acciones{  
-  background: #EAF7FC !important;
+.p10{
+  padding: 10px;
+}
+.radius-0{
+  border-radius: 0px !important;
+}
+.acciones {
+  background: #428BCA !important;
+  background-image: url("../images/bodybg.png") !important;
+  background-position: 100% 119px !important;
   height: 58px;
+  border-radius: 0 !important;
+  border-right: 1px solid;
+  border-left: 1px solid;
 }
 .acciones div.accion:last-child{
   clear: right;
@@ -729,11 +754,20 @@ fieldset.partidos-politicos input[type="radio"]{
   margin-right: 10px;
 }
 .col-3col{
-  margin-right: 70px;
+  width: 290px;
+  margin-right: 8px;
+  padding: 10px;
 }
-.col-4col:last-child{
+.col-bg{
+  background: #EAFCF0;
+  border: 1px solid rgb(221, 233, 242) !important;
+}
+.col-4col:last-child, .col-3col:last-child{
   margin-right: 0px !important;
 }
 .clear{
   clear: both;
+}
+.col-2col, .col-3col, .col-4col{
+  font-size: 13px !important;
 }
