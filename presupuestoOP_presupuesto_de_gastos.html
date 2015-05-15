@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Presupuesto de Gastos</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/mainstyles.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main_custom.css">
+	<link rel="stylesheet" type="text/css" href="css/acordion.css">
+	<link rel="stylesheet" type="text/css" href="css/plugins/dataTables.bootstrap.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+</head>
+<body>
+<!-- wrapper //////// ////////////////////////////-->
+	<div id="wrapper">
+		<header class="main-header">
+			<div class="header-l">
+				<div class="logo">
+					<img src="images/logo-sigef.png" alt="Logo Siaf" title="Sistema Integrado de Administracion Financiera">
+				</div>
+			</div>
+			<div class="header-r">
+				<div class="usr-lg">
+					<img class="img-thumbnail" src="images/foto_perfil_legislador.png" alt="">
+						<div class="login-name">Hector Luis Lara Zapata <hr class="name-div">
+							<div class="login-usr">lara0245</div>
+						</div>
+						<div class="logout">
+							<a href="login.html">
+			                    <i class="fa fa-sign-out"></i> Cerrar Sesión
+			                </a>
+						</div>
+				</div>
+			</div>
+		</header>
+<!-- sidebar-menu //////// ////////////////////////////-->	
+		<div id="sidebar-menu">
+			<div class="sidebar" role="navigation">
+				<div class="titmenu">
+					<h4 class="h4">MENU PRINCIPAL</h4>
+				</div>
+				<ul id="accordion" class="accordion">
+					<li>
+						<div class="link"><img src="images/ic_operaciones.png">AUTORIDADES SUPERIORES<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li><a href="#" data-original-title="" title="">Agenda Legislativa</a></li>
+							<li><a href="#" data-original-title="" title="">Agenda Priorizada</a></li>
+							<li><a href="#" data-original-title="" title="">Definición de Orden del Día</a></li>
+							<li><a href="#" data-original-title="" title="">Asignación de Tareas a Iniciativas</a></li>
+							<li><a href="#" data-original-title="" title="">Registro Informe DETEREL</a></li>
+						</ul>
+					</li>
+					<li>
+						<div class="link"><img src="images/ic_procesos.png">PRESUPUESTO<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li><a href="#" data-original-title="" title="">OPERACIONES</a></li>
+							<li><a href="#" data-original-title="" title="">PROCESOS</a></li>
+							<li><a href="#" data-original-title="" title="">REPORTES</a></li>
+							<li><a href="#" data-original-title="" title="">MANTENIMIENTOS</a></li>
+						</ul>
+					</li>
+					<li>
+						<div class="link"><img src="images/ic_reportes.png">CONTRIBUCIONES Y RECAUDACIONES <i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li><a href="#" data-original-title="" title="">Reporte Iniciativas  Tipo, Sub-Tipo </a></li>
+							<li><a href="#" data-original-title="" title="">Reporte Iniciativa Resumida y Detallada</a></li>
+							<li><a href="#" data-original-title="" title="">Documentos:</a></li>
+							<li><a href="#" data-original-title="" title="">Oficio de Envió de Iniciativa</a></li>
+						</ul>
+					</li>
+					<li><div class="link"><img src="images/ic_consultas.png">CONSULTAS<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li><a href="#" data-original-title="" title="">Consultas Avanzadas Agenda Legislativa </a></li>
+							<li><a href="#" data-original-title="" title="">Consultas Agenda Priorizada</a></li>
+							<li><a href="#" data-original-title="" title="">Detalle de Orden del Día</a></li>
+							<li><a href="#" data-original-title="" title="">Informe Nivel Resumido y Gráficos Estadísticos Agenda Legislativa</a></li>
+						</ul>
+					</li>
+					<li><div class="link"><img src="images/ic_mantenimientos.png">COBRO, CAJA Y EFECTIVO<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li><a href="#" data-original-title="" title="">Definición Institucional</a></li>
+							<li><a href="#" data-original-title="" title="">Definición de Estructuras</a></li>
+							<li><a href="#" data-original-title="" title="">Definición de Parámetros del Sistema</a></li>
+							<li><a href="#" data-original-title="" title="">Creación de Periodos Constitucionales</a></li>
+							<li><a href="#" data-original-title="" title="">Definición Institucional</a></li>
+							<li><a href="#" data-original-title="" title="">Definición de Estructuras</a></li>
+							<li><a href="#" data-original-title="" title="">Definición de Parámetros del Sistema</a></li>
+							<li><a href="#" data-original-title="" title="">Creación de Periodos Constitucionales</a></li>
+						</ul>
+					</li>						
+				</ul>
+			</div>
+		</div>
+		<div id="page-wrapper">
+		<!--  topbar //////// ////////////////////////////-->
+                <nav class="topbar">
+					<div class="hidemenu">
+						<a class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
+					</div>
+					<div class="h-opcion-menu">
+						<h3 class="opcion-menu">Presupuesto de Gasto</h3>
+					</div>
+					<form class="navbar-form navbar-right">
+						<i class="fa fa-search"></i> 
+						<input type="text" class="form-control" placeholder="Buscar...">
+					</form>
+				</nav>
+		<!-- // topbar //////// ////////////////////////////-->
+			<div class="wrapper-contenido">
+				<div class="contenido">
+					<div class="data_body">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="botones_nev">
+									<button type="button" class="btn btn-nuevo ic_mas" data-toggle="modal" data-target="#modal1">Nuevo</button>
+									<button type="button" class="btn btn-editar ic_lapiz">Editar</button>
+									<button type="button" class="btn btn-visualizar ic_monitor">Visualizar</button>
+								</div> 
+								<!-- table back ///////////////////////////////////////////// -->		
+									<div class="panel-heading">
+										<div class="table-responsive">
+											<table class="table table-striped table-bordered table-hover" id="dtt-presgasto">
+												<thead>
+													<tr class="table_heading">
+														<th></th>
+														<th class="center">Presupuesto</th>
+														<th class="center">Estado</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr class="center">
+														<td><input type="checkbox"></td>
+														<td>2013</td>
+														<td><span class="estado Activo">Activo</span></td> 
+													</tr>
+													<tr class="center">
+														<td><input type="checkbox"></td>
+														<td>2014</td>
+														<td><span class="estado Inactivo">Inactivo</span></td> 
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<!-- // table back ///////////////////////////////////////////// -->
+							</div>
+						</div>
+						<!-- Modal ////////////////////////////////////////////////////////////////-->
+						<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+										</button>
+										<h4 class="modal-title text-info" id="idmodal">Presupuesto de Gasto</h4>
+
+									</div>
+									<!-- CUERPO MODAL///////////////////////////////////////////// -->	
+									<div class="modal-body">
+										<div class="col-lg-12 col-md-12 col-sx-12 col-sm-12">
+											<div class="panel panel-default">
+									<!-- table modal ///////////////////////////////////////////// -->	
+									<div class="panel-heading">
+										<div class="col col-4col">
+											<label for="" class="label-left">Presupuesto:</label>
+											<input type="text" class="text-65" value="2015" disabled="disabled"><img src="images/lupa.png" class="btn lookup">
+											<input type="text" class="text-40" value="2" disabled="disabled">
+										</div>
+										<div class="col col-4col">
+										<label for="" class="label-left">Fecha Trx:</label>
+											<input type="text" class="text-110" value="01/23/2015" disabled="disabled">
+										</div>
+										<div class="col col-4col">
+											<label for="" class="label-left">Fecha Apro:</label>
+												<input type="text" class="text-110" value="01/23/2015" disabled="disabled">
+										</div>
+										<div class="col col-4col">
+											<label for="" class="label-left">Estado:</label>
+												<input type="text" class="text-65" value="31" disabled="disabled">
+												<input type="text" class="text-110 estado Activo" value="Aprobado" disabled="disabled">
+										</div>
+										<div class="clear"></div>
+									</div>
+									<!-- Acciones ////////////////////////////////// -->
+									<div class="panel-heading acciones">
+										<div class="accion fl">
+											<a href="#" class="btn btn-default">
+												<img src="images/imprimir.ico">
+												<span>imprimir</span>
+											</a>
+										</div>
+										<div class="accion fl">
+											<a href="#" class="btn btn-default">
+												<img src="images/editar.ico">
+												<span>auditoria</span>
+											</a>
+										</div>											
+									</div>
+									<!-- // Acciones ////////////////////////////////// -->
+									<div class="panel-body">
+										<div class="table-responsive">
+											<table class="table table-striped table-bordered table-hover font13" id="dtt-presgasto-mod">
+												<thead>
+													<tr class="table_heading">
+														<th>Programática</th>
+														<th class="center">Programa</th>
+														<th class="center">Proyecto</th>
+														<th class="center">Actividad</th>
+														<th class="center">Sub. Act</th>
+														<th class="center">Objeto</th>
+														<th class="center">Aux.</th>
+														<th class="center">Descripción</th>
+														<th class="center">Tipo Cuenta</th>
+														<th class="center">Monto</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><a href="#">01.0000.03000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>53,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>875,123.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>10,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>3</td>
+														<td>0</td>
+														<td></td>
+														<td>3</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Personal</td>
+														<td>87,200.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>1</td>
+														<td>1</td>
+														<td>0</td>
+														<td></td>
+														<td>2</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Servicios</td>
+														<td>100,000.00</td>
+													</tr>
+													<tr>
+														<td><a href="#">01000003000</a></td>
+														<td>2</td>
+														<td>2</td>
+														<td>0</td>
+														<td></td>
+														<td>8</td>
+														<td>0</td>
+														<td>Compensación por horas extraordinarias</td>
+														<td>Regalia Pascual</td>
+														<td>71,500.00</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<!-- // table modal ///////////////////////////////////////////// -->
+								</div>
+										</div>
+									</div>
+									<!-- modal footer//////////////////////////////////////////////////-->
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary"><i class="fa fa-save"></i> Guardar</button>
+										<button type="button" class="btn btn-info"><i class="fa fa-save"></i> Guardar / Nuevo</button>
+										<button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+									</div>
+									<!-- // modal footer //////////////////////////////////////////////////-->
+								</div>
+							</div>
+						</div>
+		<!-- Final modal //////////////////////////////////////////////////////////////////////////-->
+				</div>
+			</div>
+		</div>
+<!-- // sidebar-menu //////// ////////////////////////////-->			
+	</div>
+<!-- // wrapper //////// ////////////////////////////-->	
+
+	<!-- Scripts -->
+	<script src="js/acordion.js"></script>
+
+	<!-- DataTables JavaScript -->
+		<script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+		<script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
+		<!-- Custom Index -->
+		<script src="js/bootstrap.js"></script>
+		<script src="js/custom-components.js"></script>
+
+		<script type="text/javascript"> 
+			$(document).ready(function() {
+				$('#dtt-presgasto').dataTable({
+					"order": [[ 1, "desc" ]],
+
+				});
+			} );
+
+			$(document).ready(function() {
+				$('#dtt-presgasto-mod').dataTable({
+					"order": [[ 1, "desc" ]],
+					"lengthMenu": [ 5, 10, 20 ],
+				});
+			} );
+		</script> 
+</body>
+</html>
