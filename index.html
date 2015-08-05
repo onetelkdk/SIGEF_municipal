@@ -9,8 +9,10 @@
 	<link rel="stylesheet" type="text/css" href="css/main_custom.css">
 	<link rel="stylesheet" type="text/css" href="css/acordion.css">
 
-	<script src="js/jquery.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/jqueryui.js"></script>
+	<script src="js/custom_scripts.js"></script>
+	
 </head>
 <body>
 <!-- wrapper //////// ////////////////////////////-->
@@ -35,68 +37,13 @@
 				</div>
 			</div>
 		</header>
-<!-- sidebar-menu //////// ////////////////////////////-->	
+		<!-- sidebar-menu //////// ////////////////////////////-->	
 		<div id="sidebar-menu">
-			<div class="sidebar" role="navigation">
-				<div class="titmenu">
-					<h4 class="h4">MENU PRINCIPAL</h4>
-				</div>
-				<ul id="accordion" class="accordion">
-					<li>
-						<div class="link"><img src="images/ic_operaciones.png">AUTORIDADES SUPERIORES<i class="fa fa-chevron-down"></i></div>
-						<ul class="submenu">
-							<li><a href="#" data-original-title="" title="">Agenda Legislativa</a></li>
-							<li><a href="#" data-original-title="" title="">Agenda Priorizada</a></li>
-							<li><a href="#" data-original-title="" title="">Definición de Orden del Día</a></li>
-							<li><a href="#" data-original-title="" title="">Asignación de Tareas a Iniciativas</a></li>
-							<li><a href="#" data-original-title="" title="">Registro Informe DETEREL</a></li>
-						</ul>
-					</li>
-					<li>
-						<div class="link"><img src="images/ic_procesos.png">PRESUPUESTO<i class="fa fa-chevron-down"></i></div>
-						<ul class="submenu">
-							<li><a href="#" data-original-title="" title="">OPERACIONES</a></li>
-							<li><a href="#" data-original-title="" title="">PROCESOS</a></li>
-							<li><a href="#" data-original-title="" title="">REPORTES</a></li>
-							<li><a href="#" data-original-title="" title="">MANTENIMIENTOS</a></li>
-						</ul>
-					</li>
-					<li>
-						<div class="link"><img src="images/ic_reportes.png">CONTRIBUCIONES Y RECAUDACIONES <i class="fa fa-chevron-down"></i></div>
-						<ul class="submenu">
-							<li><a href="#" data-original-title="" title="">Reporte Iniciativas  Tipo, Sub-Tipo </a></li>
-							<li><a href="#" data-original-title="" title="">Reporte Iniciativa Resumida y Detallada</a></li>
-							<li><a href="#" data-original-title="" title="">Documentos:</a></li>
-							<li><a href="#" data-original-title="" title="">Oficio de Envió de Iniciativa</a></li>
-						</ul>
-					</li>
-					<li><div class="link"><img src="images/ic_consultas.png">CONSULTAS<i class="fa fa-chevron-down"></i></div>
-						<ul class="submenu">
-							<li><a href="#" data-original-title="" title="">Consultas Avanzadas Agenda Legislativa </a></li>
-							<li><a href="#" data-original-title="" title="">Consultas Agenda Priorizada</a></li>
-							<li><a href="#" data-original-title="" title="">Detalle de Orden del Día</a></li>
-							<li><a href="#" data-original-title="" title="">Informe Nivel Resumido y Gráficos Estadísticos Agenda Legislativa</a></li>
-						</ul>
-					</li>
-					<li><div class="link"><img src="images/ic_mantenimientos.png">COBRO, CAJA Y EFECTIVO<i class="fa fa-chevron-down"></i></div>
-						<ul class="submenu">
-							<li><a href="#" data-original-title="" title="">Definición Institucional</a></li>
-							<li><a href="#" data-original-title="" title="">Definición de Estructuras</a></li>
-							<li><a href="#" data-original-title="" title="">Definición de Parámetros del Sistema</a></li>
-							<li><a href="#" data-original-title="" title="">Creación de Periodos Constitucionales</a></li>
-							<li><a href="#" data-original-title="" title="">Definición Institucional</a></li>
-							<li><a href="#" data-original-title="" title="">Definición de Estructuras</a></li>
-							<li><a href="#" data-original-title="" title="">Definición de Parámetros del Sistema</a></li>
-							<li><a href="#" data-original-title="" title="">Creación de Periodos Constitucionales</a></li>
-						</ul>
-					</li>						
-				</ul>
-			</div>
 		</div>
 		<div id="page-wrapper">
                 <nav class="topbar">
 					<div class="hidemenu">
-						<a class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
+						<a id="control_menu" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
 					</div>
 					<div class="h-opcion">
 						<h4 class="opcion-menu">Dashboard</h4>
@@ -119,6 +66,6 @@
 <!-- // wrapper //////// ////////////////////////////-->	
 
 	<!-- Scripts -->
-	<script src="js/acordion.js"></script>
+	
 </body>
 </html>
