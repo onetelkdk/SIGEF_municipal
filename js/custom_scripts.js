@@ -1,3 +1,4 @@
+
 $(document).ready (function(){
 	//Cargar menu
 	$( "#sidebar-menu" ).load( "menu_principal.html" );
