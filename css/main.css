@@ -1,0 +1,387 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: middle;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    color: #191919;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+    background-image: url("../images/bodybg.png");
+    background-attachment: fixed;
+    background: #003C74 !important;
+    line-height: 1;
+}
+.main-header{
+    width:100%;
+    height: 120px;
+    background-image:url(../images/header-bg.png);
+    background-color:#fff;
+    padding:10px;
+    border-bottom: 1px solid #dfdfdf;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.logo{
+    width:50%;
+    float:left;
+}
+.logo img{
+    width: 340px;
+}
+.top-right{
+    width:50%;
+    height:100px;
+    float:right;
+    text-shadow: rgba(255, 255, 255, 0.8) -1px 1px 3px;
+}
+#page-wrapper {
+    min-height: 700px;
+    background: #F9FBFC;
+    position: inherit;
+    margin-left: 300px;
+    padding: 0 15px;
+    border-left: 1px solid #e7e7e7;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+/* Reset Margins Paddin*/
+.m0{
+    margin: 0 !important;
+}
+.ml0{
+    margin-left: 0 !important;
+}
+.mr0{
+    margin-right: 0 !important;
+}
+.mt0{
+    margin-top: 0 !important;
+}
+.mb0{
+    margin-bottom: 0 !important;
+}
+/* Padding */
+.p0{
+    padding: 0 !important;
+}
+.pl0{
+    padding-left: 0 !important;
+}
+.pr0{
+    padding-right: 0 !important;
+}
+.pt0{
+    padding-top: 0 !important;
+}
+.pb0{
+    padding-bottom: 0 !important;
+}
+.ptb-15{
+    padding: 15px 0 !important;
+}
+.plr-15{
+    padding: 0 15px !important;
+}
+.mtb-15{
+    margin: 15px 0 !important;
+}
+.mlr-15{
+    margin: 0 15px !important;
+}
+
+/*End restet margin */
+
+/* Barra top dashboard Buscador*/
+.topbar {
+    padding: 3px 10px;
+    height: 39px;
+    background: #FCF9EC;
+    border-bottom: 1px solid #dfdfdf;
+    margin: 0 -15px;
+}
+.ayuda-dash {
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    margin: 0 -15px;
+    padding: 15px 25px;
+}
+.hidemenu {
+    float: left;
+    width: 50px;
+    height: 35px;
+    border-right: 1px solid #dfdfdf;
+}
+.opcion-menu {
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 0;
+    float: left;
+    color: #0656A1;
+    margin-left: 10px;
+    font-weight: 800;
+}
+/* End Barra top dashboard */
+
+.hidemenu a.btn{
+    padding: 3px 10px !important;
+    margin-top: 2px;
+}
+/* FONTS*/
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-Light.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-LightItalic.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+    font-weight: 900;
+}
+/* END FONTS*/
+/* MENU*/
+.titmenu {
+    padding: 1px 10px;
+    color: #fff;
+    background-color: #3e84c0;
+    margin-top: -1px;
+    border-right: 1px dotted #003C74;
+}
+.titmenu h4{
+    font-size: 14px !important;
+}
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+#cssmenu { color: #ffffff; width: 100%; max-width: 300px; background: #003c74; float: left; }
+
+#cssmenu ul ul { display: none; }
+
+.align-right { float: right; }
+
+#cssmenu > ul > li > a { padding: 15px 12px; cursor: pointer; z-index: 2; font-size: 13px; border-bottom: 1px dotted #62798E; text-decoration: none; color: #ffffff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35); }
+
+#cssmenu > ul > li > a:hover, #cssmenu > ul > li.active > a, #cssmenu > ul > li.open > a { color: #eeeeee; }
+
+.holder { width: 0; height: 0; position: absolute; top: 0; right: 0; }
+
+.holder::after, .holder::before { display: block; position: absolute; /*content: "";*/ width: 6px; height: 6px; right: 20px; z-index: 10; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg); }
+
+.holder::after { top: 17px; border-top: 2px solid #ffffff; border-left: 2px solid #ffffff; }
+
+#cssmenu > ul > li > a:hover > span::after, #cssmenu > ul > li.active > a > span::after, #cssmenu > ul > li.open > a > span::after { border-color: #eeeeee; }
+
+.holder::before { top: 18px; border-top: 2px solid; border-left: 2px solid; border-top-color: inherit; border-left-color: inherit; }
+
+#cssmenu ul ul li a { cursor: pointer; border-bottom: 1px solid #32373e; border-left: 1px solid #32373e; border-right: 1px solid #32373e; padding: 10px 20px; z-index: 1; text-decoration: none; font-size: 13px; color: #eeeeee; background: #49505a; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; transition: all 0.25s ease; }
+
+#cssmenu ul ul li:hover > a, #cssmenu ul ul li.open > a, #cssmenu ul ul li.active > a { background: #b63b4d; color: #ffffff; }
+
+#cssmenu ul ul li:first-child > a { box-shadow: none; }
+
+#cssmenu ul ul ul li:first-child > a { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+#cssmenu ul ul ul li a { padding-left: 30px;background-color: #534456; }
+
+#cssmenu > ul > li > ul > li:last-child > a, #cssmenu > ul > li > ul > li.last > a { border-bottom: 0; }
+
+#cssmenu > ul > li > ul > li.open:last-child > a, #cssmenu > ul > li > ul > li.last.open > a { border-bottom: 1px solid #32373e; }
+
+#cssmenu > ul > li > ul > li.open:last-child > ul > li:last-child > a { border-bottom: 0; }
+
+#cssmenu ul ul li.has-sub > a::after { display: block; position: absolute; /* content: ""; */ width: 5px; height: 5px; right: 20px; z-index: 10; top: 11.5px; border-top: 2px solid #eeeeee; border-left: 2px solid #eeeeee; -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg); }
+
+#cssmenu ul ul li.active > a::after, #cssmenu ul ul li.open > a::after, #cssmenu ul ul li > a:hover::after { border-color: #ffffff; }
+li a.link i{
+    float: right;
+}
+li a.link img{
+    margin-right: 5px;
+}
+/* END MENU*/
+
+/* Data Body */
+.data-body{
+    margin-top: 15px;
+    border: 1px solid #d9d9d9;
+}
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 5px 15px;
+}
+/* End Data Body */
+
+/* Estilos Controles */
+.cbo{
+    background: #fff url(../images/ic_selectdown.png);
+}
+.fecha{
+    background: #fff url(../images/ic_calendario3.png);
+}
+.area {
+    width: 100%;
+    resize: none;
+    border: 1px solid #cdcdda;
+    border-radius: 3px;
+    padding: 8px;
+}
+.3row{
+    height: 150px;
+}
+.2row{
+    height: 100px;
+}
+.1row{
+    height: 50px;
+}
+.ui {
+    width: 100%;
+    background-position: 99% center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding: 4px;
+    padding-right: 30px;
+    font-size: 15px;
+    border: 1px solid #cdcdda;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+fieldset {
+    min-width: 0;
+    padding: 10px !important;
+    margin: 0;
+    border: 1px solid #cdcdda !important;
+    border-radius: 3px;
+}
+legend {
+    width: auto !important;
+    display: block;
+    padding: 0 5px !important;
+    margin-bottom: 5px !important;
+    font-size: 14px !important;
+    line-height: inherit;
+    color: #333 !important;
+    border: 0 !important;
+}
+label{font-weight: normal !important;}
+option{padding: 0 !important}
+
+.dataTables_filter input[type="search"] {
+    background: #fff url(../images/lupa.png);
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    padding: 6px;
+    border: 1px solid #cdcdda;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.dataTables_paginate{
+    float: right;
+    margin: 0;
+    font-size: 12px; 
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #d9e5f1 !important
+}
+.table_heading{
+    background-color: #3e82bf;
+    color: #fff;
+}
+table.dataTable thead .sorting:after {
+    content: "\f0dc";
+    float: right;
+    font-family: fontawesome;
+    color:#BED9E8;
+}
+table.dataTable thead .sorting_desc:after {
+    content: "\f0dd";
+    float: right;
+    font-family: fontawesome;
+    color: #fff;
+}
+table.dataTable thead .sorting_asc:after {
+    content: "\f0de";
+    float: right;
+    font-family: fontawesome;
+    color: #fff;
+}
+.table-hover > tbody > tr:hover {
+    background-color: rgba(177, 137, 149, 0.14) !important;
+}
+.ui-datepicker-month, .ui-datepicker-year {
+    color: #1c94c4;
+}
+
+.ui-datepicker {
+    font-size: 12px !important;
+}
+
+.ui-datepicker-title select {
+    font-size: 12px !important;
+}
+
+/* End Estilos Controles */
