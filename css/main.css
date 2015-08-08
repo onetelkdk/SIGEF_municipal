@@ -345,7 +345,7 @@ option{padding: 0 !important}
     font-size: 12px; 
 }
 .table-striped > tbody > tr:nth-of-type(even) {
-    background-color: #d9e5f1 !important
+    background-color: rgba(217, 229, 241, 0.43) !important
 }
 .table_heading{
     background-color: #3e82bf;
@@ -370,7 +370,7 @@ table.dataTable thead .sorting_asc:after {
     color: #fff;
 }
 .table-hover > tbody > tr:hover {
-    background-color: rgba(177, 137, 149, 0.14) !important;
+    background-color: rgba(45, 202, 202, 0.4) !important;
 }
 .ui-datepicker-month, .ui-datepicker-year {
     color: #1c94c4;
