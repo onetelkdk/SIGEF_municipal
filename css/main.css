@@ -27,9 +27,9 @@ footer, header, hgroup, menu, nav, section {
 body {
     color: #191919;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
-    background-image: url("../images/bodybg.png");
+    background-image: url("../images/bodybg.png") !important;
     background-attachment: fixed;
-    background: #003C74 !important;
+    background: #003C74;
     line-height: 1;
 }
 .main-header{
