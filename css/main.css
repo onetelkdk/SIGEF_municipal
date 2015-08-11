@@ -273,6 +273,10 @@ li a.link img{
 .fecha{
     background: #fff url(../images/ic_calendario3.png);
 }
+
+.buscar{
+    background: #fff url(../images/lupa.png);
+}
 .area {
     width: 100%;
     resize: none;
