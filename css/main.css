@@ -273,10 +273,6 @@ li a.link img{
 .fecha{
     background: #fff url(../images/ic_calendario3.png);
 }
-
-.buscar{
-    background: #fff url(../images/lupa.png);
-}
 .area {
     width: 100%;
     resize: none;
@@ -500,3 +496,49 @@ b, strong {
         margin-right: 3px;
 }
 /* End Estilos menu */
+
+/* Login */
+.SintilloBandera{
+    height: 55px;
+    border-top: 1px solid #3378b4;
+    text-align: center;
+    background: -moz-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+    background: -webkit-gradient(linear, 180deg, color-stop(0, E0EEFB), color-stop(85%, FFFFFF));
+    background: -webkit-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+    background: -o-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+    background: -ms-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); 
+    background: linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+}
+.loginPanel{
+    width: 710px;
+    margin: auto;
+    text-align: center;
+}
+.topLoginLogo{
+    text-align: center;
+    margin:45px 0 35px 0; 
+}
+.loginContainer{
+    padding: 30px;
+    background-color: #f4f5f6;
+}
+.tituloBienvenida{
+    font-size: 28px;
+    margin: 0;
+}
+.tituloBienvenida2{
+    font-size: 20px;
+    margin: 0 0 28px 0;
+}
+.grad img{
+    margin-left: -50px;    
+}
+.loginUI input[type="text"] {
+    width: 90%;
+    height: 40px;
+    background-color: #e0e1e2;
+    border-color: #C0C6CC;
+    padding: 5px 10px 5px 45px;
+}
+/* End Login*/
