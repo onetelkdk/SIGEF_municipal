@@ -35,11 +35,7 @@
                 <div class="contenido-inicial">
                     <div class="data-body shadow">
                         <div class="row m0 ptb-15">
-                            <div class="botones_nev">
-                                <button type="button" id="crear" class="btn btn-nuevo ic_mas">Nuevo</button>
-                                <button type="button" id="editar" class="btn btn-editar ic_lapiz">Editar</button>
-                                <button type="button" id="visualizar" class="btn btn-visualizar ic_monitor">Visualizar</button>
-                            </div>
+                            
                             <fieldset class="mlr-15">
                                 <legend>Presupuestos</legend>
                                         <!-- table back ///////////////////////////////////////////// -->       
@@ -80,26 +76,6 @@
                                 <div>
                                     <div class="data-body shadow">
                                         <div class="row m0 ptb-15">
-                                            <fieldset class="mlr-15">
-                                                <legend>Acciones</legend>
-                                                <div class="col-lg-12 col-md-12 col-sx-12 col-sm-12" style="padding:0 !important">
-                                                    <div class="panel-heading acciones">
-                                                        <div class="accion fl">
-                                                            <a href="#" class="btn btn-default">
-                                                                <img src="images/imprimir.ico">
-                                                                <span>imprimir</span>
-                                                            </a>
-                                                        </div>
-                                                        <div class="accion fl">
-                                                            <a href="#" class="btn btn-default">
-                                                                <img src="images/editar.ico">
-                                                                <span>auditoria</span>
-                                                            </a>
-                                                        </div>                                          
-                                                    </div>
-                                                </div>
-                                            </fieldset>
-                                            <br>
                                             <fieldset class="mlr-15">
                                                 <legend>Opciones presupuesto</legend>
                                                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -194,11 +170,7 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="modal-footer btn-acciones-f">
-                                                    <button type="button" class="btn btn-primary"><i class="fa fa-save"></i> Guardar</button>
-                                                    <button type="button" class="btn btn-info"><i class="fa fa-save"></i> Guardar / Nuevo</button>
-                                                    <button type="button" class="btn btn-danger" id="cancelar"><i class="fa fa-times"></i> Cancelar</button>
-                                                </div>
+                                                
                                             </fieldset>
                                             <br>
                                             <fieldset class="mlr-15">
@@ -407,7 +379,7 @@
                                         </div>
                                     </div>
                                     
-                                    <!-- CUERPO MODAL///////////////////////////////////////////// -->  
+                                    <!-- CUERPO ///////////////////////////////////////////// -->  
                                     
                                         </div>
                                     </div>
@@ -415,7 +387,34 @@
                                 </div>
                             </div>
                 </div>
-		</div>			
+		</div>	
+        <footer class="main-footer">   
+        </footer>		
+        <div class="caja-btn-acciones">
+            <div class="botones_nev">
+                <button type="button" id="crear" class="btn btn-nuevo ic_mas">Nuevo</button>
+                <button type="button" id="editar" class="btn btn-editar ic_lapiz">Editar</button>
+                <button type="button" id="visualizar" class="btn btn-visualizar ic_monitor">Visualizar</button>
+                <button type="button" class="btn btn-primary" id="guardar" style="display:none;"><i class="fa fa-save"></i> Guardar</button>
+                <button type="button" class="btn btn-info" id="guardar-nuevo" style="display:none;"><i class="fa fa-save"></i> Guardar / Nuevo</button>
+                <button type="button" class="btn btn-danger" id="cancelar" style="display:none;"><i class="fa fa-times"></i> Cancelar</button>
+            </div>
+            <div class="panel-heading acciones">
+                <div class="accion fl">
+                    <a href="#" class="btn btn-default">
+                        <img src="images/imprimir.ico">
+                        <span>imprimir</span>
+                    </a>
+                </div>
+                <div class="accion fl">
+                    <a href="#" class="btn btn-default">
+                        <img src="images/editar.ico">
+                        <span>auditoria</span>
+                    </a>
+                </div>                                          
+            </div>
+            
+        </div> 
 	</div>
     
     <!-- // wrapper //////// ////////////////////////////-->	
