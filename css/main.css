@@ -846,10 +846,10 @@ div.dataTables_filter label {
     padding: 5px 10px 5px 45px;
 }
 .rncLoginIcon {
-    background-image: url(../images/ic_rnc.png);
-    background-repeat: no-repeat;
-    background-position: 8px 50%;
-    background-size: 30px;
+    background-image: url(../images/ic_rnc.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 8px 50% !important;
+    background-size: 30px !important;
 }
 .userLoginIcon{
     background-image: url(../images/ic_username.png);
@@ -918,4 +918,15 @@ div.dataTables_filter label {
     
 }
 /* End Footer */
+
+/* Keyboard */
+.ui-keyboard-preview {
+    text-align: left;
+    margin: 0 0 3px 0;
+    display: inline;
+    width: 99%;
+    padding: 5px 5px 5px 42px;
+    background-color: #e0e1e2;
+    border-color: #C0C6CC;
+}
 

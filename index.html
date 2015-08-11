@@ -9,6 +9,7 @@
     <link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/plugins/dataTables.bootstrap.css">
+    <link href="js/plugins/Keyboard-master/css/keyboard.css" rel="stylesheet">
 </head>
 <body>
     <!-- wrapper //////// ////////////////////////////-->
@@ -32,10 +33,10 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" placeholder="R.N.C" class="rncLoginIcon mask-rnc">   
+                            <input type="text" placeholder="R.N.C" class="rncLoginIcon mask-rnc" id="rnc">   
                         </div>
                         <div class="form-group">
-                            <input type="text" placeholder="Nombre de Usuario" class="userLoginIcon">   
+                            <input type="text" placeholder="Nombre de Usuario" class="userLoginIcon" id="usuario">   
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -50,7 +51,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 fr" align="right">
-                        <a href="#"><img src="images/teclado_virtual.png" class="tecladoVirtual" alt="Teclado Virtual" title="Teclado Virtual"></a>
+                        <a href="#" class="teclado"><img src="images/teclado_virtual.png" class="tecladoVirtual" alt="Teclado Virtual" title="Teclado Virtual" id="tec"></a>
                     </div>
                 </div>
             </div>
@@ -64,8 +65,35 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/custom_scripts.js"></script>
     <script src="js/plugins/mask.js"></script>
+
+<!-- keyboard extensions (optional) -->
+    <script src="js/plugins/Keyboard-master/js/jquery.mousewheel.js"></script>
+    <script src="js/plugins/Keyboard-master/js/jquery.keyboard.extension-typing.js"></script>
+    <script src="js/plugins/Keyboard-master/js/jquery.keyboard.extension-autocomplete.js"></script>
+
+    <script src="js/plugins/Keyboard-master/js/jquery.keyboard.js"></script>
+
     <script type="text/javascript">
         $('.mask-rnc').mask('999-99999-9');
+
+
+        $(function(){
+
+            $('.teclado').click(function(){
+
+                $('.form-group').each(function(){
+                    if(verificar si tiene el foco){
+                        $(this).children('input').keyboard();
+                        $('#rnc').trigger('focus.keyboard');
+                    }
+
+                    return false;
+                });
+
+            });
+
+        });
+
     </script>
 </body>
 </html>
