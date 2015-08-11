@@ -496,3 +496,210 @@ b, strong {
         margin-right: 3px;
 }
 /* End Estilos menu */
+/* Botones */
+.botones_nev {
+    padding: 5px 15px;
+}
+
+.btn-nuevo {
+    color: #fff !important;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding-left: 32px !important;
+    padding-right: 15px !important;
+}
+.btn-nuevo:hover,
+.btn-nuevo:focus,
+.btn-nuevo:active,
+.btn-nuevo.active,
+.open > .dropdown-toggle.btn-nuevo {
+  color: #fff !important;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-editar {
+  color: #fff !important;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  padding-left: 32px !important;
+  padding-right: 15px !important;
+}
+.btn-editar:hover,
+.btn-editar:focus,
+.btn-editar:active,
+.btn-editar.active,
+.open > .dropdown-toggle.btn-editar {
+  color: #fff !important;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-visualizar {
+  color: #fff !important;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  padding-left: 32px !important;
+  padding-right: 15px !important;
+}
+.btn-visualizar:hover,
+.btn-visualizar:focus,
+.btn-visualizar:active,
+.btn-visualizar.active,
+.open > .dropdown-toggle.btn-visualizar {
+  color: #fff !important;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-top-div{
+  margin: -5px 0px 15px 0;
+}
+.btn-agregar {
+  color: #fff !important;
+  background-color: #6ac465;
+  border-color: #4cae4c;
+  display: inline-block;
+  padding: 5px 8px;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn-agregar:hover {
+  color: #fff !important;
+  background-color: #65b760;
+  border-color: #62ae5d;
+}
+.btn-agregar:active {
+  color: #fff !important;
+  background-color: #0bd400;
+  border-color: #62ae5d;
+}
+.btn-editar2 {
+  color: #fff !important;
+  background-color: #8ba6bf;
+  border-color: #8ba6bf;
+  display: inline-block;
+  padding: 5px 4px;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn-editar2:hover {
+  color: #fff !important;
+  background-color: #829cb4;
+  border-color: #748da4;
+}
+.btn-editar2:active {
+  color: #fff !important;
+  background-color: #3473ae;
+  border-color: #748da4;
+}
+.btn-borrar {
+  color: #fff !important;
+  background-color: #da7e6e;
+  border-color: #4cae4c;
+  display: inline-block;
+  padding: 5px 8px;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn-borrar:hover {
+  color: #fff !important;
+  background-color: #c06c5d;
+  border-color: #b16153;
+}
+.btn-borrar:active {
+  color: #fff !important;
+  background-color: #c01e02;
+  border-color: #b16153;
+}
+.Inactivo {
+    background-color: #B5B3B3;
+    padding: 5px;
+}
+.estado {
+    font-size: 10px;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.Activo {
+    background-color: #46A546;
+    padding: 4px 10px 4px 10px;
+}
+/* ICONOS BOTONES */
+.ic_mas{
+  background-image: url("../images/ic_btn_nuevo.png") !important;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+.ic_lapiz{
+  background-image: url("../images/ic_lapiz.png") !important;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+.ic_monitor{
+  background-image: url("../images/ic_monitor.png") !important;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+/* FIN ICONOS BOTONES */
+div.dataTables_filter label {
+    float: right;
+}
+.fl {
+    float: left !important;
+}
+.accion .btn {
+    margin-right: 5px;
+}
+.accion img {
+    width: 24px;
+}
+.btn-acciones-f{
+        margin-top: 230px;
+        border-top: 0 !important;
+}

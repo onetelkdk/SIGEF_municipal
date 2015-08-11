@@ -35,18 +35,25 @@ $(function() {
 $('#editar').click(function() {
     $( ".contenido-inicial" ).css({"display": "none"},500);
     $( "#div-editar" ).css({"display": "block"},500);
+    $( "#sidebar-menu" ).css({"display": "none"},100);
+     $('#page-wrapper').animate({'margin-left': "0px"}, 100);
   });
 $('#cancelar').click(function() {
     $( ".contenido-inicial" ).css({"display": "block"},500);
     $( "#div-editar" ).css({"display": "none"},500);
+    $( "#sidebar-menu" ).css({"display": "block"},100);
+    $('#page-wrapper').animate({'margin-left': "300px"}, 100);
   });
 $('#visualizar').click(function() {
     $( ".contenido-inicial" ).css({"display": "none"},500);
     $( "#div-visualizar" ).css({"display": "block"},500);
+    $( "#sidebar-menu" ).css({"display": "none"},100);
+     $('#page-wrapper').animate({'margin-left': "0px"}, 100);
   });
 $('#cerrar').click(function() {
     $( ".contenido-inicial" ).css({"display": "block"},500);
     $( "#div-visualizar" ).css({"display": "none"},500);
+    $( "#sidebar-menu" ).css({"display": "block"},100);
   });
 });
 
