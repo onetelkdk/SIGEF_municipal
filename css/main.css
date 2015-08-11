@@ -116,7 +116,13 @@ body {
 .mlr-15{
     margin: 0 15px !important;
 }
-
+/* Float */
+.fl{
+    float: left !important;
+}
+.fr{
+    float: right !important;
+}
 /*End restet margin */
 
 /* Barra top dashboard Buscador*/
@@ -778,6 +784,135 @@ div.dataTables_filter label {
     display: inline-block;
     width: 100%;
     background: #fff;
+}
+.fl {
+    float: left !important;
+}
+.accion .btn {
+    margin-right: 5px;
+}
+.accion img {
+    width: 24px;
+}
+.btn-acciones-f{
+        margin-top: 230px;
+        border-top: 0 !important;
+}
+
+
+/* Login */
+.SintilloBandera{
+    height: 55px;
+    border-top: 1px solid #3378b4;
+    text-align: center;
+    background: -moz-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+    background: -webkit-gradient(linear, 180deg, color-stop(0, E0EEFB), color-stop(85%, FFFFFF));
+    background: -webkit-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+    background: -o-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+    background: -ms-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); 
+    background: linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
+}
+.loginPanel{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.topLoginLogo{
+    text-align: center;
+    margin: 35px 0; 
+}
+.loginContainer{
+    padding: 20px 30px;
+    padding-bottom: 10px;
+    background-color: #f4f5f6;
+}
+.tituloBienvenida{
+    font-size: 28px;
+    margin: 0;
+}
+.tituloBienvenida2{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+.grad img{
+    margin-left: -43px;    
+}
+.loginUI input[type="text"] {
+    width: 90%;
+    height: 40px;
+    background-color: #e0e1e2;
+    border-color: #C0C6CC;
+    padding: 5px 10px 5px 45px;
+}
+.rncLoginIcon {
+    background-image: url(../images/ic_rnc.png);
+    background-repeat: no-repeat;
+    background-position: 8px 50%;
+    background-size: 30px;
+}
+.userLoginIcon{
+    background-image: url(../images/ic_username.png);
+    background-repeat: no-repeat;
+    background-position: 8px 50%;
+    background-size: 30px;
+}
+.logoSigefLogin{
+    width: 240px;
+    margin-top: -20px;
+}
+.passLoginIcon{
+    background-image: url(../images/candadoA.png);
+    background-repeat: no-repeat;
+    background-position: 8px 50%;
+    background-size: 30px;
+}
+.tokenLoginIcon{
+    background-image: url(../images/token.png);
+    background-repeat: no-repeat;
+    background-position: 8px 50%;
+    background-size: 22px;
+}
+.btn-continuar {
+    width: 95%;
+    padding: 10px;
+    background-image: url(../images/flecha-derecha.png);
+    background-repeat: no-repeat;
+    background-size: 27px;
+    background-position: 95%;
+    background-color: #00529b;
+    color: #fff;
+    border-bottom: 3px solid #034178;
+}
+.btn-continuar2 {
+    width: 55%;
+    padding: 10px;
+    padding-right: 18px;
+    background-image: url(../images/flecha-derecha.png);
+    background-repeat: no-repeat;
+    background-size: 27px;
+    background-position: 92%;
+    background-color: #00529b;
+    color: #fff;
+    border-bottom: 3px solid #034178;
+}
+.btn-volver {
+    width: 35%;
+    padding: 10px;
+    background-color: #2292c5;
+    color: #fff;
+    border-bottom: 3px solid #066590;
+    margin-right: 10px;
+}
+.rowLoginBtn{
+    margin: 0 !important;
+}
+.tecladoVirtual{
+    width: 80px;
+    margin: 20px -20px 0 0px;
+}
+.recuperaPass{
+    
 }
 /* End Footer */
 
