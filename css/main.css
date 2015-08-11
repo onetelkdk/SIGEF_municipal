@@ -882,7 +882,8 @@ div.dataTables_filter label {
     background-position: 95%;
     background-color: #00529b;
     color: #fff;
-    border-bottom: 3px solid #034178;
+    border:0;
+    border-bottom: 3px solid #034178 !important;
 }
 .btn-continuar2 {
     width: 55%;
@@ -894,6 +895,7 @@ div.dataTables_filter label {
     background-position: 92%;
     background-color: #00529b;
     color: #fff;
+    border: 0;
     border-bottom: 3px solid #034178;
 }
 .btn-volver {
@@ -901,6 +903,7 @@ div.dataTables_filter label {
     padding: 10px;
     background-color: #2292c5;
     color: #fff;
+    border: 0;
     border-bottom: 3px solid #066590;
     margin-right: 10px;
 }
