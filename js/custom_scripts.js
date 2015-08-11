@@ -34,7 +34,7 @@ $(function() {
 $(function() {
 $('#crear').click(function() {
     $( ".contenido-inicial" ).css({"display": "none"},500);
-    $( "#div-editar" ).css({"display": "block"},500);
+    $( "#div-nuevo" ).css({"display": "block"},500);
     $( "#sidebar-menu" ).css({"display": "none"},100);
     $('#page-wrapper').animate({'margin-left': "0px"}, 100);
     $( "#crear" ).css({"display": "none"},500);
@@ -107,6 +107,7 @@ $('#cancelar').click(function() {
     $( "#add-partida" ).css({"display": "none"},500);
     $( "#edit-partida" ).css({"display": "none"},500);
     $( "#div-agregar-partida" ).css({"display": "none"},500);
+    $( "#div-edit-partida" ).css({"display": "none"},500);
   });
 $('#visualizar').click(function() {
     $( ".contenido-inicial" ).css({"display": "none"},500);
