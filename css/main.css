@@ -385,3 +385,114 @@ table.dataTable thead .sorting_asc:after {
 }
 
 /* End Estilos Controles */
+
+/* Estilos menu */
+#usr-top {
+    width: 50%;
+    padding: 10px;
+    padding-right: 20px;
+    margin: 10px 0;
+    float: right;
+    -webkit-text-shadow: -1px 1px 3px rgba(255, 255, 255, 0.8);
+    -moz-text-shadow: -1px 1px 3px rgba(255, 255, 255, 0.8);
+    -ms-text-shadow: -1px 1px 3px rgba(255, 255, 255, 0.8);
+    -o-text-shadow: -1px 1px 3px rgba(255, 255, 255, 0.8);
+    text-shadow: -1px 1px 3px rgba(255, 255, 255, 0.8);
+}
+.nav > li {
+    float: right;
+}
+#usr-top a {
+    color: #55675F !important;
+    padding: 0 !important;
+}
+#usr-top span {
+    float: right;
+    display: block;
+}
+.header_container hgroup, span, h1 {
+    margin-top: 20px;
+}
+#usr-top img {
+    float: right;
+    width: 46px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+}
+.header_container img {
+    margin-top: 10px;
+}
+.notif-total {
+    position: relative;
+    right: 2px;
+    top: -21px;
+    background-color: #EC472D;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 1;
+    opacity: 0.95;
+}
+.notification {
+    float: right;
+    padding: 7px;
+    color: #888;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #f4f4f4;
+    margin-top: 6px;
+    margin-right: -10px;
+    border-radius: 2px;
+}
+.email-list-ntfbody {
+    width: 430px;
+    max-height: 350px;
+    overflow: auto;
+}
+b, strong {
+    color: #60636B;
+}
+.email-list-ntf-main {
+    color: #7f7f7f;
+}
+.email-list-ntf {
+    margin: -5px 0;
+    color: #7f7f7f;
+    padding: 10px;
+    padding-left: 0;
+}
+.email-list-ntf-main footer {
+    font-size: 10px;
+}
+.nav > li > a {ç
+    border-right: 1px solid #d9d9d9;
+}
+.email-total {
+    position: relative;
+    right: 2px;
+    top: -22px;
+    background-color: #0B7C48;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 1;
+    opacity: 0.95;
+}
+.newemail a {
+    color: #3b5998 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+.newemail small {
+    margin: -15px 0;
+}
+.fa-envelope-o{
+        margin-right: 3px;
+}
+/* End Estilos menu */
