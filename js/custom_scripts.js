@@ -108,6 +108,7 @@ $('#cancelar').click(function() {
     $( "#edit-partida" ).css({"display": "none"},500);
     $( "#div-agregar-partida" ).css({"display": "none"},500);
     $( "#div-edit-partida" ).css({"display": "none"},500);
+     $( "#div-nuevo" ).css({"display": "none"},500);
   });
 $('#visualizar').click(function() {
     $( ".contenido-inicial" ).css({"display": "none"},500);
