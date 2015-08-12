@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Registrar Nóminas de Págos</title>
+    <title>Aprobación Comprobante de Gasto</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -32,80 +32,53 @@
                     <a id="control_menu" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Emitir cheques</h4>
+                    <h4 class="opcion-menu">Aprobación Comprobante de Gasto</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
             <div class="data-body shadow">
                 <div class="row m0 ptb-15">
-                    <fieldset class="mlr-15">
-                        <legend>Emitir cheques</legend>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                    <label>Cuenta Bancaria</label>
-                                    <input type="text" class="ui buscar">
-                                </div>                                
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                    <label>Tipo de comprobante</label>
-                                    <input type="text" class="ui buscar">
-                                </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Beneficiario</label>
-                                <input type="text" class="ui buscar">
-                            </div>                           
-
-                        </div>
-
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>No. de Comprobante</label>
-                                <input type="text" class="ui" value="63551" disabled>
-                            </div>                             
-                        </div>
-                        
-                           
-                    </fieldset>                                       
-                           
-
                     <div class="row m0 mtb-15">                        
                            <div class="row m0">
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <fieldset class="mtb-15">                                        
-                                        <legend>Detalles de cheques emitidos</legend>                                        
+                                        <legend>Detalles de comprobantes de gasto</legend>                                        
                                         <div class="table-responsive">
                                             <fieldset class="mtb-15">
                                                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Balance cuenta de banco</label>
-                                                        <input type="text" class="ui" value="RD$300,000.00" disabled>
+                                                        <label>Cuenta de banco</label>
+                                                        <input type="text" class="ui buscar" value="RD$300,000.00">
                                                     </div>                                                                         
                                                 </div>
                                                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Total de cheques</label>
-                                                        <input type="text" class="ui" value="800" disabled>
+                                                        <label>.</label>
+                                                        <input type="text" class="ui" disabled>
                                                     </div>                                                                         
                                                 </div>
                                                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Total de cheques marcados</label>
-                                                        <input type="text" class="ui" value="8" disabled>
+                                                        <label>.</label>
+                                                        <input type="text" class="ui" disabled>
+                                                    </div>                                                                         
+                                                </div>
+                                                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>.</label>
+                                                        <input type="text" class="ui" disabled>
                                                     </div>                                                                         
                                                 </div>
                                             </fieldset>      
                                             <table class="table table-striped table-bordered table-hover datatable">
                                                 <thead>
                                                    <tr class="table_heading">
-                                                       <th>No. de comprobante</th>
-                                                       <th>Trx. no. chq.</th>
-                                                       <th>Fecha trx.</th>
-                                                       <th>Beneficiarios</th>
-                                                       <th>Valor</th>
+                                                       <th>Comprobante</th>
+                                                       <th>Fecha</th>
+                                                       <th>A nombre de</th>
+                                                       <th>Monto</th>
+                                                       <th>Concepto</th>
                                                    </tr>
                                                 </thead>
                                                 <tbody>
