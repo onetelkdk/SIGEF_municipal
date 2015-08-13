@@ -186,4 +186,3 @@ $('#myTab a').click(function (e) {
     toggle: false
   });
 /* END TABS */
-

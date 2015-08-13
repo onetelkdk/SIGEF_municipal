@@ -140,3 +140,52 @@ $('#cerrar').click(function() {
   });
 });
 
+
+$(document).ready(function(){
+
+    // Al hacer click en el boton nuevo
+    $('.boton-nuevo').click(function(){
+      $('#panelMantenimiento').show("slow");
+      $('.btnGuardarCerrar').show("slow");
+      $('.boton-cargarEmpleados').show("slow");
+
+    // Ocultar
+      $('.btnNuevoEditVer').hide("slow");
+      $('#panelResultados').hide("slow");
+  });
+
+    // Al hacer click en el boton cerrar
+    $('.boton-cerrar').click(function(){
+      $('#panelMantenimiento').hide("slow");
+      $('.btnGuardarCerrar').hide("slow");
+      $('.acciones').hide("slow");
+
+    // Ocultar
+      $('.btnNuevoEditVer').show("slow");
+      $('#panelResultados').show("slow");
+  });
+
+ // Al hacer click en el boton guardar
+    $('.boton-guardar').click(function(){
+      $('#panelMantenimiento').hide("slow");
+      $('.btnGuardarCerrar').hide("slow");
+      $('.acciones').hide("slow");
+
+    // Ocultar
+      $('.btnNuevoEditVer').show("slow");
+      $('#panelResultados').show("slow");
+  });
+
+        // Al hacer click en el boton visualizar
+    $('.boton-visualizar').click(function(){
+      $('.btnGuardarCerrar').show("slow");
+      $('.acciones').show("slow");
+
+    // Ocultar
+      $('.btnNuevoEditVer').hide("slow");
+      $('#panelResultados').hide("slow");
+      $('.boton-guardar').hide("slow");
+      $('.boton-cargarEmpleados').hide("slow");
+  });
+
+})
