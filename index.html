@@ -36,7 +36,8 @@
                             <input type="text" placeholder="R.N.C" class="rncLoginIcon mask-rnc" id="rnc">   
                         </div>
                         <div class="form-group">
-                            <input type="text" placeholder="Nombre de Usuario" class="userLoginIcon" id="usuario">   
+                            <input type="text" placeholder="Nombre de Usuario" class="userLoginIcon" id="usuario">  
+                            
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -65,32 +66,48 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/custom_scripts.js"></script>
     <script src="js/plugins/mask.js"></script>
-
+    <script src="js/plugins/Keyboard-master/js/jquery.keyboard.js"></script>
 <!-- keyboard extensions (optional) -->
     <script src="js/plugins/Keyboard-master/js/jquery.mousewheel.js"></script>
     <script src="js/plugins/Keyboard-master/js/jquery.keyboard.extension-typing.js"></script>
     <script src="js/plugins/Keyboard-master/js/jquery.keyboard.extension-autocomplete.js"></script>
-
-    <script src="js/plugins/Keyboard-master/js/jquery.keyboard.js"></script>
+    <script src="js/plugins/Keyboard-master/demo/jquery.chili-2.2.js"></script> 
 
     <script type="text/javascript">
         $('.mask-rnc').mask('999-99999-9');
+   jQuery(function($) {
 
-
-        $(function(){
-
+    // QWERTY Password
+    // ********************
+   /*  $('.qwerty:eq(1)').keyboard({
+        openOn   : null,
+        stayOpen : true,
+        layout   : 'qwerty'
+    });
+    $('#passwd').click(function(){
+        $('.qwerty:eq(1)').getkeyboard().reveal();
+    });
+    // since IE adds an overlay behind the input to prevent clicking in other inputs (the keyboard may not automatically open on focus... silly IE bug)
+    // We can remove the overlay (transparent) if desired using this code:
+    $('.qwerty:eq(1)').bind('visible.keyboard', function(e, keyboard, el){
+     $('.ui-keyboard-overlay').remove(); // remove overlay because clicking on it will close the keyboard... we set "openOn" to null to prevent closing.
+    });
+    });
+      /*  $(function(){
+        */
             $('.teclado').click(function(){
 
                 $('.form-group').each(function(){
                    $(this).children('input').keyboard();
-                        $('#rnc').trigger('focus.keyboard');
+                      $('#rnc').trigger('focus.keyboard');
 
                     return false;
                 });
 
             });
 
-        });
+        }); 
+        
 
     </script>
 </body>
