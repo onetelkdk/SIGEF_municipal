@@ -148,6 +148,7 @@ $(document).ready(function(){
       $('#panelMantenimiento').show("slow");
       $('.btnGuardarCerrar').show("slow");
       $('.boton-cargarEmpleados').show("slow");
+      $('.boton-guardar').show("slow");
 
     // Ocultar
       $('.btnNuevoEditVer').hide("slow");
@@ -180,6 +181,7 @@ $(document).ready(function(){
     $('.boton-visualizar').click(function(){
       $('.btnGuardarCerrar').show("slow");
       $('.acciones').show("slow");
+      $('#panelMantenimiento').show("slow");
 
     // Ocultar
       $('.btnNuevoEditVer').hide("slow");
