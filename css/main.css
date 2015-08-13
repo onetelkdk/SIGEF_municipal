@@ -348,6 +348,16 @@ option{padding: 0 !important}
     -moz-transition: all 0.4s;
     transition: all 0.4s;
 }
+.radio-ui {
+  display: block;
+  float: left;
+}
+.cargar{  
+  background: #fcf9ec url(../images/folder.png);  
+  background-position: 98% center;
+  background-repeat: no-repeat;
+  background-size: 23px;  
+}
 .dataTables_paginate{
     float: right;
     margin: 0;
