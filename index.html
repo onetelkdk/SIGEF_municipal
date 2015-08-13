@@ -82,10 +82,8 @@
             $('.teclado').click(function(){
 
                 $('.form-group').each(function(){
-                    if(verificar si tiene el foco){
-                        $(this).children('input').keyboard();
+                   $(this).children('input').keyboard();
                         $('#rnc').trigger('focus.keyboard');
-                    }
 
                     return false;
                 });
