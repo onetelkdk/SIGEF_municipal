@@ -1217,3 +1217,20 @@ div.dataTables_filter label {
     background-color: #e0e1e2;
     border-color: #C0C6CC;
 }
+.btn-cargar{
+  background-size: 18px;
+  width: 100%;
+  color: white;
+  background-position: 4% 40% !important;
+  background-repeat: no-repeat;
+  background-color: #5bc0de;
+  border-radius: 3px;
+  border: none;
+  background-position: 6% 37% !important;
+  background-image: url("../images/upload.png");
+  padding: 6px;
+  background-image: url("../images/upload.png");
+}
+.block{
+    display: block;
+}
