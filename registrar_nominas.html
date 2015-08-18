@@ -315,6 +315,7 @@
     <script type="text/javascript" src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
     <!-- Custom Index -->
     <script src="js/plugins/timepicker/jquery.timepicker.min.js"></script>
+    <script src="js/plugins/mask.js"></script>
 
     <script type="text/javascript">
         $(function () {
@@ -325,12 +326,11 @@
                 dayNamesMin: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],
             });
         });
-/*
+
         jQuery(document).ready(function ($) {
             $('.tags').tags();
         });
- */       
-
+    
         $('.hora').timepicker();
 
         $('.datatable').dataTable({
@@ -341,6 +341,9 @@
             "order": [[0, "desc"]],
             "lengthMenu": [5],
         });
+
+        $('.mask-tel').mask('999-999-9999');
+        $('.mask-ced').mask('999-9999999-9');
     </script>
 
 </body>
