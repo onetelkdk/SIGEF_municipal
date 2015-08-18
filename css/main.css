@@ -1234,3 +1234,7 @@ div.dataTables_filter label {
 .block{
     display: block;
 }
+.tbl-img{
+    height: 31px;
+    margin-left: 35%;
+}
