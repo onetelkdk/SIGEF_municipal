@@ -1282,3 +1282,6 @@ div.dataTables_filter label {
     float: right !important;
     margin-right: 0 !important;
 }
+.total{
+    background-color: #FAFFBD
+}
