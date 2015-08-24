@@ -126,6 +126,7 @@ body {
 .plr15 {
     padding: 0 15px !important;
 }
+
 .mtb15 {
     margin: 15px 0 !important;
 }
@@ -426,6 +427,25 @@ li a.link img {
     border: 1px solid #cdcdda;
     border-radius: 3px;
     padding: 8px;
+}
+.area100p-2row {
+    width: 100%;
+    height: 105px;
+    resize: none;
+    border: 1px solid #cdcdda;
+    border-radius: 3px;
+    padding: 8px;
+    line-height: 18px;
+}
+
+.area100p-1row {
+    width: 100%;
+    height: 55px;
+    resize: none;
+    border: 1px solid #cdcdda;
+    border-radius: 3px;
+    padding: 8px;
+    line-height: 18px;
 }
 .3row {
     height: 150px;
