@@ -89,6 +89,9 @@ body {
 .mb0 {
     margin-bottom: 0 !important;
 }
+.m15{
+    margin: 15px !important;
+}
 .mt10{
     margin-top: 10px;
 }
