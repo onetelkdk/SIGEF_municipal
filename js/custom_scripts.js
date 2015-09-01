@@ -215,11 +215,6 @@ $('.hora').timepicker();
         "lengthMenu": [5],
     });
 
-    jQuery(document).ready(function ($) {
-                $('.tags').tags();
-            });
-
-
     /* TAGS  */
 $(function($) {
 
@@ -357,5 +352,9 @@ $(function($) {
     });
   }
 
+});
+
+jQuery(document).ready(function ($) {
+    $('.tags').tags();
 });
 /* END TAGS*/
