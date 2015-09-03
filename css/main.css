@@ -1482,8 +1482,8 @@ div.dataTables_filter label {
 }
 
 .dListdrop {
-    background-color: #6080AF;
-    color: white;
+    background-color: #FFFFFF;
+    color: #646367;
     padding: 5px 10px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1492,6 +1492,7 @@ div.dataTables_filter label {
     z-index: 10;
     width: 100%;
     display: none;
+    border: solid 1px #ccc;
 }
 
 .dlitem {
@@ -1503,9 +1504,9 @@ div.dataTables_filter label {
 }
 
 .dlithov:hover {
-    background: #335484;
+    background: #9BB0D0;
     cursor: pointer;
-    color: #fff;
+    color: #333F52;
 }
 
 .fleft {
