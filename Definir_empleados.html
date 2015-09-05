@@ -29,7 +29,7 @@
             </nav>
             <!-- // Data body //////// //////-->
             <div class="data-body shadow">
-                <div class="row m0 p10" id="panelResultados">
+                <div class="row m0 p10" id="panelResultados" style="display: none">
                     <div class="table-responsive">
                         <fieldset>
                             <table class="table table-striped table-bordered table-hover datatable">
@@ -97,7 +97,7 @@
                         </fieldset>
                     </div>
                 </div>
-                <div class="row m0 p10" id="panelMantenimiento" style="display: none">
+                <div class="row m0 p10" id="panelMantenimiento">
                     <!--inicio tab -->
                     <div class="col-md-12 p0">
                         <div class="tab-container">
@@ -110,32 +110,87 @@
                             </ul>
                             <!-- Tab Contenido -->
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane active" id="datos">
-                                    
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="contactos">
+                                <div role="tabpanel" class="tab-pane pt10 active" id="datos">
+                                    <div class="row">
+                                        <div class="col-lg-2">
+                                            <fieldset style="text-align: center" class="mb15">
+                                                <img src="images/add-user.png" class="imgUsuario">
+                                                <button class="btn btn-cargar" type="file">Adjuntar foto</button>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label>Tipo Identificación</label>
+                                                <select class="ui cbo">
+                                                    <option>Cedula</option>
+                                                </select>
+                                            </div>
 
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="dependientes">
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label>No. Identificacón</label>
+                                                <input type="text" class="ui mask-ced">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="form-group">
+                                                <label>Código</label>
+                                                <input type="text" class="ui" disabled>
+                                            </div>
 
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="accionp">
-
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="form-group">
+                                                <label>Estado</label>
+                                                <select class="ui cbo">
+                                                    <option>Activo</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label>Nombre</label>
+                                                <input type="text" class="ui">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label>Segundo Nombre</label>
+                                                <input type="text" class="ui">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label>Nombre</label>
+                                                <input type="text" class="ui">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="form-group">
+                                                <label>Nombre</label>
+                                                <input type="text" class="ui">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="contactos">
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="dependientes">
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="accionp">
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <!--final tab -->
                     </div>
-                    <!--final tab -->
                 </div>
+                <!-- // end data body //////// //////-->
             </div>
-            <!-- // end data body //////// //////-->
+            <!-- // sidebar-menu ///////////-->
         </div>
-        <!-- // sidebar-menu ///////////-->
-    </div>
 
-    <!-- // End wrapper //////// ///////////-->
-
-
+        <!-- // End wrapper //////// ///////////-->
 </body>
 <!-- // sidebar-menu ///////////-->
 <div class="caja-btn-acciones alert">

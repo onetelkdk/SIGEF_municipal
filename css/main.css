@@ -182,6 +182,10 @@ body {
 .p15 {
     padding: 15px;
 }
+
+.pt10 {
+    padding-top: 10px;
+}
 /* End Margins*/
 /* Barra top dashboard Buscador*/
 .topbar {
@@ -1206,6 +1210,10 @@ div.dataTables_filter label {
     background-image: url("../images/add-user2.png");
 }
 
+.imgUsuario {
+    width: 100%;
+    padding-bottom: 10px;
+}
 .boton-cancelar {
     background-image: url("../images/cancelar.png");
 }
