@@ -1544,3 +1544,6 @@ div.dataTables_filter label {
     color: #32373e;
     font-size: 15px;
 }
+.toggle-handle{
+    left:45px;
+}
