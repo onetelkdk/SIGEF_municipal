@@ -175,6 +175,9 @@ body {
 .mt5 {
     margin-top: 5px !important;
 }
+.p10 {
+    padding: 10px;
+}
 
 .p15 {
     padding: 15px;

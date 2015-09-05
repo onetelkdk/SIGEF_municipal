@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Creación de Empleados</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/plugins/dataTables.bootstrap.css">
+</head>
+<body>
+    <!-- wrapper //////// ////////////////////////////-->
+    <div id="wrapper">
+        <header class="main-header">
+        </header>
+        <!-- sidebar-menu //////// ////////////////////////////-->
+        <div id="sidebar-menu">
+        </div>
+        <div id="page-wrapper">
+            <nav class="topbar">
+                <div class="hidemenu">
+                    <a id="control_menu" class="btn btn-primary" href="#"><i class="fa fa-bars"></i></a>
+                </div>
+                <div class="h-opcion">
+                    <h4 class="opcion-menu">Creación de Empleados</h4>
+                </div>
+            </nav>
+            <!-- // Data body //////// //////-->
+            <div class="data-body shadow">
+                <div class="row m0 p10" id="panelResultados">
+                    <div class="table-responsive">
+                        <fieldset>
+                            <table class="table table-striped table-bordered table-hover datatable">
+                                <thead>
+                                    <tr class="table_heading">
+                                        <th>Referencia</th>
+                                        <th>Nombre</th>
+                                        <td>Nombre comercial</td>
+                                        <th>Dirección</th>
+                                        <th>Código</th>
+                                        <th>Identificación</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>José Almanzar</td>
+                                        <td>Consorcio de Ferreteros</td>
+                                        <td>Calle 27 de Febrero No.10</td>
+                                        <td>123456</td>
+                                        <td>001-2356858-9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>José Almanzar</td>
+                                        <td>Consorcio de Ferreteros</td>
+                                        <td>Calle 27 de Febrero No.10</td>
+                                        <td>123456</td>
+                                        <td>001-2356858-9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>José Almanzar</td>
+                                        <td>Consorcio de Ferreteros</td>
+                                        <td>Calle 27 de Febrero No.10</td>
+                                        <td>123456</td>
+                                        <td>001-2356858-9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>José Almanzar</td>
+                                        <td>Consorcio de Ferreteros</td>
+                                        <td>Calle 27 de Febrero No.10</td>
+                                        <td>123456</td>
+                                        <td>001-2356858-9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>José Almanzar</td>
+                                        <td>Consorcio de Ferreteros</td>
+                                        <td>Calle 27 de Febrero No.10</td>
+                                        <td>123456</td>
+                                        <td>001-2356858-9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>José Almanzar</td>
+                                        <td>Consorcio de Ferreteros</td>
+                                        <td>Calle 27 de Febrero No.10</td>
+                                        <td>123456</td>
+                                        <td>001-2356858-9</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row m0 p10" id="panelMantenimiento" style="display: none">
+                    <!--inicio tab -->
+                    <div class="col-md-12 p0">
+                        <div class="tab-container">
+                            <!-- Tab Pestanas -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="active"><a href="#datos" role="tab" data-toggle="tab">Datos generales</a></li>
+                                <li><a href="#contactos" role="tab" data-toggle="tab">Contactos</a></li>
+                                <li><a href="#dependientes" role="tab" data-toggle="tab">Dependientes</a></li>
+                                <li><a href="#accionp" role="tab" data-toggle="tab">Acciones de Personal</a></li>
+                            </ul>
+                            <!-- Tab Contenido -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="datos">
+                                    
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="contactos">
+
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="dependientes">
+
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="accionp">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--final tab -->
+                </div>
+            </div>
+            <!-- // end data body //////// //////-->
+        </div>
+        <!-- // sidebar-menu ///////////-->
+    </div>
+
+    <!-- // End wrapper //////// ///////////-->
+
+
+</body>
+<!-- // sidebar-menu ///////////-->
+<div class="caja-btn-acciones alert">
+    <div class="botones">
+        <div class="btnNuevoEditVer">
+            <button class="boton boton-nuevo">Nuevo</button>
+            <button class="boton boton-editar">Editar</button>
+            <button class="boton boton-visualizar">Visualizar</button>
+        </div>
+        <div class="btnGuardarCerrar" style="display: none">
+            <button class="boton boton-guardar">Guardar</button>
+            <!-- <button class="boton boton-guardarN">Guardar / Nuevo</button> -->
+            <button class="boton boton-cerrar">Cerrar</button>
+        </div>
+        <div class="acciones" style="display: none">
+            <button class="boton boton-imprimir">Imprimir</button>
+            <button class="boton boton-imprimir">Imprimir Revisión</button>
+            <button class="boton boton-imprimir">Imprimir Bolante</button>
+            <button class="boton boton-aprobar">Aprobar</button>
+            <button class="boton boton-cancelar">Cancelar</button>
+            <button class="boton boton-anular">Anular</button>
+            <button class="boton boton-editar">Auditoría</button>
+            <button class="boton boton-asientos">Asientos Contables</button>
+            <button class="boton boton-cargarEmpleados">Cargar empreados</button>
+        </div>
+    </div>
+</div>
+
+<!-- // End wrapper //////// ///////////-->
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui/jquery-ui.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/plugins/mask.js"></script>
+<script src="js/custom_scripts.js"></script>
+
+<script type="text/javascript" src="js/plugins/dataTables/jquery.dataTables.js"></script>
+<script type="text/javascript" src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
+<!-- Custom Index -->
+<script src="js/plugins/timepicker/jquery.timepicker.min.js"></script>
+
+
+</html>
