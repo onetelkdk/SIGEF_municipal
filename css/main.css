@@ -1556,3 +1556,6 @@ div.dataTables_filter label {
 .chk .toggle-group .btn{
    float: none !important; 
 }
+.toggle.btn {
+    min-height: 30px !important;
+}
