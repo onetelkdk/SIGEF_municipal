@@ -1,16 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
-<head>
-    <title>Registro y cierre de presupuesto</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/plugins/dataTables.bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/bootstrap-toggle-master/css/bootstrap-toggle.min.css">
-</head>
+
+   
+   <% Response.WriteFile("CssStyles.aspx")%>
+
 <body>
     <!-- wrapper //////// ////////////////////////////-->
     <div id="wrapper">
@@ -155,7 +148,7 @@
 
     <!-- // End wrapper //////// ///////////-->
     <!-- Scripts -->
-   
+   <% Response.WriteFile("JsScripts.aspx")%>
 
 </body>
 </html>

@@ -350,10 +350,10 @@ jQuery(document).ready(function ($) {
 });
 /* END TAGS*/
 
-$(document).ready(function () {
-    var cbo = '#cboMes, #cboEstado';
-    $(cbo).dropList({
-        search: true
-    });
+//$(document).ready(function () {
+//    var cbo = '#cboMes, #cboEstado';
+//    $(cbo).dropList({
+//        search: true
+//    });
 
-});
+//});
