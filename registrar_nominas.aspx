@@ -1,17 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
-<head>
-    <title>Registrar Nóminas de Págos</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/plugins/dataTables.bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="js/plugins/bootstrap-toggle-master/css/bootstrap-toggle.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+<% Response.WriteFile("CssStyles.aspx")%>
 <body>
     <!-- wrapper //////// ////////////////////////////-->
     <div id="wrapper">
@@ -302,18 +291,7 @@
     </div>
 
     <!-- // End wrapper //////// ///////////-->
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-ui/jquery-ui.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/plugins/mask.js"></script>
-    <script type="text/javascript" src="js/plugins/dataTables/jquery.dataTables.js"></script>
-    <script type="text/javascript" src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
-    <!-- Custom Index -->
-    <script src="js/plugins/timepicker/jquery.timepicker.min.js"></script>
-    <script src="js/plugins/Simple-Dropdown-List/js/jquery.dropList.1.0.0.js"></script>
-    <script src="js/custom_scripts.js"></script>
-    <script src="js/plugins/bootstrap-toggle-master/js/bootstrap-toggle.min.js"></script>
+   <% Response.WriteFile("JsScripts.aspx")%>
 
 </body>
 </html>
