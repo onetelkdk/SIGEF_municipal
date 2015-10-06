@@ -1561,3 +1561,7 @@ div.dataTables_filter label {
 .toggle.btn {
     min-height: 30px !important;
 }
+
+.number {
+    padding-right: 3%;
+}
