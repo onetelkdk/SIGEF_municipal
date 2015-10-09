@@ -16,7 +16,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Definir forma de pago</h4>
+                    <h4 class="opcion-menu">Definir provincias</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
@@ -27,30 +27,53 @@
                             <table class="table table-striped table-bordered table-hover datatable">
                                 <thead>
                                  <tr class="table_heading">
-                                     <th>Código</th>
-                                     <th>Nombre del formato</th>
-                                     <th>Nombre del estado</th>
+                                     <th>Provincias</th>
+                                     <th>Nombre de la provinvia</th>
+                                     <th>Referencia</th>
+                                     <th>Estado</th>
                                  </tr>
                              </thead>
                              <tbody>
                                 <tr>
-                                    <td>CHQ</td>
-                                    <td>Cheque</td>
+                                    <td>1</td>
+                                    <td>Peravia</td>
+                                    <td>01</td>
                                     <td><span class="estado Activo">Activo</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>EFT</td>
-                                    <td>Efectivo</td>
+                                    <td>1</td>
+                                    <td>Peravia</td>
+                                    <td>01</td>
                                     <td><span class="estado Activo">Activo</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>TRA</td>
-                                    <td>Transferencia</td>
+                                    <td>1</td>
+                                    <td>Peravia</td>
+                                    <td>01</td>
                                     <td><span class="estado Activo">Activo</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td>CHQ</td>
-                                    <td>Cheque</td>
+                                    <td>1</td>
+                                    <td>Peravia</td>
+                                    <td>01</td>
+                                    <td><span class="estado Activo">Activo</span></span></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Peravia</td>
+                                    <td>01</td>
+                                    <td><span class="estado Activo">Activo</span></span></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Peravia</td>
+                                    <td>01</td>
+                                    <td><span class="estado Activo">Activo</span></span></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Peravia</td>
+                                    <td>01</td>
                                     <td><span class="estado Activo">Activo</span></span></td>
                                 </tr>
                             </tbody>
@@ -59,7 +82,7 @@
                     </fieldset>
                 </div>
                 <div class="row m15 ptb15" id="panelMantenimiento" style="display: none">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Nombre</label>
                                 <input type="text" class="ui">
@@ -68,6 +91,12 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Código</label>
+                                <input type="text" class="ui">
+                            </div>                              
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Referencia</label>
                                 <input type="text" class="ui">
                             </div>                              
                         </div>
