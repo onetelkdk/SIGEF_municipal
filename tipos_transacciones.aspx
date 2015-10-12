@@ -27,8 +27,8 @@
                             <table class="table table-striped table-bordered table-hover datatable">
                                 <thead>
                                  <tr class="table_heading">
-                                     <th>Código</th>
-                                     <th>Descripción</th>
+                                     <th>C&oacute;digo</th>
+                                     <th>Descripci&oacute;n</th>
                                      <th>Origen</th>
                                      <th>Modulo</th>
                                  </tr>

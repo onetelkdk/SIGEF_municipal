@@ -1,6 +1,5 @@
 ﻿<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
+<meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">

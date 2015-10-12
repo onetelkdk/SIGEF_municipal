@@ -106,7 +106,7 @@
                                 <input type="text" class="ui">
                             </div>                              
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6col-xs-12">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Computadora</label>
                                 <input type="text" class="ui">
