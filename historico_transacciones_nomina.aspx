@@ -16,7 +16,7 @@
                     <a id="control_menu" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Relaci&oacute;n de recibos en cuadre de caja</h4>
+                    <h4 class="opcion-menu">Hist&oacute;rico de transacciones de n&oacute;minas</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
@@ -44,7 +44,7 @@
                                             </fieldset> 
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                 <div class="form-group">
-                                                    <label>Cajero</label>
+                                                    <label>Nómina</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
                                                     </select>
@@ -52,7 +52,7 @@
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                 <div class="form-group">
-                                                    <label>Contribuyente</label>
+                                                    <label>Tipo trx.</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
                                                     </select>
@@ -60,10 +60,30 @@
                                             </div>
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                                 <div class="form-group">
-                                                    <label>Colector</label>
+                                                    <label>Cuenta de banco</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
                                                     </select>
+                                                </div>  
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                                <div class="form-group">
+                                                    <label>Empleado</label>
+                                                    <select class="ui cbo">
+                                                        <option>Seleccione opciones</option>
+                                                    </select>
+                                                </div>  
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <label>Tel&eacute;fono</label>
+                                                    <input type="text" class="ui mask-tel">
+                                                </div>  
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                                <div class="form-group">
+                                                    <label>C&eacute;dula</label>
+                                                    <input type="text" class="ui mask-ced">
                                                 </div>  
                                             </div>
                                         </div>                                    
