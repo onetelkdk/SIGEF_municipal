@@ -29,17 +29,25 @@
                                         <div class="table-responsive">
                                             <fieldset class="m15 ">
                                                 <legend>Fecha</legend>
-                                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Desde</label>
                                                         <input type="text" class="ui fecha">
                                                     </div>                                                                 
                                                 </div>
-                                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Hasta</label>
                                                         <input type="text" class="ui fecha">
                                                     </div>                                                                 
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                                                    <div class="form-group chk">
+                                                        <div>
+                                                        <label class="block">Por fecha</label>
+                                                            <input type="checkbox" data-toggle="toggle" data-on="si" checked data-off="no">
+                                                        </div>
+                                                    </div>  
                                                 </div>
                                             </fieldset> 
                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
