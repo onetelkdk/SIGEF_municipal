@@ -111,36 +111,107 @@
                         </fieldset>
                     </div>
                 </div>
-                <div class="row m0 ptb-15" id="panelMantenimiento" style="display: none">
-                	<div class="table-responsive">
-                        <fieldset class="m15">
-                            <legend>Transferencia</legend>
-                            <table class="table table-striped table-bordered table-hover datatable">
-                            <thead>
-                             <tr class="table_heading">
-                                 <th>Desemb.</th>
-                                 <th>Cocepto</th>
-                                 <th>Cuenta destino</th>
-                                 <th>No. Cuenta</th> 
-                                 <th>Fecha trx.</th>
-                                 <th>Fecha docum.</th> 
-                                 <th>Estado</th>                               
-                             </tr>
-                         </thead>
-                            <tbody>
-                                <tr>
-                                    <td>314</td>
-                                    <td>130-54141-8</td>                                    
-                                    <td>130-87911-4</td>
-                                    <td>45613845</td>
-                                    <td>12/10/2015</td>
-                                    <td>12/10/2015</td>
-                                    <td>Registrado</td>                                
-                                </tr>                                                    
-                            </tbody>
-                        </table>
-                        </fieldset>
+                <div class="row m0 p15" id="panelMantenimiento" style="display: none">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>No. Trx.</label>
+                            <input type="text" class="ui">
+                        </div>
                     </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>No. Documento</label>
+                            <input type="text" class="ui">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Estado</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Caja chica</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Tipo de desembolso</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Referencia</label>
+                            <input type="text" class="ui">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>C&eacute;dula</label>
+                            <input type="text" class="ui mask-ced">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
+                        <div class="form-group">
+                            <label>NCF</label>
+                            <input type="text" class="ui mask-ced">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
+                        <div class="form-group">
+                            <label>Monto</label>
+                            <input type="text" class="ui mask-ced">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-group">
+                            <label>Concepto</label>
+                            <textarea class="area"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Moneda</label>
+                            <input type="text" class="ui mask-ced">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Tasa</label>
+                            <input type="text" class="ui mask-ced">
+                        </div>
+                    </div>
+                    <fieldset class="m15 row col-md-12 col-xs-12">
+                        <legend>Otros</legend>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="form-group">
+                            <label>Reposición no.</label>
+                                <input type="text" class="ui mask-ced">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="form-group">
+                                <label>Ced/RNC</label>
+                                <input type="text" class="ui mask-ced">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="form-group">
+                                <label>Suplidor</label>
+                                <input type="text" class="ui mask-ced">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
                 </div>
             </div>
             <!-- // end data body //////// //////-->
