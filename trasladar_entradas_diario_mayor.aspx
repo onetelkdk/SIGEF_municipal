@@ -14,7 +14,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Generar entradas diario</h4>
+                    <h4 class="opcion-menu">Trasladar entradas de diario a mayor</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
@@ -24,7 +24,7 @@
                             <div class="form-group">
                                 <label>Desde</label>
                                 <input type="text" class="ui fecha">
-                            </div>
+                            </div>  
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
@@ -42,31 +42,7 @@
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>No. Trx.</label>
-                                <input type="text" class="ui">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>F. Inicio</label>
-                                <input type="text" class="ui">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>F. Fin</label>
-                                <input type="text" class="ui">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Concepto</label>
-                                <input type="text" class="ui">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Referencia</label>
+                                <label>Entrada No.</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
@@ -78,15 +54,27 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-lg-9 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Tipo trx.</label>
+                                <label>Concepto</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Referencia</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Cuenta Cont.</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Diario</label>
                                 <select class="ui cbo">
@@ -101,8 +89,10 @@
                                 <thead>
                                     <tr class="table_heading">
                                         <th>Fecha</th>
-                                        <th>No. Trx.</th>
-                                        <th>Cta. Contable</th>
+                                        <th>No. Docum.</th>
+                                        <th>Referencia</th>
+                                        <th>Periodo</th>
+                                        <th>Concepto</th>
                                         <th>D&eacute;bito</th>
                                         <th>Cr&eacute;dito</th>
                                     </tr>
@@ -111,7 +101,9 @@
                                     <tr>
                                         <td>24/05/2015</td>
                                         <td>4132</td>
-                                        <td>130-126312-4</td>
+                                        <td>454125</td>
+                                        <td>2015</td>
+                                        <td>Pago por servicios realizados</td>
                                         <td>RD$78,455.00</td>
                                         <td>RD$12,455.00</td>
                                     </tr>
