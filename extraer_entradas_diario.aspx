@@ -14,7 +14,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Trasladar entradas de diario a mayor</h4>
+                    <h4 class="opcion-menu">Extraer entradas de diario</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
