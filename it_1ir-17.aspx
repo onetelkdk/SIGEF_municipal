@@ -20,8 +20,9 @@
             </nav>
             <!-- // Data body //////// //////-->
             <div>
-                <h4>Fecha</h4>
-            </div>
+                <div class="data-body shadow pt10">
+              
+          
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="form-group">
                     <label>Desde</label>
@@ -44,7 +45,8 @@
                     <div class="tab-container">
                         <!-- Tab Pestanas -->
                         <ul class="nav nav-tabs" role="tablist">
-                            <li class="active"><a href="#movimientos" role="tab" data-toggle="tab">Retencion</a></li>
+  
+                            <li class="active"><a href="#movimientos" role="tab" data-toggle="tab">Retención</a></li>
                             <li><a href="#comprobantes" role="tab" data-toggle="tab">Comprobantes y Valores</a></li>
                         </ul>
                         <!-- Tab Contenido -->
@@ -281,6 +283,7 @@
                             </div>
                         </div>
                     </div>
+                   </div>
                     <!--final tab -->
                 </fieldset>
 
