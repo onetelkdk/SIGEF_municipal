@@ -147,7 +147,7 @@
                                 </select>
                             </div>                             
                         </div>
-                        <fieldset class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> 
+                        <fieldset class="col-lg-6 col-md-6 col-sm-6 col-xs-12"> 
                                 <legend>Clase de cuenta</legend>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                 <div class="form-group chk">
@@ -162,18 +162,21 @@
                                 </div>  
                             </div>
                         </fieldset>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <div class="form-group chk">
-                            <label class="block">Requiere centro de costo</label>
-                                <input type="checkbox" checked data-toggle="toggle" data-on="No" data-off="Si">
-                            </div>  
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                            <div class="form-group chk">
-                            <label class="block">Requiere Folder</label>
-                                <input type="checkbox" checked data-toggle="toggle" data-on="No" data-off="Si">
-                            </div>  
-                        </div>
+                        <fieldset class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <legend>Requerimientos</legend>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-group chk">
+                                    <label class="block">Requiere centro de costo</label>
+                                    <input type="checkbox" checked data-toggle="toggle" data-on="No" data-off="Si">
+                                </div>  
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-group chk">
+                                    <label class="block">Requiere Folder</label>
+                                    <input type="checkbox" checked data-toggle="toggle" data-on="No" data-off="Si">
+                                </div>  
+                            </div>
+                        </fieldset>
                     </fieldset>  
                     
                 </div>
