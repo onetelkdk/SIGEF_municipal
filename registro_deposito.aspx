@@ -23,7 +23,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Registro depósito bancario</h4>
+                    <h4 class="opcion-menu">Registro dep&oacute;sito bancario</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
@@ -31,12 +31,12 @@
                 <div class="row m0 p15" id="panelResultados">
                     <div class="table-responsive">
                         <fieldset class="m15">
-                            <legend>Depósitos bancarios</legend>
+                            <legend>Dep&oacute;sitos bancarios</legend>
                             <table class="table table-striped table-bordered table-hover datatable">
                             <thead>
                              <tr class="table_heading">
-                                 <th>Descripción</th>
-                                 <th>Número</th>
+                                 <th>Descripci&oacute;n</th>
+                                 <th>N&uacute;mero</th>
                                  <th>Fecha</th>
                                  <th>Nombre de estado</th>                                 
                              </tr>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="row m0 ptb-15" id="panelMantenimiento" style="display: none">
                     <fieldset class="m15">
-                        <legend>Registro depósito bancario</legend>
+                        <legend>Registro dep&oacute;sito bancario</legend>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Deposito no.</label>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Fecha depósito</label>
+                                <label>Fecha dep&oacute;sito</label>
                                 <input type="text" class="ui fecha">
                             </div>                             
                         </div>
@@ -120,7 +120,7 @@
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Tipo de depósito</label>
+                                <label>Tipo de dep&oacute;sito</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
                                 </select>
@@ -140,7 +140,7 @@
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <fieldset>
-                                <legend>Observación</legend>
+                                <legend>Observaci&oacute;n</legend>
                                 <div class="form-group">                                    
                                     <textarea class="area"></textarea>
                                 </div>
@@ -152,7 +152,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <fieldset class="mtb-15">                                        
-                                        <legend>Detalles de registro depósito bancario</legend>                                        
+                                        <legend>Detalles de registro dep&oacute;sito bancario</legend>                                        
                                         <div class="table-responsive">                                                 
                                             <table class="table table-striped table-bordered table-hover datatable">
                                                 <thead>

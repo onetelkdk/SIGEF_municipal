@@ -35,7 +35,7 @@
                             <table class="table table-striped table-bordered table-hover datatable">
                             <thead>
                              <tr class="table_heading">
-                                 <th>Número</th>
+                                 <th>N&uacute;mero</th>
                                  <th>Cuenta banco</th>
                                  <th>Fecha trx</th>
                                  <th>Fecha docum.</th> 
@@ -93,7 +93,7 @@
                               <!-- Tab Pestanas -->
                               <ul class="nav nav-tabs" role="tablist">
                                 <li class="active"><a href="#home" role="tab" data-toggle="tab">Datos de la transferencia</a></li>
-                                <li><a href="#rel-deposito" role="tab" data-toggle="tab">Relación de depósito a ser transferido</a></li>
+                                <li><a href="#rel-deposito" role="tab" data-toggle="tab">Relaci&oacute;n de dep&oacute;sito a ser transferido</a></li>
                             </ul>
 
                             <!-- Tab Contenido -->
@@ -147,29 +147,29 @@
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                             <div class="form-group">
-                                                <label>Tipo de identificación</label>
+                                                <label>Tipo de identificaci&oacute;n</label>
                                                 <select class="ui cbo">
                                                     <option>Seleccione opciones</option>
-                                                    <option>Cédula</option>
+                                                    <option>C&eacute;dula</option>
                                                     <option>Pasaporte</option>
                                                 </select>
                                             </div>                             
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                             <div class="form-group">
-                                                <label>Identificación</label>
+                                                <label>Identificaci&oacute;n</label>
                                                 <input type="text" class="ui mask-ced">
                                             </div>                             
                                         </div> 
                                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                             <div class="form-group">
-                                                <label>Teléfono</label>
+                                                <label>Tel&eacute;fono</label>
                                                 <input type="text" class="ui mask-tel">
                                             </div>                             
                                         </div>                                        
                                         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                                             <div class="form-group">                                         
-                                                <label>Dirección</label>
+                                                <label>Direcci&oacute;n</label>
                                                 <input type="text" class="ui"> 
                                             </div>                                           
                                         </div>
@@ -183,7 +183,7 @@
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="form-group">                                         
-                                                <label>Descripción</label>
+                                                <label>Descripci&oacute;n</label>
                                                 <textarea class="area"></textarea>
                                             </div>                                           
                                         </div>
@@ -247,7 +247,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>2</td>
-                                                        <td>Servicios públicos municipales</td>
+                                                        <td>Servicios p&uacute;blicos municipales</td>
                                                         <td>130-521254-7</td>
                                                         <td>RD$20,000.00</td> 
                                                         <td>141503</td>
@@ -257,7 +257,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>3</td>
-                                                        <td>Invernsión obras municipales</td>
+                                                        <td>Invernsi&oacute;n obras municipales</td>
                                                         <td>130-521254-7</td>
                                                         <td>RD$20,000.00</td> 
                                                         <td>141503</td>
@@ -267,7 +267,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td>4</td>
-                                                        <td>Educación, salud y género</td>
+                                                        <td>Educaci&oacute;n, salud y g&eacute;nero</td>
                                                         <td>130-521254-7</td>
                                                         <td>RD$20,000.00</td>
                                                         <td>141503</td>
@@ -286,14 +286,14 @@
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="rel-deposito">
                                     <fieldset class="m15">
-                                        <legend>Tipo de depósito: Ingreso propio</legend>
+                                        <legend>Tipo de dep&oacute;sito: Ingreso propio</legend>
                                             <table class="table table-striped table-bordered table-hover datatable">
                                                 <thead>
                                                    <tr class="table_heading">
                                                        <th>No. Documento</th>
-                                                       <th>Fecha depósito</th>
-                                                       <th>Opservación</th>
-                                                       <th>Monto depósito</th>
+                                                       <th>Fecha dep&oacute;sito</th>
+                                                       <th>Opservaci&oacute;n</th>
+                                                       <th>Monto dep&oacute;sito</th>
                                                        <th>Pendiente por transferir</th>
                                                        
                                                    </tr>
@@ -403,7 +403,7 @@
                 </div>
                 <div class="acciones" style="display: none">
                     <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-imprimir">Imprimir Revisión</button>
+                    <button class="boton boton-imprimir">Imprimir Revisi&oacute;n</button>
                     <button class="boton boton-imprimir">Imprimir Bolante</button>
                     <button class="boton boton-aprobar">Aprobar</button>
                     <button class="boton boton-cancelar">Cancelar</button>

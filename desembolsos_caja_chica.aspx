@@ -190,26 +190,28 @@
                             <input type="text" class="ui mask-ced">
                         </div>
                     </div>
-                    <fieldset class="m15 row col-md-12 col-xs-12">
-                        <legend>Otros</legend>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="form-group">
-                            <label>Reposición no.</label>
-                                <input type="text" class="ui mask-ced">
+                    <fieldset style="border:none !important;" class="col-lg-12 col-md-12 col-xs-12">  
+                        <fieldset class="col-lg-12 col-md-12 col-xs-12">
+                            <legend>Otros</legend>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group">
+                                    <label>Reposici&oacute;n no.</label>
+                                    <input type="text" class="ui mask-ced">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="form-group">
-                                <label>Ced/RNC</label>
-                                <input type="text" class="ui mask-ced">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group">
+                                    <label>Ced/RNC</label>
+                                    <input type="text" class="ui mask-ced">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="form-group">
-                                <label>Suplidor</label>
-                                <input type="text" class="ui mask-ced">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="form-group">
+                                    <label>Suplidor</label>
+                                    <input type="text" class="ui mask-ced">
+                                </div>
                             </div>
-                        </div>
+                        </fieldset>
                     </fieldset>
                 </div>
                 </div>
