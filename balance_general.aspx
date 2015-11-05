@@ -59,31 +59,36 @@
                                 </select>
                             </div>                             
                         </div>
-                        <fieldset class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <legend>Niveles</legend>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                <label>Principal</label>
-                                    <input type="text" class="ui">
-                                </div>                             
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-group">
-                                    <label>Secundario</label>
-                                    <input type="text" class="ui">
-                                </div>                             
-                            </div>
-                        </fieldset>
-                        <fieldset class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">  
+                            <fieldset class="col-md-12  col-xs-12">
+                                <legend>Niveles</legend>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Principal</label>
+                                        <input type="text" class="ui">
+                                    </div>                             
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Secundario</label>
+                                        <input type="text" class="ui">
+                                    </div>                             
+                                </div>
+                            </fieldset> 
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
+                        <fieldset class="col-md-12  col-xs-12"> 
                                 <legend>Detalles</legend>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="margin-botom:10px">
-                                <div class="form-group chk">
-                                <label class="block">Inclu&iacute;r las cuentas auxiliares</label>
-                                    <input type="checkbox" checked data-toggle="toggle" data-on="No" data-off="Si">
-                                </div>  
-                            </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="margin-bottom:15px !important">
+                                    <div class="form-group chk">
+                                        <label class="block">Inclu&iacute;r las cuentas auxiliares</label>
+                                        <input type="checkbox" checked data-toggle="toggle" data-on="No" data-off="Si">
+                                    </div>  
+                                </div>
+                            </fieldset>
                         </fieldset>
-                    </fieldset>  
+                    </div>  
                     
                 </div>
             </div>

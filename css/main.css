@@ -103,7 +103,16 @@ body {
 .m15 {
     margin: 15px !important;
 }
-
+.ml15 {
+    margin-left: 15px !important;
+}
+.mr15 {
+    margin-right: 15px !important;
+}
+.mlr15{
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .mt10 {
     margin-top: 10px;
 }
