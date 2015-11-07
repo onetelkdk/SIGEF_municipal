@@ -161,6 +161,27 @@
                             </tbody>
                         </table>
                     </fieldset>
+                    <fieldset class="m15">
+                        <legend>Recibido por</legend>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Identificación</label>
+                                <input type="text" class="ui mask-ced">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Apellido</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                    </fieldset>
                 </div>
 
             </div>
@@ -187,15 +208,8 @@
             <button class="boton boton-cerrar">Cerrar</button>
         </div>
         <div class="acciones" style="display: none">
-            <button class="boton boton-imprimir">Imprimir</button>
-            <button class="boton boton-imprimir">Imprimir Revisión</button>
-            <button class="boton boton-imprimir">Imprimir Bolante</button>
-            <button class="boton boton-aprobar">Aprobar</button>
-            <button class="boton boton-cancelar">Cancelar</button>
-            <button class="boton boton-anular">Anular</button>
-            <button class="boton boton-editar">Auditoría</button>
-            <button class="boton boton-asientos">Asientos Contables</button>
-            <button class="boton boton-cargarEmpleados">Cargar empreados</button>
+            <button class="boton boton-refrescar">Refrescar</button>
+            <button class="boton boton-entregar">Entregar</button>
         </div>
     </div>
 </div>

@@ -1165,13 +1165,24 @@ div.dataTables_filter label {
 .boton-visualizar {
     background-image: url("../images/visualizar.png");
 }
-
+.boton-marcar_todos {
+    background-image: url("../images/marcar_todos.png");
+}
+.boton-entregar {
+    background-image: url("../images/entregar.png");
+}
+.boton-desmarcar_todos {
+    background-image: url("../images/desmarcar_todos.png");
+}
 .boton-aprobar {
     background-image: url("../images/aprobar.png");
 }
 
 .boton-anular {
     background-image: url("../images/anular.png");
+}
+.boton-atras {
+    background-image: url("../images/atras-1.png");
 }
 
 .boton-asientos {
@@ -1180,6 +1191,9 @@ div.dataTables_filter label {
 
 .boton-imprimir {
     background-image: url("../images/imprimir.ico");
+}
+.boton-refrescar {
+    background-image: url("../images/refrescar.png");
 }
 
 .boton-guardar {

@@ -133,15 +133,8 @@
                     <button class="boton boton-cerrar">Cerrar</button> 
                 </div>
                 <div class="acciones" style="display: none">
-                    <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-imprimir">Imprimir Revisión</button>
-                    <button class="boton boton-imprimir">Imprimir Bolante</button>
+                    <button class="boton boton-refrescar">Refrescar</button>
                     <button class="boton boton-aprobar">Aprobar</button>
-                    <button class="boton boton-cancelar">Cancelar</button>
-                    <button class="boton boton-anular">Anular</button>
-                    <button class="boton boton-editar">Auditoría</button>
-                    <button class="boton boton-asientos">Asientos Contables</button>
-                    <button class="boton boton-cargarEmpleados">Cargar empreados</button>
                 </div> 
             </div>
         </div>
