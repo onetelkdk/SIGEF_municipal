@@ -64,7 +64,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="form-group">
                             <label>Cuenta de Banco</label>
                             <select class="ui cbo">
@@ -76,7 +76,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <fieldset>
-                                <legend>Incluir Transferencia de Cuenta Receptora</legend>
+                                <legend>Incluir Trasf Cta Recep.</legend>
                                 <label for="agrupar1" style="margin-right:10px">Marque para agrupar</label><input type="checkbox" id="agrupar1" />
                             </fieldset>
                         </div>
@@ -85,7 +85,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <fieldset>
-                                <legend>Agrupar por Cuenta de Banco</legend>
+                                <legend>Agrupar Cta Banco.</legend>
                                 <label for="agrupar" style="margin-right:10px">Marque para agrupar</label><input type="checkbox" id="agrupar" />
                             </fieldset>
                         </div>

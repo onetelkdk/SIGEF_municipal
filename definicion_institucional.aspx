@@ -112,13 +112,15 @@
             <div class="data-body shadow">
                 <div class="row m0 p15" id="panelMantenimiento" style="display: none">
                     <div role="tabpanel" class="tab-pane pt10 active" id="datos">
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                       
+                        
+                         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
                             <fieldset style="text-align: center" class="mb15">
                                 <img src="images/add-user.png" class="imgUsuario">
                                 <button class="btn btn-cargar" type="file">Adjuntar foto</button>
                             </fieldset>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
                             <fieldset style="text-align: center" class="mb15">
                                 <img src="images/add-user.png" class="imgUsuario">
                                 <button class="btn btn-cargar" type="file">Adjuntar foto</button>
@@ -126,7 +128,7 @@
                         </div>
 
 
-                        <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="col-lg-2 col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Código</label>
                                 <input type="text" class="ui">
@@ -135,25 +137,25 @@
                         </div>
 
 
-                        <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="col-lg-2 col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Clas Institucional</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="col-lg-2 col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Sub-Capitulo</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="col-lg-2 col-md-3 col-sm-6">
                             <div class="form-group">
                                 <label>RNC</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-md-3 col-sm-6">
                             <div class="form-group">
                                 <label>Tipo</label>
                                 <select class="ui cbo">
@@ -172,7 +174,7 @@
 
                         </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs 6">
+                        <div class="col-lg-4 col-md-3 col-sm-6 col-xs 6">
                             <div class="form-group">
                                 <label>Institución</label>
                                 <select class="ui cbo">
@@ -180,58 +182,58 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs 6">
+                        <div class="col-lg-4 col-md-3 col-sm-6 col-xs 6">
                             <div class="form-group">
                                 <label>Siglas</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs 6">
+                        <div class="col-lg-4 col-md-3 col-sm-6 col-xs 6">
                             <div class="form-group">
                                 <label>Dirección</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                             <div class="form-group">
                                 <label>Telefono 1</label>
                                 <input type="text" class="ui mask-tel">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Telefono 2</label>
                             <input type="text" class="ui mask-tel">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Fax</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Pagina Web</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Correo Electronico</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Slogan</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Ubic. Geografica</label>
                             <select class="ui cbo">
@@ -242,7 +244,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Alcalde</label>
                             <select class="ui cbo">
@@ -253,7 +255,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Tesorero</label>
                             <select class="ui cbo">
@@ -262,7 +264,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Contador</label>
                             <select class="ui cbo">
@@ -273,7 +275,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Contralor</label>
                             <select class="ui cbo">
@@ -283,7 +285,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs 6">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs 6">
                         <div class="form-group">
                             <label>Pte. Sala Cap.</label>
                             <select class="ui cbo">
