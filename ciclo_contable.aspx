@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <% Response.WriteFile("CssStyles.aspx")%>
 <body>
@@ -104,7 +104,6 @@
                                 <input type="text" class="ui fecha" />
                             </div>                              
                         </div> 
-                        
                     </fieldset>  
                     
                 </div>
