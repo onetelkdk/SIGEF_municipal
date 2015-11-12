@@ -23,7 +23,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Ced/RNC</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui mask-ced">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
