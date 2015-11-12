@@ -45,7 +45,9 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="form-group">
                             <label>Comprobante a reversar</label>
-                            <input type="text" class="ui">                                
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>                                
                         </div>
                     </div>
                     </fieldset>                    
