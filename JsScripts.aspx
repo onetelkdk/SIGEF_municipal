@@ -1,4 +1,5 @@
-﻿ 	<script src="js/jquery.min.js"></script>
+﻿ 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+ 	<script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui/jquery-ui.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/plugins/timepicker/jquery.timepicker.min.js"></script>
@@ -9,3 +10,10 @@
     <script src="js/plugins/mask.js"></script>
     <script src="js/custom_scripts.js"></script>
     <script src="js\plugins\bootstrap-toggle-master\js\bootstrap-toggle.min.js"></script>
+
+    <script>
+    $(function() {
+    $( "#accordion" ).accordion();
+    });
+    </script>
+

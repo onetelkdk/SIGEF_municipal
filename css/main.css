@@ -1588,3 +1588,38 @@ div.dataTables_filter label {
 .number {
     padding-right: 3%;
 }
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #C1C6C0 !important;
+    color: #0656A1 !important;
+}
+
+.ui-state-default .ui-icon {
+    background-image: url("../../js/jquery-ui/images/ui-icons_228ef1_256x240.png") !important;
+}
+
+.acordeon{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+}
+
+.acordeon> h5 {
+    display: block;
+    background: #FCF9EC;
+    border: 1px solid #CCD2CB;
+    padding: 7px;
+    border-top: 2px solid #E7E9EA;
+    margin-top: -10px;
+}
+
+.acordeon> h5:hover {
+    background: #fff;
+}
+
+.acordeon> div {
+    margin-top: -11px !important;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 18px 0px 0px 0px !important;
+    height: 100% !important;
+}

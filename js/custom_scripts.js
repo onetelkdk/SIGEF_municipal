@@ -357,3 +357,11 @@ jQuery(document).ready(function ($) {
 //    });
 
 //});
+
+
+$(document).ready(function(){
+    $('div.acordeon> div').hide();
+    $('div.acordeon> h5').click(function(){
+        $(this).next().slideToggle(90)
+    });
+});
