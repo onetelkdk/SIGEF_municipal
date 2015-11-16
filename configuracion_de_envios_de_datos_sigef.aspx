@@ -149,7 +149,7 @@
 
                                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                         <div class="form-group">
-                                                            <label>Separador de Campos</label>
+                                                            <label>Separ de Campos</label>
                                                             <select class="ui cbo">
                                                                 <option>Seleccione opciones</option>
                                                             </select>
@@ -180,7 +180,7 @@
 
                                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                                                         <div class="form-group chk">
-                                                            <label class="block">Requiere Presupuesto</label>
+                                                            <label class="block">Requ. Presupuesto</label>
                                                             <input type="checkbox" checked data-toggle="toggle" data-on="No" data-off="Si">
                                                         </div>
                                                     </div>
@@ -191,10 +191,10 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-lg-12 col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
                                                         <div class="form-group">
-                                                            <label>Observaciones </label>
-                                                            <textarea class="area ui "></textarea>
+                                                            <label>Observaciones</label>
+                                                            <textarea class="area"></textarea>
                                                         </div>
                                                     </div>
 
@@ -332,10 +332,10 @@
                                                             </tbody>
                                                         </table>
                                                     </div>
-                                                     <div class="col-lg-12 col-md-3 col-sm-6 col-xs-6">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-6">
                                                         <div class="form-group">
-                                                            <label>Observaciones </label>
-                                                            <textarea class="area ui"></textarea>
+                                                            <label>Observaciones</label>
+                                                            <textarea class="area"></textarea>
                                                         </div>
                                                     </div>
 
