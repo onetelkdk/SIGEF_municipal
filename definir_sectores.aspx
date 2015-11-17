@@ -23,7 +23,7 @@
 					<a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
 				</div>
 				<div class="h-opcion">
-					<h4 class="opcion-menu">Definir ciudades</h4>
+					<h4 class="opcion-menu">Definir sectores</h4>
 				</div>
 			</nav>
 			<!-- // Data body //////// //////-->
@@ -259,13 +259,13 @@
 					<fieldset class="m15">
 						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 							<div class="form-group">
-								<label>Ciudad</label>
+								<label>Sector</label>
 								<input type="text" class="ui" />
 							</div>                              
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 							<div class="form-group">
-								<label>Referencia</label>
+								<label>Ciudad</label>
 								<input type="text" class="ui" />
 							</div>                              
 						</div>  

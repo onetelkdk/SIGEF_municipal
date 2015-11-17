@@ -1598,21 +1598,52 @@ div.dataTables_filter label {
     background-image: url("../../js/jquery-ui/images/ui-icons_228ef1_256x240.png") !important;
 }
 
-.acordeon{
+.acordeon,.acordeon ul,.acordeon li{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif !important;
+    text-decoration: none;
+    list-style:none;
 }
 
-.acordeon> h5 {
+.t-acordeon {
+    display: flex !important;
+    color: #0656B5;
+    font-weight: bold;
+    padding: 10px !important;
+    font-size: 14px;
+    border: 1px solid #ccc !important;
+    border-top: 1px solid #ccc !important;
+    border-radius: 3px;
+    text-decoration: none;
+    background-image: url(../images/abajo.png)!important;
+    background-repeat: no-repeat !important;
+    padding-left: 30px !important;
+    background-color: #E3EAE2 !important;
+}
+
+.t-acordeon:hover {
+    background-color: #f4f4f4 !important;
+    color: #0024ff;
+    border: 1px solid #0024ff !important;
+}
+
+.acordeon h5 {
     display: block;
-    background: #FCF9EC;
+    background: #fff;
     border: 1px solid #CCD2CB;
     padding: 7px;
-    border-top: 2px solid #E7E9EA;
-    margin-top: -10px;
+    cursor:pointer;
 }
 
-.acordeon> h5:hover {
-    background: #fff;
+.acordeon h5:hover {
+    color: #0024ff;
+}
+
+.sub-menu {
+    margin-left: 10px;
+}
+
+.sub-menu > li {
+    margin-top: -10px;
 }
 
 .acordeon> div {
