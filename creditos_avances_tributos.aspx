@@ -14,7 +14,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Emitir factura</h4>
+                    <h4 class="opcion-menu">Cr&eacuteditos y avances a tributos</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
@@ -96,19 +96,19 @@
             </div>
             <div class="row m0 ptb-15" id="panelMantenimiento" style="display: none">
                 <fieldset style="border:none !important">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>No. Trans.</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>No. Docum.</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>Estado</label>
                             <select class="ui cbo">
@@ -116,37 +116,37 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>Fecha trx.</label>
                             <input type="text" class="ui fecha">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>Fecha docum.</label>
                             <input type="text" class="ui fecha">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>Entrada</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="form-group">
-                            <label>No. NCF</label>
-                            <input type="text" class="ui">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>No. lote</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Identificaci&oacuten</label>
+                            <input type="text" class="ui mask-ced">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="form-group">
                             <label>Contribuyente</label>
                             <select class="ui cbo">
@@ -154,24 +154,10 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="form-group">
-                            <label>Identificaci&oacuten</label>
-                            <input type="text" class="ui mask-ced">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="form-group">
                             <label>Direcci&oacuten</label>
                             <input type="text" class="ui">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="form-group">
-                            <label>Tipo NCF</label>
-                            <select class="ui cbo">
-                                <option>Seleccione opciones</option>
-                            </select>
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
