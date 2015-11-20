@@ -16,7 +16,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Configuración de acciones del sistema</h4>
+                    <h4 class="opcion-menu">Definir clases de contribuyentes</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
@@ -27,51 +27,41 @@
                             <table class="table table-striped table-bordered table-hover datatable">
                                 <thead>
                                  <tr class="table_heading">
-                                     <th>Acci&oacuten</th>
-                                     <th>Nombre de la acción</th>
-                                     <th>Nombre de la imagen</th>
+                                     <th>C&oacutedigo</th>
+                                     <th>Clase de contribuyente</th>
+                                     <th>Estado</th>
                                  </tr>
                              </thead>
                              <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Imprimir</td>
-                                    <td>icono.ico</span></td>
+                                    <td>Transferencia</td>
+                                    <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Imprimir</td>
-                                    <td>icono.ico</span></td>
+                                    <td>Transferencia</td>
+                                    <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Imprimir</td>
-                                    <td>icono.ico</span></td>
+                                    <td>Transferencia</td>
+                                    <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
-                                    <td>14</td>
-                                    <td>Imprimir</td>
-                                    <td>icono.ico</span></td>
+                                    <td>4</td>
+                                    <td>Transferencia</td>
+                                    <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
-                                    <td>Imprimir</td>
-                                    <td>icono.ico</span></td>
+                                    <td>Transferencia</td>
+                                    <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
-                                    <td>Imprimir</td>
-                                    <td>icono.ico</span></td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>Imprimir</td>
-                                    <td>icono.ico</span></td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>Imprimir</td>
-                                    <td>icono.ico</span></td>
+                                    <td>Transferencia</td>
+                                    <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -85,17 +75,21 @@
                                 <input type="text" class="ui">
                             </div>                              
                         </div>
-                        <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Código</label>
+                                <label>C&oacutedigo</label>
                                 <input type="text" class="ui">
                             </div>                              
                         </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         	<div class="form-group">
-                        		<label style="color:white">.</label>
-                        		<button class="btn btn-cargar ui" type="file">Adjuntar icono</button>
-                        	</div>
+                        		<div class="form-group">
+                                <label>Estado</label>
+                                <select class="ui cbo">
+                                    <option>Seleccione opciones</option>
+                                </select>
+                                </div>
+                            </div>
                         </div>
                 </div>
             </div>
