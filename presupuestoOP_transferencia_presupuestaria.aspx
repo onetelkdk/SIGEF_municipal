@@ -34,10 +34,11 @@
                                                 <table class="table table-striped table-bordered table-hover datatable" >
                                                     <thead>
                                                         <tr class="table_heading">
-                                                            <th>Código</th>
+                                                            <th><input type="checkbox"> Todos</th>
+                                                            <th>C&oacutedigo</th>
                                                             <th>Docum. No.</th>
                                                             <th>Tipo</th>
-                                                            <th>Año</th>
+                                                            <th>A&ntildeo</th>
                                                             <th>Fecha trx.</th>
                                                             <th>Fecha Docum.</th>
                                                             <th>Estado</th>
@@ -45,6 +46,7 @@
                                                     </thead>
                                                     <tbody>
                                                         <tr>
+                                                            <td><input type="checkbox"></td>
                                                             <td>45676</td>
                                                             <td>1315</td>
                                                             <td>TRA</td>
@@ -54,6 +56,7 @@
                                                             <td><span class="estado Activo">Aprobado</span></td>
                                                         </tr>
                                                         <tr>
+                                                            <td><input type="checkbox"></td>
                                                             <td>45676</td>
                                                             <td>1315</td>
                                                             <td>TRA</td>
@@ -63,6 +66,7 @@
                                                             <td><span class="estado Inactivo">Cancelado</span></td>
                                                         </tr>
                                                         <tr>
+                                                            <td><input type="checkbox"></td>
                                                             <td>45676</td>
                                                             <td>1315</td>
                                                             <td>TRA</td>
@@ -72,6 +76,7 @@
                                                             <td><span class="estado Activo">Aprobado</span></td>
                                                         </tr>
                                                         <tr>
+                                                            <td><input type="checkbox"></td>
                                                             <td>45676</td>
                                                             <td>1315</td>
                                                             <td>TRA</td>
@@ -81,6 +86,7 @@
                                                             <td><span class="estado Activo">Aprobado</span></td>
                                                         </tr>
                                                         <tr>
+                                                            <td><input type="checkbox"></td>
                                                             <td>45676</td>
                                                             <td>1315</td>
                                                             <td>TRA</td>
@@ -90,6 +96,7 @@
                                                             <td><span class="estado Activo">Aprobado</span></td>
                                                         </tr>
                                                         <tr>
+                                                            <td><input type="checkbox"></td>
                                                             <td>45676</td>
                                                             <td>1315</td>
                                                             <td>TRA</td>
@@ -99,6 +106,7 @@
                                                             <td><span class="estado Activo">Aprobado</span></td>
                                                         </tr>
                                                         <tr>
+                                                            <td><input type="checkbox"></td>
                                                             <td>45676</td>
                                                             <td>1315</td>
                                                             <td>TRA</td>

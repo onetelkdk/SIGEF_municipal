@@ -149,6 +149,7 @@ $(document).ready(function () {
         $('.btnGuardarCerrar').show("slow");
         $('.boton-cargarEmpleados').show("slow");
         $('.boton-guardar').show("slow");
+        $('.nuevo').show("slow");
 
         // Ocultar
         $('.btnNuevoEditVer').hide("slow");
@@ -160,6 +161,9 @@ $(document).ready(function () {
         $('#panelMantenimiento').hide("slow");
         $('.btnGuardarCerrar').hide("slow");
         $('.acciones').hide("slow");
+        $('.nuevo').hide("slow");
+        $('.editar').hide("slow");
+        $('.visualizar').hide("slow");
 
         // Ocultar
         $('.btnNuevoEditVer').show("slow");
@@ -171,6 +175,9 @@ $(document).ready(function () {
         $('#panelMantenimiento').hide("slow");
         $('.btnGuardarCerrar').hide("slow");
         $('.acciones').hide("slow");
+        $('.nuevo').hide("slow");
+        $('.editar').hide("slow");
+        $('.visualizar').hide("slow");
 
         // Ocultar
         $('.btnNuevoEditVer').show("slow");
@@ -180,14 +187,27 @@ $(document).ready(function () {
     // Al hacer click en el boton visualizar
     $('.boton-visualizar').click(function () {
         $('.btnGuardarCerrar').show("slow");
-        $('.acciones').show("slow");
         $('#panelMantenimiento').show("slow");
+        $('.visualizar').show("slow");
 
         // Ocultar
         $('.btnNuevoEditVer').hide("slow");
         $('#panelResultados').hide("slow");
         $('.boton-guardar').hide("slow");
         $('.boton-cargarEmpleados').hide("slow");
+    });
+
+    $('.boton-editar').click(function(){
+        $('#panelMantenimiento').show("slow");
+        $('.btnGuardarCerrar').show("slow");
+        $('.boton-cargarEmpleados').show("slow");
+        $('.boton-guardar').show("slow");
+        $('.editar').show("slow");
+
+        // Ocultar
+        $('.btnNuevoEditVer').hide("slow");
+        $('#panelResultados').hide("slow");
+        
     });
 
 })
@@ -367,5 +387,25 @@ $(document).ready(function(){
         $(this).next().slideToggle(90);
     });
     
+
+    $('table#detallegasto tbody a').click(function() {
+         $('#modalDetalleGastos').modal('show');
+    });
+
+    $('#btn-auditoria').click(function() {
+         $('#modalAuditoria').modal('show');
+    });
+
+    $('#btn-AgregarPartida').click(function() {
+         $('#modalAgregarPartida').modal('show');
+    });
+
+    $('#btn-AgregarPartida2').click(function() {
+         $('#modalAgregarPartida2').modal('show');
+    });
+
+    $('#btn-EditarPartida').click(function() {
+         $('#modalEditarPartida').modal('show');
+    });
 
 });
