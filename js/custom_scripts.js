@@ -396,6 +396,14 @@ $(document).ready(function(){
          $('#modalAuditoria').modal('show');
     });
 
+     $('#btn-auditoria2').click(function() {
+         $('#modalAuditoria').modal('show');
+    });
+
+    $('#btn-auditoria3').click(function() {
+         $('#modalAuditoria').modal('show');
+    });
+
     $('#btn-AgregarPartida').click(function() {
          $('#modalAgregarPartida').modal('show');
     });
@@ -406,6 +414,26 @@ $(document).ready(function(){
 
     $('#btn-EditarPartida').click(function() {
          $('#modalEditarPartida').modal('show');
+    });
+
+    $('#btn-Gastos').click(function() {
+         $('#modalGastos').modal('show');
+    });
+
+    $('#btn-Ingresos').click(function() {
+         $('#modalIngresos').modal('show');
+    });
+
+    $('#btn-VerResolucion').click(function() {
+         $('#modalVerResolucion').modal('show');
+    });
+
+    $('#btn-EditarResolucion').click(function() {
+         $('#modalEditarResolucion').modal('show');
+    });
+
+    $('#btn-AgregarResolucion').click(function() {
+         $('#modalAgregarResolucion').modal('show');
     });
 
 });

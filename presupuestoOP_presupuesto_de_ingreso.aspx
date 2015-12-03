@@ -611,6 +611,7 @@
                             </div>
                         </div>
                         <!--End Modal-->
+            <!--End Modal-->
     <!-- Modal -->
     <div class="modal fade" id="modalEditarPartida" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
@@ -745,6 +746,7 @@
                 <button class="boton boton-editar" id="btn-EditarPartida">Editar Partida</button>
             </div>
         </div>
+    </div>
 
     <!-- // End wrapper //////// ///////////-->
     <!-- Scripts -->

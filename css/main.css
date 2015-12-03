@@ -1192,8 +1192,47 @@ div.dataTables_filter label {
 .boton-imprimir {
     background-image: url("../images/imprimir.ico");
 }
+
+.boton-ingresos {
+    background-image: url("../images/ingresos.png");
+}
 .boton-refrescar {
     background-image: url("../images/refrescar.png");
+}
+
+.boton-cerrar-2 {
+    background-image: url("../images/cerrar-2.png");
+}
+.boton-resolucion {
+    background-image: url("../images/resolucion.png");
+}
+
+.boton-add {
+    background-image: url("../images/add.png");
+}
+
+.boton-editar-2 {
+    background-image: url("../images/editar-2.png");
+}
+
+.boton-editar-2 {
+    background-image: url("../images/editar-2.png");
+}
+
+.boton-ver {
+    background-image: url("../images/ver.png");
+}
+
+.boton-image {
+    background-image: url("../images/image.png");
+}
+
+.boton-camara {
+    background-image: url("../images/camara.png");
+}
+
+.boton-gasto {
+    background-image: url("../images/gasto.png");
 }
 
 .boton-guardar {

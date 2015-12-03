@@ -134,7 +134,7 @@
                                             <fieldset class="m15">
                                                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Año</label>
+                                                        <label>A&ntildeo</label>
                                                         <select class="ui cbo">
                                                             <option>2015</option>
                                                         </select>
@@ -213,7 +213,7 @@
                                                     <table class="table table-striped table-bordered table-hover font13 datatable">
                                                         <thead>
                                                             <tr class="table_heading">
-                                                                <th>Programática</th>
+                                                                <th>Program&aacutetica</th>
                                                                 <th>Programa</th>
                                                                 <th>Proyecto</th>
                                                                 <th>Actividad</th>
@@ -282,7 +282,7 @@
                                                     <table class="table table-striped table-bordered table-hover font13 datatable">
                                                         <thead>
                                                             <tr class="table_heading">
-                                                                <th>Programática</th>
+                                                                <th>Program&aacutetica</th>
                                                                 <th>Programa</th>
                                                                 <th>Proyecto</th>
                                                                 <th>Actividad</th>
@@ -415,7 +415,7 @@
                                                         </select>
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="" class="label-left">Programática:</label>
+                                                        <label for="" class="label-left">Program&aacutetica:</label>
                                                         <select class="ui cbo">
                                                             <option>Opcion</option>
                                                             <option>Opcion 2</option>
@@ -476,7 +476,7 @@
                                                         <table class="table table-striped table-bordered table-hover font13 datatable" id="table4">
                                                             <thead>
                                                                 <tr class="table_heading">
-                                                                    <th>Programática</th>
+                                                                    <th>Program&aacutetica</th>
                                                                     <th class="center">Programa</th>
                                                                     <th class="center">Proyecto</th>
                                                                     <th class="center">Actividad</th>
@@ -776,7 +776,7 @@
                                                         </select>
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="" class="label-left">Programática:</label>
+                                                        <label for="" class="label-left">Program&aacutetica:</label>
                                                         <select class="ui cbo">
                                                             <option>Opcion</option>
                                                             <option>Opcion 2</option>
@@ -917,7 +917,7 @@
                                                         </select>
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="" class="label-left">Programática:</label>
+                                                        <label for="" class="label-left">Program&aacutetica:</label>
                                                         <select class="ui cbo">
                                                             <option>Opcion</option>
                                                             <option>Opcion 2</option>
@@ -1045,7 +1045,7 @@
                                                         </select>
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="" class="label-left">Programática:</label>
+                                                        <label for="" class="label-left">Program&aacutetica:</label>
                                                         <select class="ui cbo">
                                                             <option>Opcion</option>
                                                             <option>Opcion 2</option>
@@ -1095,7 +1095,7 @@
 
                                                             <thead>
                                                                 <tr class="table_heading">
-                                                                    <th>Programática</th>
+                                                                    <th>Program&aacutetica</th>
                                                                     <th class="center">Programa</th>
                                                                     <th class="center">Proyecto</th>
                                                                     <th class="center">Actividad</th>
@@ -1309,33 +1309,86 @@
             </div>
                 
         </div>  
+        <!-- Modal de auditoria -->
+            <div class="modal fade" id="modalAuditoria" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Auditor&iacutea</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                                    <thead>
+                                        <tr class="table_heading">
+                                            <th>
+                                                <input type="checkbox">
+                                                Todos</th>
+                                                <th class="center">Presupuesto</th>
+                                                <th class="center">Estado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr class="center">
+                                                <td>    
+                                                    <input type="checkbox"></td>
+                                                    <td>2013</td>
+                                                    <td><span class="estado Inactivo">Inactivo</span></td>
+                                                </tr>
+                                                <tr class="center">
+                                                    <td>
+                                                        <input type="checkbox"></td>
+                                                        <td>2014</td>
+                                                        <td><span class="estado Activo">Activo</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                        <button type="button" class="btn btn-primary">Guardar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Modal-->
+    <!-- Modal <--></-->
         <footer class="main-footer">   
         </footer>       
         <div class="caja-btn-acciones alert">
-            <div class="botones">
-                <div class="btnNuevoEditVer">
-                    <button class="boton boton-nuevo">Nuevo</button>
-                    <button class="boton boton-editar">Editar</button>
-                    <button class="boton boton-visualizar">Visualizar</button>
-                </div> 
-                <div class="btnGuardarCerrar" style="display: none">
-                    <button class="boton boton-guardar">Guardar</button>
-                    <!-- <button class="boton boton-guardarN">Guardar / Nuevo</button> -->
-                    <button class="boton boton-cerrar">Cerrar</button> 
-                </div>
-                <div class="acciones" style="display: none">
+        <div class="botones">
+            <div class="btnNuevoEditVer">
+                <button class="boton boton-nuevo">Nuevo</button>
+                <button class="boton boton-editar">Editar</button>
+                <button class="boton boton-visualizar">Visualizar</button>
+            </div>
+            <div class="btnGuardarCerrar" style="display: none">
+                <button class="boton boton-guardar">Guardar</button>
+                <button class="boton boton-cerrar">Cerrar</button>
+            </div>
+            <!-- <div class="acciones" style="display: none">
                     <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-imprimir">Imprimir Revisión</button>
+                    <button class="boton boton-imprimir">Imprimir Revisi&oacuten</button>
                     <button class="boton boton-imprimir">Imprimir Bolante</button>
                     <button class="boton boton-aprobar">Aprobar</button>
                     <button class="boton boton-cancelar">Cancelar</button>
                     <button class="boton boton-anular">Anular</button>
-                    <button class="boton boton-editar">Auditoría</button>
+                    <button class="boton boton-editar" id="btn-auditoria">Auditoría</button>
                     <button class="boton boton-asientos">Asientos Contables</button>
                     <button class="boton boton-cargarEmpleados">Cargar empreados</button>
-                </div> 
+                </div>  -->
+            <div class="acciones nuevo" style="display: none;">
             </div>
-        </div>    
+            <div class="acciones visualizar" style="display: none;">
+                <button class="boton boton-imprimir">Imprimir</button>
+                <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
+            </div>
+            <div class="acciones editar" style="display: none;">
+            </div>
+        </div>
     </div>
 
     <!-- // End wrapper //////// ///////////-->
