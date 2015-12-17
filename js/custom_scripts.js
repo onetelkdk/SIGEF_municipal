@@ -436,4 +436,8 @@ $(document).ready(function(){
          $('#modalAgregarResolucion').modal('show');
     });
 
+    $('#btn-DetallarProgramatica').click(function() {
+         $('#modalDetallarProgramatica').modal('show');
+    });
+
 });

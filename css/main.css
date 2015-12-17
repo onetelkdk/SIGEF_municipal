@@ -1211,6 +1211,10 @@ div.dataTables_filter label {
     background-image: url("../images/add.png");
 }
 
+.boton-programatica {
+    background-image: url("../images/programatica.png");
+}
+
 .boton-editar-2 {
     background-image: url("../images/editar-2.png");
 }
@@ -1233,6 +1237,31 @@ div.dataTables_filter label {
 
 .boton-gasto {
     background-image: url("../images/gasto.png");
+}
+
+.boton-subirpresupuesto {
+    background-image: url("../images/presupuesto.png");
+}
+
+.boton-oficio {
+    background-image: url("../images/oficio.png");
+}
+
+.boton-copiar {
+    background-image: url("../images/copiar.png");
+}
+
+.boton-vacio {
+    background-image: url("../images/vacio.png");
+}
+
+.boton-cargar {
+    background-image: url("../images/cargar.png");
+}
+
+
+.boton-ingeniero {
+    background-image: url("../images/ingeniero.png");
 }
 
 .boton-guardar {

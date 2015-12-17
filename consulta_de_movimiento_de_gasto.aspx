@@ -90,6 +90,7 @@
             <!-- // end data body //////// //////-->
         </div>
         <!-- // sidebar-menu ///////////-->
+        <!--
         <div class="caja-btn-acciones alert">
             <div class="botones">
                 <div class="btnNuevoEditVer">
@@ -99,7 +100,7 @@
                 </div>
                 <div class="btnGuardarCerrar" style="display: none">
                     <button class="boton boton-guardar">Guardar</button>
-                    <!-- <button class="boton boton-guardarN">Guardar / Nuevo</button> -->
+                    <button class="boton boton-guardarN">Guardar / Nuevo</button> 
                     <button class="boton boton-cerrar">Cerrar</button>
                 </div>
                 <div class="acciones" style="display: none">
@@ -113,7 +114,7 @@
                     <button class="boton boton-asientos">Asientos Contables</button>
                     <button class="boton boton-cargarEmpleados">Cargar empreados</button>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 
