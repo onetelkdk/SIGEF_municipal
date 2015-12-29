@@ -7,7 +7,7 @@
         <header class="main-header">
 
         </header>
-        <!-- sidebar-menu //////// ////////////////////////////-->
+        <!-- sidebar-menu //////// /-->
         <div id="sidebar-menu">
         </div>
         <div id="page-wrapper">
@@ -19,7 +19,7 @@
                     <h4 class="opcion-menu">Aprobación Comprobante de Gasto</h4>
                 </div>
             </nav>
-            <!-- // Data body //////// //////-->
+            <!-- // Data body /////////-->
             <div class="data-body shadow">
                 <div class="row m0 ptb-15">
                     <div class="row m0 mtb-15">                        
