@@ -108,11 +108,7 @@
                                                 <tr class="table_heading">
                                                     <th>Program&aacutetica</th>
                                                     <th class="center">Programa</th>
-                                                    <th class="center">Proyecto</th>
-                                                    <th class="center">Actividad</th>
-                                                    <th class="center">Sub. Act</th>
                                                     <th class="center">Objeto</th>
-                                                    <th class="center">Aux.</th>
                                                     <th class="center">Descripci&oacuten</th>
                                                     <th class="center">Tipo Cuenta</th>
                                                     <th class="center">Monto</th>
@@ -121,183 +117,35 @@
                                             <tbody>
                                                 <tr>
                                                     <td><a href="#">01.0000.03000</a></td>
+                                                    <td>0</td>
                                                     <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
                                                     <td>Compensaci&oacuten por horas extraordinarias</td>
                                                     <td>Servicios</td>
                                                     <td>10,000.00</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><a href="#">01000003000</a></td>
+                                                    <td><a href="#">01.0000.03000</a></td>
+                                                    <td>0</td>
                                                     <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
                                                     <td>Compensaci&oacuten por horas extraordinarias</td>
                                                     <td>Servicios</td>
                                                     <td>10,000.00</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><a href="#">01000003000</a></td>
+                                                    <td><a href="#">01.0000.03000</a></td>
+                                                    <td>0</td>
                                                     <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>53,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>875,123.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
                                                     <td>Compensaci&oacuten por horas extraordinarias</td>
                                                     <td>Servicios</td>
                                                     <td>10,000.00</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><a href="#">01000003000</a></td>
+                                                    <td><a href="#">01.0000.03000</a></td>
+                                                    <td>0</td>
                                                     <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
                                                     <td>Compensaci&oacuten por horas extraordinarias</td>
                                                     <td>Servicios</td>
                                                     <td>10,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>10,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>10,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>10,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>10,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>10,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>10,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Personal</td>
-                                                    <td>87,200.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>1</td>
-                                                    <td>1</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>2</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Servicios</td>
-                                                    <td>100,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><a href="#">01000003000</a></td>
-                                                    <td>2</td>
-                                                    <td>2</td>
-                                                    <td>0</td>
-                                                    <td></td>
-                                                    <td>8</td>
-                                                    <td>0</td>
-                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                    <td>Regalia Pascual</td>
-                                                    <td>71,500.00</td>
                                                 </tr>
                                             </tbody>
                                         </table>
