@@ -214,12 +214,7 @@
                                                         <thead>
                                                             <tr class="table_heading">
                                                                 <th>Program&aacutetica</th>
-                                                                <th>Programa</th>
-                                                                <th>Proyecto</th>
-                                                                <th>Actividad</th>
-                                                                <th>Sub. Act</th>
                                                                 <th>Objeto</th>
-                                                                <th>Aux.</th>
                                                                 <th>Descripción</th>
                                                                 <th>Tipo Cuenta</th>
                                                                 <th>Monto</th>
@@ -229,11 +224,6 @@
                                                             <tr>
                                                                 <td><a href="#">01.0000.03000</a></td>
                                                                 <td>1</td>
-                                                                <td>3</td>
-                                                                <td>0</td>
-                                                                <td></td>
-                                                                <td>3</td>
-                                                                <td>0</td>
                                                                 <td>Compensación por horas extraordinarias</td>
                                                                 <td>Servicios</td>
                                                                 <td>10,000.00</td>

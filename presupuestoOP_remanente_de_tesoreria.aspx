@@ -248,11 +248,7 @@
                         </div>
                         <div class="modal-body">
                             <div>
-                    <div>
-                        <div class="data-body shadow">
-                            <div class="row m0">
-
-                                <fieldset class="m15">
+                                <fieldset class="reo">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label for="" class="label-left">Resoluci&oacuten</label>
@@ -286,12 +282,12 @@
                                         </div>
                                     </div>
                                 </fieldset>
-                            </div>
-                        </div>
+                           
+                        
 
                         <!-- CUERPO ///////////////////////////////////////////// -->
 
-                    </div>
+                    
                 </div>
                         </div>
                         <div class="modal-footer">
@@ -311,12 +307,8 @@
                             <h4 class="modal-title" id="myModalLabel">Detalle Program&aacutetica</h4>
                         </div>
                         <div class="modal-body">
-                            <div>
-                    <div>
-                        <div class="data-body shadow">
                             <div class="row m0">
-                            	<div class="m15">
-                            		
+                            	<div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Cuenta de banco</label>
@@ -345,7 +337,7 @@
                                     			<thead>
                                     				<tr class="table_heading">
                                     					<th>Objeto</th>
-                                    					<th>Descripci$oacuten del objeto</th>
+                                    					<th>Descripci&oacuten del objeto</th>
                                     					<th>Program&aacutetica</th>
                                     					<th>Descripci&oacuten Program&aacutetica</th>
                                     					<th>Monto</th>
@@ -394,12 +386,6 @@
                             	</div>                               
                             </div>
                         </div>
-
-                        <!-- CUERPO ///////////////////////////////////////////// -->
-
-                    </div>
-                </div>
-                        </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                         </div>
@@ -416,11 +402,7 @@
                             <h4 class="modal-title" id="myModalLabel">Editar resoluci&oacuten</h4>
                         </div>
                         <div class="modal-body">
-                            <div>
-                    <div>
-                        <div class="data-body shadow">
-                            <div class="row m0">
-
+                            <div class="row">
                                 <fieldset class="m15">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
@@ -456,12 +438,6 @@
                                     </div>
                                 </fieldset>
                             </div>
-                        </div>
-
-                        <!-- CUERPO ///////////////////////////////////////////// -->
-
-                    </div>
-                </div>
                         </div>
                         <div class="modal-footer">
                             <button class="boton boton-camara">Insertar Im&aacutegenes</button>
@@ -481,11 +457,7 @@
                             <h4 class="modal-title" id="myModalLabel">Agregar resoluci&oacuten</h4>
                         </div>
                         <div class="modal-body">
-                            <div>
-                    <div>
-                        <div class="data-body shadow">
-                            <div class="row m0">
-
+                            <div class="row">
                                 <fieldset class="m15">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
@@ -521,12 +493,12 @@
                                     </div>
                                 </fieldset>
                             </div>
-                        </div>
+                        
 
-                        <!-- CUERPO ///////////////////////////////////////////// -->
+                       
 
-                    </div>
-                </div>
+                    
+               
                         </div>
                         <div class="modal-footer">
                             <button class="boton boton-camara">Insertar Im&aacutegenes</button>
