@@ -52,13 +52,13 @@
                 </div>
                 <div class="row m0 ptb-15" id="panelMantenimiento" style="display: none">
                     <div class="m15">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Código</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Año</label>
                                 <select class="ui cbo">
@@ -66,7 +66,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Estado</label>
                                 <select class="ui cbo">
@@ -74,37 +74,37 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha trx.</label>
                                 <input type="text" class="ui fecha">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha aprov.</label>
                                 <input type="text" class="ui fecha">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Inicio</label>
                                 <input type="text" class="ui fecha">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fin</label>
                                 <input type="text" class="ui fecha">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>No. Resolución</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha Resolución</label>
                                 <input type="text" class="ui fecha">
@@ -116,62 +116,6 @@
             </div>
             <!-- // end data body //////// //////-->
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="modalVerResolucion" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Ver resoluci&oacuten</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div class="data-body shadow">
-                            <div class="row m0">
-                                <fieldset class="m15">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <label for="" class="label-left">Resoluci&oacuten</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Fecha</label>
-                                            <input class="ui fecha">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>No. Docum. Aprobaci&oacuten</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>No. Docum. Origen</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Tipo</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="boton boton-image">Ver Im&aacutegenes</button>
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--End Modal-->
         <!-- Modal -->
         <div class="modal fade" id="resoluciones" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
