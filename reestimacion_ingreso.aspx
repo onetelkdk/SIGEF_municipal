@@ -287,12 +287,8 @@
                             <h4 class="modal-title" id="myModalLabel">Ver resoluci&oacuten</h4>
                         </div>
                         <div class="modal-body">
-                            <div>
-                    <div>
-                        <div class="data-body shadow">
-                            <div class="row m0">
-
-                                <fieldset class="m15">
+                            <div class="row">
+                                
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label for="" class="label-left">Resoluci&oacuten</label>
@@ -325,14 +321,7 @@
                                             <input class="ui">
                                         </div>
                                     </div>
-                                </fieldset>
                             </div>
-                        </div>
-
-                        <!-- CUERPO ///////////////////////////////////////////// -->
-
-                    </div>
-                </div>
                         </div>
                         <div class="modal-footer">
                             <button class="boton boton-image">Ver Im&aacutegenes</button>
@@ -351,52 +340,40 @@
                             <h4 class="modal-title" id="myModalLabel">Editar resoluci&oacuten</h4>
                         </div>
                         <div class="modal-body">
-                            <div>
-                    <div>
-                        <div class="data-body shadow">
-                            <div class="row m0">
-
-                                <fieldset class="m15">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <label for="" class="label-left">Resoluci&oacuten</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
-                                        </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <label for="" class="label-left">Resoluci&oacuten</label>
+                                        <select class="ui cbo">
+                                            <option>Seleccione opciones</option>
+                                        </select>
                                     </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Fecha</label>
-                                            <input class="ui fecha">
-                                        </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Fecha</label>
+                                        <input class="ui fecha">
                                     </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>No. Docum. Aprobaci&oacuten</label>
-                                            <input class="ui">
-                                        </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>No. Docum. Aprobaci&oacuten</label>
+                                        <input class="ui">
                                     </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>No. Docum. Origen</label>
-                                            <input class="ui">
-                                        </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>No. Docum. Origen</label>
+                                        <input class="ui">
                                     </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Tipo</label>
-                                            <input class="ui">
-                                        </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Tipo</label>
+                                        <input class="ui">
                                     </div>
-                                </fieldset>
+                                </div>
                             </div>
-                        </div>
-
-                        <!-- CUERPO ///////////////////////////////////////////// -->
-
-                    </div>
-                </div>
                         </div>
                         <div class="modal-footer">
                             <button class="boton boton-camara">Insertar Im&aacutegenes</button>
@@ -416,12 +393,7 @@
                             <h4 class="modal-title" id="myModalLabel">Agregar resoluci&oacuten</h4>
                         </div>
                         <div class="modal-body">
-                            <div>
-                    <div>
-                        <div class="data-body shadow">
-                            <div class="row m0">
-
-                                <fieldset class="m15">
+                            <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label for="" class="label-left">Resoluci&oacuten</label>
@@ -454,14 +426,7 @@
                                             <input class="ui">
                                         </div>
                                     </div>
-                                </fieldset>
                             </div>
-                        </div>
-
-                        <!-- CUERPO ///////////////////////////////////////////// -->
-
-                    </div>
-                </div>
                         </div>
                         <div class="modal-footer">
                             <button class="boton boton-camara">Insertar Im&aacutegenes</button>

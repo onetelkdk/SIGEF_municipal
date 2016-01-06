@@ -375,7 +375,7 @@
                             <h4 class="modal-title" id="myModalLabel">Agregar Partida</h4>
                         </div>
                         <div class="modal-body">
-                            <fieldset class="m15">
+                            <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Clas. Objetal</label>
@@ -454,7 +454,7 @@
                                         <input type="text" class="ui bg-info">
                                     </div>
                                 </div>
-                            </fieldset>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -474,7 +474,8 @@
                             <h4 class="modal-title" id="myModalLabel">Agregar Partida</h4>
                         </div>
                         <div class="modal-body">
-                            <fieldset class="m15">
+                            <div class="row">
+
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Clas. Objetal</label>
@@ -553,7 +554,7 @@
                                         <input type="text" class="ui bg-info">
                                     </div>
                                 </div>
-                            </fieldset>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -621,7 +622,7 @@
                     <h4 class="modal-title" id="myModalLabel">Editar Partida</h4>
                 </div>
                 <div class="modal-body">
-                    <fieldset class="m15">
+                    <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Clas. Objetal</label>
@@ -700,7 +701,7 @@
                                             <input type="text" class="ui bg-info">
                                         </div>
                                     </div>
-                                </fieldset>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

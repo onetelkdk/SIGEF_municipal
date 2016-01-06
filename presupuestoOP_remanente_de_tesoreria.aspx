@@ -247,8 +247,8 @@
                             <h4 class="modal-title" id="myModalLabel">Ver resoluci&oacuten</h4>
                         </div>
                         <div class="modal-body">
-                            <div>
-                                <fieldset class="reo">
+                            <div class="row">
+                                
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label for="" class="label-left">Resoluci&oacuten</label>
@@ -281,14 +281,7 @@
                                             <input class="ui">
                                         </div>
                                     </div>
-                                </fieldset>
-                           
-                        
-
-                        <!-- CUERPO ///////////////////////////////////////////// -->
-
-                    
-                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button class="boton boton-image">Ver Im&aacutegenes</button>
@@ -403,7 +396,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="row">
-                                <fieldset class="m15">
+                                
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label for="" class="label-left">Resoluci&oacuten</label>
@@ -436,7 +429,6 @@
                                             <input class="ui">
                                         </div>
                                     </div>
-                                </fieldset>
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -457,8 +449,8 @@
                             <h4 class="modal-title" id="myModalLabel">Agregar resoluci&oacuten</h4>
                         </div>
                         <div class="modal-body">
-                            <div class="row">
-                                <fieldset class="m15">
+                            
+                                <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label for="" class="label-left">Resoluci&oacuten</label>
@@ -491,14 +483,7 @@
                                             <input class="ui">
                                         </div>
                                     </div>
-                                </fieldset>
-                            </div>
-                        
-
-                       
-
-                    
-               
+                                </div>
                         </div>
                         <div class="modal-footer">
                             <button class="boton boton-camara">Insertar Im&aacutegenes</button>

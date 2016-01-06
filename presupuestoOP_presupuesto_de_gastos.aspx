@@ -279,7 +279,7 @@
                     <h4 class="modal-title" id="myModalLabel">Agregar Partida</h4>
                 </div>
                 <div class="modal-body">
-                    <fieldset class="m15">
+                    <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Clas. Objetal</label>
@@ -358,7 +358,7 @@
                                             <input type="text" class="ui bg-info">
                                         </div>
                                     </div>
-                                </fieldset>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -378,7 +378,8 @@
                     <h4 class="modal-title" id="myModalLabel">Editar Partida</h4>
                 </div>
                 <div class="modal-body">
-                    <fieldset class="m15">
+                    <div class="row">
+                        
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Clas. Objetal</label>
@@ -457,7 +458,8 @@
                                             <input type="text" class="ui bg-info">
                                         </div>
                                     </div>
-                                </fieldset>
+                    </div>
+                    
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
@@ -477,86 +479,87 @@
                     <h4 class="modal-title" id="myModalLabel">Agregar Partida</h4>
                 </div>
                 <div class="modal-body">
-                    <fieldset class="m15">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Clas. Objetal</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                    <div class="row">
+                        
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Clas. Objetal</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Tipo de gasto</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Tipo de gasto</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Program&aacutetica</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Program&aacutetica</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Fuente</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Fuente</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Organismo</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Organismo</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>F. Especifica</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label>F. Especifica</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Funci&oacuten</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Funci&oacuten</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Destino</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Destino</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Entidad</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Entidad</label>
+                                                <select class="ui cbo">
+                                                    <option>Seleccione opciones</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Monto</label>
-                                            <input type="text" class="ui bg-info">
+                                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                            <div class="form-group">
+                                                <label>Monto</label>
+                                                <input type="text" class="ui bg-info">
+                                            </div>
                                         </div>
-                                    </div>
-                                </fieldset>
+                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
