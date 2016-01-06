@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
 
-   <% Response.WriteFile("CssStyles.aspx")%>
+<% Response.WriteFile("CssStyles.aspx")%>
 
 <body>
     <!-- wrapper //////// ////////////////////////////-->
@@ -116,17 +116,15 @@
             </div>
             <!-- // end data body //////// //////-->
         </div>
-
-        
         <!-- Modal -->
-            <div class="modal fade" id="modalVerResolucion" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Ver resoluci&oacuten</h4>
-                        </div>
-                        <div class="modal-body">
+        <div class="modal fade" id="modalVerResolucion" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Ver resoluci&oacuten</h4>
+                    </div>
+                    <div class="modal-body">
                         <div class="data-body shadow">
                             <div class="row m0">
                                 <fieldset class="m15">
@@ -166,174 +164,168 @@
                             </div>
                         </div>
                     </div>
-                        <div class="modal-footer">
-                            <button class="boton boton-image">Ver Im&aacutegenes</button>
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                        </div>
+                    <div class="modal-footer">
+                        <button class="boton boton-image">Ver Im&aacutegenes</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                     </div>
                 </div>
             </div>
+        </div>
         <!--End Modal-->
         <!-- Modal -->
-            <div class="modal fade" id="modalEditarResolucion" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Editar resoluci&oacuten</h4>
-                        </div>
-                        <div class="modal-body">
-                        <div class="data-body shadow">
-                            <div class="row m0">
-                                <fieldset class="m15">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <label for="" class="label-left">Resoluci&oacuten</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Fecha</label>
-                                            <input class="ui fecha">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>No. Docum. Aprobaci&oacuten</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>No. Docum. Origen</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Tipo</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button class="boton boton-camara">Insertar Im&aacutegenes</button>
-                            <button class="boton boton-image">Ver Im&aacutegenes</button>
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                        </div>
+        <div class="modal fade" id="resoluciones" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Resoluciones</h4>
                     </div>
-                </div>
-            </div>
-        <!--End Modal-->
-        <!-- Modal -->
-            <div class="modal fade" id="modalAgregarResolucion" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Agregar resoluci&oacuten</h4>
-                        </div>
-                        <div class="modal-body">
-                        <div class="data-body shadow">
-                            <div class="row m0">
-                                <fieldset class="m15">
-                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <label for="" class="label-left">Resoluci&oacuten</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Fecha</label>
-                                            <input class="ui fecha">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>No. Docum. Aprobaci&oacuten</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>No. Docum. Origen</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <label>Tipo</label>
-                                            <input class="ui">
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button class="boton boton-camara">Insertar Im&aacutegenes</button>
-                            <button class="boton boton-image">Ver Im&aacutegenes</button>
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <!--End Modal-->
-        <!-- Modal de auditoria -->
-            <div class="modal fade" id="modalAuditoria" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Auditor&iacutea</h4>
-                        </div>
-                        <div class="modal-body">
+                    <div class="modal-body">
+                        <fieldset>
                             <div class="table-responsive">
-                                <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                                <table class="table table-striped table-bordered table-hover datatable">
                                     <thead>
                                         <tr class="table_heading">
                                             <th>
-                                                <input type="checkbox">
-                                                Todos</th>
-                                                <th class="center">Presupuesto</th>
-                                                <th class="center">Estado</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="center">
-                                                <td>    
-                                                    <input type="checkbox"></td>
-                                                    <td>2013</td>
-                                                    <td><span class="estado Inactivo">Inactivo</span></td>
-                                                </tr>
-                                                <tr class="center">
-                                                    <td>
-                                                        <input type="checkbox"></td>
-                                                        <td>2014</td>
-                                                        <td><span class="estado Activo">Activo</span></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                                        <button type="button" class="btn btn-primary">Guardar</button>
+                                                <input type="checkbox" /></th>
+                                            <th>No.</th>
+                                            <th>Título</th>
+                                            <th>Fecha</th>
+                                            <th>Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>24578</td>
+                                            <td>Este es el titulo de la resolución</td>
+                                            <td>12/20/4789</td>
+                                            <td><span class="estado Inactivo">Inactivo</span></td>
+                                        </tr>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>1455587</td>
+                                            <td>Esta es una resolución que esta aprobada</td>
+                                            <td>08/20/2016</td>
+                                            <td><span class="estado Activo">Activo</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </fieldset>
+                        <div class="row m0">
+                            <fieldset class="mt15" style="padding: 10px 0 !important;">
+                                <legend>Detalles</legend>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Título</label>
+                                        <input class="ui">
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Tipo</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Fecha</label>
+                                        <input class="ui fecha">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>No. Docum. Aprobaci&oacuten</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>No. Docum. Origen</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="mt15 p0">
+                                <legend>Imagenes</legend>
+                                <div class="img p10 mt-10">
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/1_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+                                        <img src="js/plugins/fancyBox/demo/1_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp">
+                                        <img src="js/plugins/fancyBox/demo/2_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon">
+                                        <img src="js/plugins/fancyBox/demo/3_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno">
+                                        <img src="js/plugins/fancyBox/demo/4_s.jpg" alt=""></a>
+                                </div>
+                                <div class="newImg btn-add-img">
+                                    <p>Subir imagenes (Formatos permitidos: JPG, PNG, GIF. Tamaño máximo de archivo: 5MB).</p>
+                                    <button type="button" class="btn btn-primary">+ Agregar imagenes</button>
+                                </div>
+                            </fieldset>
                         </div>
-                        <!--End Modal-->
-            <!--End Modal-->
+                    </div>
+                    <div class="modal-footer">
+                        <button class="boton boton-nuevo">Nuevo</button>
+                        <button class="boton boton-editar">Editar</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Modal-->
+        <!-- Modal de auditoria -->
+        <div class="modal fade" id="modalAuditoria" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Auditor&iacutea</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                                <thead>
+                                    <tr class="table_heading">
+                                        <th>
+                                            <input type="checkbox">
+                                            Todos</th>
+                                        <th class="center">Presupuesto</th>
+                                        <th class="center">Estado</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="center">
+                                        <td>
+                                            <input type="checkbox"></td>
+                                        <td>2013</td>
+                                        <td><span class="estado Inactivo">Inactivo</span></td>
+                                    </tr>
+                                    <tr class="center">
+                                        <td>
+                                            <input type="checkbox"></td>
+                                        <td>2014</td>
+                                        <td><span class="estado Activo">Activo</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Modal-->
+        <!--End Modal-->
         <!-- // sidebar-menu ///////////-->
         <div class="caja-btn-acciones alert">
             <div class="botones">
@@ -346,23 +338,10 @@
                     <button class="boton boton-guardar">Guardar</button>
                     <button class="boton boton-cerrar">Cerrar</button>
                 </div>
-            <!-- <div class="acciones" style="display: none">
-                    <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-imprimir">Imprimir Revisi&oacuten</button>
-                    <button class="boton boton-imprimir">Imprimir Bolante</button>
-                    <button class="boton boton-aprobar">Aprobar</button>
-                    <button class="boton boton-cancelar">Cancelar</button>
-                    <button class="boton boton-anular">Anular</button>
-                    <button class="boton boton-editar" id="btn-auditoria">Auditoría</button>
-                    <button class="boton boton-asientos">Asientos Contables</button>
-                    <button class="boton boton-cargarEmpleados">Cargar empreados</button>
-                </div>  -->
                 <div class="acciones nuevo" style="display: none;">
                 </div>
                 <div class="acciones visualizar" style="display: none;">
-                    <button class="boton boton-add" id="btn-AgregarResolucion">Agregar Resoluci&oacuten</button> 
-                    <button class="boton boton-editar-2" id="btn-EditarResolucion">Editar Resoluci&oacuten</button> 
-                    <button class="boton boton-ver" id="btn-VerResolucion">Ver Resoluci&oacuten</button> 
+                    <button class="boton boton-editar-2" id="btn-EditarResolucion">Resoluciones</button>
                     <button class="boton boton-aprobar">Aprobar</button>
                     <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
                     <button class="boton boton-cerrar-2">Cerrar</button>
@@ -372,9 +351,8 @@
             </div>
         </div>
     </div>
-
     <!-- // End wrapper //////// ///////////-->
     <!-- Scripts -->
-   <% Response.WriteFile("JsScripts.aspx")%>
+    <% Response.WriteFile("JsScripts.aspx")%>
 </body>
 </html>

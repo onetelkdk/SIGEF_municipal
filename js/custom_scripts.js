@@ -429,7 +429,7 @@ $(document).ready(function(){
     });
 
     $('#btn-EditarResolucion').click(function() {
-         $('#modalEditarResolucion').modal('show');
+         $('#resoluciones').modal('show');
     });
 
     $('#btn-AgregarResolucion').click(function() {
