@@ -80,16 +80,14 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="form-group">
                                 <label>C&oacute;digo</label>
-                                <input type="text" class="ui">
+                                <input type="text" class="ui" disabled>
                             </div>
                         </div>
 
                           <div class="col-lg-3 col-md-6">
                             <div class="form-group">
                                 <label>Estado</label>
-                                <select class="ui cbo">
-                                    <option>Selecciones Opciones</option>
-                                </select>
+                                <input type="text" class="ui" disabled>
                             </div>
                         </div>
 
@@ -104,13 +102,13 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="form-group">
                                 <label>Inicio</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui fecha" disabled>
                             </div>
                         </div>
                          <div class="col-lg-3 col-md-6">
                             <div class="form-group">
                                 <label>Fin</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui fecha" disabled>
                             </div>
                         </div>
 

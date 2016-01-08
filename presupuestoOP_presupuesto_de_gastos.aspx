@@ -82,21 +82,19 @@
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                         <div class="form-group">
                                             <label>Fecha trx.</label>
-                                            <input class="ui fecha">
+                                            <input class="ui fecha" disabled>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                         <div class="form-group">
                                             <label>Presupuesto:</label>
-                                            <input class="ui fecha">
+                                            <input class="ui fecha" disabled>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                         <div class="form-group">
                                             <label>Estado</label>
-                                            <select class="ui cbo">
-                                                <option>Seleccione opciones</option>
-                                            </select>
+                                            <input type="text" class="ui" disabled>
                                         </div>
                                     </div>
                                 </fieldset>
@@ -155,7 +153,7 @@
                                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Total presupuestado</label>
-                                            <input type="text" class="ui bg-success">
+                                            <input type="text" class="ui" disabled>
                                         </div>
                                     </div>
                                 </fieldset>

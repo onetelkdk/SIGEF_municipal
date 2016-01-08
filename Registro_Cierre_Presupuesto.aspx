@@ -55,7 +55,7 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Código</label>
-                                <input type="text" class="ui">
+                                <input type="text" class="ui" disabled>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -69,45 +69,43 @@
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Estado</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Fecha trx.</label>
-                                <input type="text" class="ui fecha">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Fecha aprov.</label>
-                                <input type="text" class="ui fecha">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Inicio</label>
-                                <input type="text" class="ui fecha">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Fin</label>
-                                <input type="text" class="ui fecha">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>No. Resolución</label>
                                 <input type="text" class="ui">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
+                                <label>Fecha trx.</label>
+                                <input type="text" class="ui fecha" disabled>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Fecha aprov.</label>
+                                <input type="text" class="ui fecha" disabled>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Inicio</label>
+                                <input type="text" class="ui fecha" disabled>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Fin</label>
+                                <input type="text" class="ui fecha" disabled>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>No. Resolución</label>
+                                <input type="text" class="ui" disabled>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
                                 <label>Fecha Resolución</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui fecha" disabled>
                             </div>
                         </div>
                     </div>

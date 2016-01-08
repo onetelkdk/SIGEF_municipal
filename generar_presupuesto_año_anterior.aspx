@@ -33,9 +33,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>Estado</label>
-                            <select class="ui cbo">
-                                <option>Seleccione opciones</option>
-                            </select>
+                            <input type="text" class="ui" disabled>
                         </div>
                     </div>
 
@@ -50,9 +48,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>Estado</label>
-                            <select class="ui cbo">
-                                <option>Seleccione opciones</option>
-                            </select>
+                            <input type="text" class="ui" disabled>
                         </div>
                     </div>
 
@@ -73,15 +69,6 @@
                                 <label class="block">Presupuesto de Gasto</label>
                                 <input type="checkbox" data-toggle="toggle" data-on="si" checked data-off="no">
                             </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="form-group">
-                            <label>Campo Obligatorio</label>
-                            <input type="text" class="ui">
                         </div>
                     </div>
                 </fieldset>

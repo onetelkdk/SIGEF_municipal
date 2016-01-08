@@ -143,27 +143,25 @@
                                                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="form-group">
                                                         <label>No. Docum.</label>
-                                                        <input class="ui">
+                                                        <input class="ui" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Fecha trx.</label>
-                                                        <input class="ui fecha">
+                                                        <input class="ui fecha" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Fecha docum.</label>
-                                                        <input class="ui fecha">
+                                                        <input class="ui fecha" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Estado</label>
-                                                        <select class="ui cbo">
-                                                            <option>Seleccione opciones</option>
-                                                        </select>
+                                                       <input type="text" class="ui" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -200,13 +198,13 @@
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Original</label>
-                                                        <input type="text" class="ui bg-warning">
+                                                        <input type="text" class="ui bg-warning" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Disponibilidad</label>
-                                                        <input type="text" class="ui bg-warning">
+                                                        <input type="text" class="ui bg-warning" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="table-responsive col-lg-12 col-md-12">
@@ -259,13 +257,13 @@
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Original</label>
-                                                        <input type="text" class="ui bg-warning">
+                                                        <input type="text" class="ui bg-warning" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Disponibilidad</label>
-                                                        <input type="text" class="ui bg-warning">
+                                                        <input type="text" class="ui bg-warning" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="table-responsive col-lg-12 col-md-12">
@@ -273,12 +271,7 @@
                                                         <thead>
                                                             <tr class="table_heading">
                                                                 <th>Program&aacutetica</th>
-                                                                <th>Programa</th>
-                                                                <th>Proyecto</th>
-                                                                <th>Actividad</th>
-                                                                <th>Sub. Act</th>
                                                                 <th>Objeto</th>
-                                                                <th>Aux.</th>
                                                                 <th>Descripción</th>
                                                                 <th>Tipo Cuenta</th>
                                                                 <th>Monto</th>
@@ -288,11 +281,6 @@
                                                             <tr>
                                                                 <td><a href="#">01.0000.03000</a></td>
                                                                 <td>1</td>
-                                                                <td>3</td>
-                                                                <td>0</td>
-                                                                <td></td>
-                                                                <td>3</td>
-                                                                <td>0</td>
                                                                 <td>Compensación por horas extraordinarias</td>
                                                                 <td>Servicios</td>
                                                                 <td>10,000.00</td>
@@ -300,7 +288,26 @@
                                                         </tbody>
                                                     </table>
                                                 </div>
-                                                
+                                            </fieldset>
+                                            <fieldset class="m15">
+                                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Total origen</label>
+                                                        <input type="text" class="ui bg-danger" disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Total destino</label>
+                                                        <input type="text" class="ui bg-success" disabled>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="form-group">
+                                                        <label>Diferencia</label>
+                                                        <input type="text" class="ui bg-warning" disabled>
+                                                    </div>
+                                                </div>
                                             </fieldset>
                                         </div>
                                     </div>
