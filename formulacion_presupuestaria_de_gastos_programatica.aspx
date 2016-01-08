@@ -127,25 +127,20 @@
                             <div class="row m0">
 
                                 <fieldset class="m15">
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                         <div class="form-group">
                                             <label>N&uacute;mero</label>
                                             <input class="ui ">
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                         <div class="form-group">
                                             <label>Fecha</label>
                                             <input class="ui fecha">
                                         </div>
                                     </div>
 
-
-
-
-
-
-                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Estado</label>
                                             <select class="ui cbo">
@@ -176,14 +171,14 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
                                         <div class="form-group">
                                             <label>Desde</label>
                                             <input class="ui fecha ">
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
                                         <div class="form-group">
                                             <label>Hasta</label>
                                             <input class="ui fecha ">
@@ -196,13 +191,6 @@
                                             <input class="ui ">
                                         </div>
                                     </div>
-
-
-
-
-
-
-
 
                                 </fieldset>
 

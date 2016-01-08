@@ -11,16 +11,16 @@
         <div id="page-wrapper">
             <nav class="topbar">
                 <div class="hidemenu">
-                    <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
+                    <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i></a>
                 </div>
                 <div class="h-opcion">
                     <h4 class="opcion-menu">Definir Priorizaci&oacute;n de Obras</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
-          
-              <div class="data-body shadow">
-                  <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 m15">
+
+            <div class="data-body shadow">
+                <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 m15">
                     <div class="form-group">
                         <label>Presupuesto</label>
                         <select class="ui cbo">
@@ -28,10 +28,9 @@
                         </select>
                     </div>
                 </div>
-
-                <div class="row m0 p15">
-
-                <div class="table-responsive col-lg-12">
+              
+                <div class="col-md-12">
+                    <div class="table-responsive col-lg-12">
                             <table class="table table-striped table-bordered table-hover datatable">
                                 <thead>
                                     <tr class="table_heading">
@@ -44,7 +43,7 @@
                                         <th>Inicial</th>
                                         <th>Modificaci&oacute;n</th>
                                         <th>Actual</th>
-                                        <th> %</th>
+                                        <th>%</th>
                                         <th>Avance</th>
                                         <th>Marque</th>
                                         <th>Orden</th>
@@ -54,104 +53,105 @@
                                     <tr>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td> 0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td> 0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>1</td>
                                         <td>0</td>
-                                        <td> 0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
                                     <tr>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td> 0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td> 0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>1</td>
                                         <td>0</td>
-                                        <td> 0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
                                     <tr>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td> 0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td> 0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>1</td>
                                         <td>0</td>
-                                        <td> 0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
                                     <tr>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td> 0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td> 0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>1</td>
                                         <td>0</td>
-                                        <td> 0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
                                     <tr>
                                         <td>0</td>
                                         <td>0</td>
-                                        <td> 0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td> 0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>1</td>
                                         <td>0</td>
-                                        <td> 0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
                                     <tr>
-                                      <td>0</td>
                                         <td>0</td>
-                                        <td> 0</td>
                                         <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td> 0</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>1</td>
                                         <td>0</td>
-                                        <td> 0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
                                 </tbody>
                             </table>
-                    </div>
+                        </div>
                 </div>
             </div>
+              <div class="clearfix"></div>
             <!-- // end data body //////// //////-->
         </div>
         <!-- // sidebar-menu ///////////-->
         <div class="caja-btn-acciones alert">
             <div class="botones">
-            <!--
+                <!--
                 <div class="btnNuevoEditVer">
                     <button class="boton boton-nuevo">Nuevo</button>
                     <button class="boton boton-editar">Editar</button>
@@ -178,12 +178,11 @@
                 </div>
                 <div class="acciones nuevo" style="display: none;">
                 </div>
-                <div class="acciones visualizar" style="display: none;">                                        
+                <div class="acciones visualizar" style="display: none;">
                 </div>
                 <div class="acciones editar" style="display: none;">
                 </div>
-                </div>
-        </div>
+            </div>
         </div>
     </div>
 
@@ -191,4 +190,4 @@
     <!-- Scripts -->
     <% Response.WriteFile("JsScripts.aspx")%>
 </body>
-</html>                
+</html>
