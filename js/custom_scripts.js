@@ -440,4 +440,6 @@ $(document).ready(function(){
          $('#modalDetallarProgramatica').modal('show');
     });
 
+    
+
 });
