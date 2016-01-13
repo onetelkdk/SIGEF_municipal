@@ -123,26 +123,27 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha trx</label>
-                                <input type="text" class="ui fecha" />                               
-                            </div> 
-                            
+                                <input type="text" class="ui fecha " disabled/>                               
+                            </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Estado</label>
-                                <input type="text" class="ui">
+                                <select class="ui cbo">
+                                    <option>Seleccione opciones</option>
+                                </select>
                             </div>                             
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>No. Docum.</label>
-                                <input type="text" class="ui" value="Registrado" disabled>
+                                <input type="text" class="ui" disabled>
                             </div>                             
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha docum.</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui fecha" disabled>
                             </div>                             
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -206,19 +207,19 @@
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Cta. de banco</label>
-                                            <input class="ui" type="text">
+                                            <input class="ui" type="text" disabled>
                                         </div>                             
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Presupuesto original</label>
-                                            <input class="ui" type="text">
+                                            <input class="ui" type="text" disabled>
                                         </div>                             
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Disponibilidad</label>
-                                            <input class="ui" type="text">
+                                            <input class="ui bg-success" type="text" disabled>
                                         </div>                             
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -256,19 +257,19 @@
                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                             <div class="form-group">
                                                 <label>Ingresos</label>
-                                                <input class="ui" type="text">
+                                                <input class="ui bg-success" type="text" disabled>
                                             </div>                             
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                             <div class="form-group">
                                                 <label>Gastos</label>
-                                                <input class="ui" type="text">
+                                                <input class="ui bg-danger" type="text" disabled>
                                             </div>                             
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                             <div class="form-group">
                                                 <label>Diferencias</label>
-                                                <input class="ui" type="text">
+                                                <input class="ui" type="text" disabled>
                                             </div>                             
                                         </div>
                                     </div>

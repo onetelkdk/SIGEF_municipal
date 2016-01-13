@@ -31,7 +31,7 @@
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Presupuesto</label>
-                                                    <select class="ui cbo">
+                                                    <select class="ui cbo" disabled>
                                                         <option>Seleccione opciones</option>
                                                     </select>
                                                 </div>
@@ -40,9 +40,7 @@
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Estado</label>
-                                                    <select class="ui cbo">
-                                                        <option>Seleccione opciones</option>
-                                                    </select>
+                                                    <input type="text" class="ui" disabled value="Activo">
                                                 </div>
                                             </div>
 
@@ -55,7 +53,6 @@
                                                     </select>
                                                 </div>
                                             </div>
-
 
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
