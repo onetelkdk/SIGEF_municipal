@@ -23,7 +23,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Desembolso caja chica</h4>
+                    <h4 class="opcion-menu">Definir &aacutereas</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
