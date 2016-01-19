@@ -23,7 +23,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Definir clasificador de obras</h4>
+                    <h4 class="opcion-menu">Definir clasificador geogr&aacutefico</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
@@ -35,41 +35,77 @@
                             <thead>
                              <tr class="table_heading">
                                  <th>C&oacutedigo</th>
-                                 <th>Nombre longitud no.1</th>
-                                 <th>Nombre longitud no.2</th>
-                                 <th>Estado</th>
+                                 <th>Nombre</th>
+                                 <th>Nivel</th>
+                                 <th>Regi&oacuten</th>
+                                 <th>Provincia</th>
+                                 <th>Municipio</th>
+                                 <th>Distrito</th>
                              </tr>
                          </thead>
                             <tbody>
                                 <tr>
                                     <td>13453</td>
-                                    <td>Servicios p&uacuteblicos</td>
-                                    <td>Inversi&oacuten</td>                                    
-                                    <td><span class="estado Activo">Activo</span></td>
+                                    <td>Arroyo Dulce</td>
+                                    <td>4</td>                                    
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>2</td>
                                 </tr>
                                 <tr>
                                     <td>13453</td>
-                                    <td>Servicios p&uacuteblicos</td>
-                                    <td>Inversi&oacuten</td>                                    
-                                    <td><span class="estado Activo">Activo</span></td>
+                                    <td>Arroyo Dulce</td>
+                                    <td>4</td>                                    
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>2</td>
                                 </tr>
                                 <tr>
                                     <td>13453</td>
-                                    <td>Servicios p&uacuteblicos</td>
-                                    <td>Inversi&oacuten</td>                                    
-                                    <td><span class="estado Activo">Activo</span></td>
+                                    <td>Arroyo Dulce</td>
+                                    <td>4</td>                                    
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>2</td>
                                 </tr>
                                 <tr>
                                     <td>13453</td>
-                                    <td>Servicios p&uacuteblicos</td>
-                                    <td>Inversi&oacuten</td>                                    
-                                    <td><span class="estado Activo">Activo</span></td>
-                                </tr>                                
+                                    <td>Arroyo Dulce</td>
+                                    <td>4</td>                                    
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>2</td>
+                                </tr>
                                 <tr>
                                     <td>13453</td>
-                                    <td>Servicios p&uacuteblicos</td>
-                                    <td>Inversi&oacuten</td>                                    
-                                    <td><span class="estado Activo">Activo</span></td>
+                                    <td>Arroyo Dulce</td>
+                                    <td>4</td>                                    
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>13453</td>
+                                    <td>Arroyo Dulce</td>
+                                    <td>4</td>                                    
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>13453</td>
+                                    <td>Arroyo Dulce</td>
+                                    <td>4</td>                                    
+                                    <td>2</td>
+                                    <td>5</td>
+                                    <td>8</td>
+                                    <td>2</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -85,25 +121,50 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <label>Estado</label>
+                            <label>Nivel</label>
                             <select class="ui cbo">
                                 <option>Seleccione opciones</option>
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="form-group">
-                            <label>Nombre longitud no.1</label>
+                            <label>Nombre</label>
                             <input type="text" class="ui">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="form-group">
-                            <label>Nombre longitud no.2</label>
-                            <input type="text" class="ui">
+                            <label>Regi&oacuten</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
                         </div>
                     </div>
-                    
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Provincia</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Municipio</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Distrito municipal</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
                 </div>
                 </div>
