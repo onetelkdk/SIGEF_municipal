@@ -23,7 +23,7 @@
                     <a id="control_menud" class="btn btn-primary" href="#" data-original-title="" title=""><i class="fa fa-bars"></i> </a>
                 </div>
                 <div class="h-opcion">
-                    <h4 class="opcion-menu">Tipo de instituciones</h4>
+                    <h4 class="opcion-menu">Tipo de instituciones entidad receptora</h4>
                 </div>
             </nav>
             <!-- // Data body //////// //////-->
@@ -36,6 +36,8 @@
                              <tr class="table_heading">
                                  <th>C&oacutedigo</th>
                                  <th>Descripci&oacuten</th>
+                                 <th>Entidad Receptora</th>
+                                 <th>Obj. de Gasto</th>
                                  <th>Estado</th>
                              </tr>
                          </thead>
@@ -43,26 +45,36 @@
                                 <tr>
                                     <td>13453</td>
                                     <td>Empresas con fines</td>
+                                    <td>123210</td>
+                                    <td>13123</td>
                                     <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
                                     <td>13453</td>
                                     <td>Empresas con fines</td>
+                                    <td>123210</td>
+                                    <td>13123</td>
                                     <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
                                     <td>13453</td>
                                     <td>Empresas con fines</td>
+                                    <td>123210</td>
+                                    <td>13123</td>
                                     <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
                                     <td>13453</td>
                                     <td>Empresas con fines</td>
+                                    <td>123210</td>
+                                    <td>13123</td>
                                     <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                                 <tr>
                                     <td>13453</td>
                                     <td>Empresas con fines</td>
+                                    <td>123210</td>
+                                    <td>13123</td>
                                     <td><span class="estado Activo">Activo</span></td>
                                 </tr>
                             </tbody>
@@ -91,7 +103,30 @@
                             <input type="textarea" class="area">
                         </div>
                     </div>
-                    
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Entidad receptora</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Tipo instituci&oacuten</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>Obj. Gasto</label>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                            </select>
+                        </div>
+                    </div>                    
                 </div>
                 </div>
                 </div>
