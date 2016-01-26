@@ -440,6 +440,10 @@ $(document).ready(function(){
          $('#modalDetallarProgramatica').modal('show');
     });
 
+    $('#btn-VerTransacciones').click(function(){
+        $('#modalVerTrasacciones').modal('show');
+    });
+
     
 
 });

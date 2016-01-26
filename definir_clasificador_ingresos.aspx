@@ -148,7 +148,7 @@
                                     <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
                                         <div class="form-group chk">
                                             <div>
-                                            <label class="block">Factura masiva</label>
+                                                <label class="block">Factura masiva</label>
                                                 <input type="checkbox" data-toggle="toggle" data-on="si" checked data-off="no">
                                             </div>
                                         </div>
@@ -156,7 +156,7 @@
                                     <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6">
                                         <div class="form-group chk">
                                             <div>
-                                            <label class="block">Imputable</label>
+                                                <label class="block">Imputable</label>
                                                 <input type="checkbox" data-toggle="toggle" data-on="si" checked data-off="no">
                                             </div>
                                         </div>
@@ -204,6 +204,80 @@
 
             </div>
 
+            <!-- Modal -->
+            <div class="modal fade" id="modalVerTrasacciones" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Movimiento de ingresos presupuestales</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="table-responsive">
+                                    <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                                        <thead>
+                                            <tr class="table_heading">
+                                                <th>Tipo trx.</th>
+                                                <th>Monto</th>
+                                                <th>Balance</th>
+                                                <th>Transacci&oacuten</th>
+                                                <th>Descripci&oacuten</th>
+                                                <th>Fecha</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Ingreso</td>
+                                                <td>RD$50,000.00</td>
+                                                <td>RD$1,000,000.00</td>
+                                                <td>145615</td>
+                                                <td>Ingresos por servicios prestados</td>
+                                                <td>12/1/2016</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ingreso</td>
+                                                <td>RD$50,000.00</td>
+                                                <td>RD$1,000,000.00</td>
+                                                <td>145615</td>
+                                                <td>Ingresos por servicios prestados</td>
+                                                <td>12/1/2016</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ingreso</td>
+                                                <td>RD$50,000.00</td>
+                                                <td>RD$1,000,000.00</td>
+                                                <td>145615</td>
+                                                <td>Ingresos por servicios prestados</td>
+                                                <td>12/1/2016</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ingreso</td>
+                                                <td>RD$50,000.00</td>
+                                                <td>RD$1,000,000.00</td>
+                                                <td>145615</td>
+                                                <td>Ingresos por servicios prestados</td>
+                                                <td>12/1/2016</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ingreso</td>
+                                                <td>RD$50,000.00</td>
+                                                <td>RD$1,000,000.00</td>
+                                                <td>145615</td>
+                                                <td>Ingresos por servicios prestados</td>
+                                                <td>12/1/2016</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Modal-->
 
             <footer class="main-footer">
             </footer>
@@ -216,26 +290,31 @@
                     </div>
                     <div class="btnGuardarCerrar" style="display: none">
                         <button class="boton boton-guardar">Guardar</button>
-                        <!-- <button class="boton boton-guardarN">Guardar / Nuevo</button> -->
                         <button class="boton boton-cerrar">Cerrar</button>
                     </div>
-                    <div class="acciones" style="display: none">
-                        <button class="boton boton-imprimir">Imprimir</button>
-                        <button class="boton boton-imprimir">Imprimir Revisión</button>
-                        <button class="boton boton-imprimir">Imprimir Bolante</button>
-                        <button class="boton boton-aprobar">Aprobar</button>
-                        <button class="boton boton-cancelar">Cancelar</button>
-                        <button class="boton boton-anular">Anular</button>
-                        <button class="boton boton-editar">Auditoría</button>
-                        <button class="boton boton-asientos">Asientos Contables</button>
-                        <button class="boton boton-cargarEmpleados">Cargar empreados</button>
+                    <!-- <div class="acciones" style="display: none">
+                    <button class="boton boton-imprimir">Imprimir</button>
+                    <button class="boton boton-imprimir">Imprimir Revisi&oacuten</button>
+                    <button class="boton boton-imprimir">Imprimir Bolante</button>
+                    <button class="boton boton-aprobar">Aprobar</button>
+                    <button class="boton boton-cancelar">Cancelar</button>
+                    <button class="boton boton-anular">Anular</button>
+                    <button class="boton boton-editar" id="btn-auditoria">Auditoría</button>
+                    <button class="boton boton-asientos">Asientos Contables</button>
+                    <button class="boton boton-cargarEmpleados">Cargar empreados</button>
+                </div>  -->
+                    <div class="acciones nuevo" style="display: none;">
+                    </div>
+                    <div class="acciones visualizar" style="display: none;">
+                        <button class="boton boton-ver" id="btn-VerTransacciones">Ver Transacciones</button>
+                    </div>
+                    <div class="acciones editar" style="display: none;">
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- // End wrapper //////// ///////////-->
-        <!-- Scripts -->
-        <% Response.WriteFile("JsScripts.aspx")%>
+            <!-- // End wrapper //////// ///////////-->
+            <!-- Scripts -->
+            <% Response.WriteFile("JsScripts.aspx")%>
 </body>
 </html>
