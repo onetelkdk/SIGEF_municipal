@@ -444,6 +444,22 @@ $(document).ready(function(){
         $('#modalVerTrasacciones').modal('show');
     });
 
-    
+    $('#btn-VerTransacciones').click(function(){
+        $('modalVerTrasacciones').modal('show');
+    });
+
+    $('#btn-DetalleObras').click(function(){
+        $('#modalDetalleObras').modal('show');
+    });
+
+     $('#btn-DetalleObras2').click(function(){
+        $('#modalDetalleObras').modal('show');
+    });
+
+    $('#btn-ParametrosObras').click(function(){
+        $('#modalParametrosObras').modal('show');
+    });
+
+
 
 });
