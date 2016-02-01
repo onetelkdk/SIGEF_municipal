@@ -61,8 +61,6 @@
                             </div>
                         </div>
                     </div>
-
-
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group chk">
                             <div>
@@ -78,42 +76,13 @@
     </div>
     <!-- // sidebar-menu ///////////-->
     <div class="caja-btn-acciones alert">
-            <div class="botones">
-            <!--
-                <div class="btnNuevoEditVer">
-                    <button class="boton boton-nuevo">Nuevo</button>
-                    <button class="boton boton-editar">Editar</button>
-                    <button class="boton boton-visualizar">Visualizar</button>
-                </div>
-                <div class="btnGuardarCerrar" style="display: none">
-                    <button class="boton boton-guardar">Guardar</button>
-                    <button class="boton boton-cerrar">Cerrar</button>
-                </div>
-             <div class="acciones" style="display: none">
-                    <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-imprimir">Imprimir Revisi&oacuten</button>
-                    <button class="boton boton-imprimir">Imprimir Bolante</button>
-                    <button class="boton boton-aprobar">Aprobar</button>
-                    <button class="boton boton-cancelar">Cancelar</button>
-                    <button class="boton boton-anular">Anular</button>
-                    <button class="boton boton-editar" id="btn-auditoria">Auditoría</button>
-                    <button class="boton boton-asientos">Asientos Contables</button>
-                    <button class="boton boton-cargarEmpleados">Cargar empreados</button>
-                </div> 
-             -->
-                <div class="acciones">
-                    <button class="boton boton-copiar">Copiar Presupuesto</button>
-                </div>
-                <div class="acciones nuevo" style="display: none;">
-                </div>
-                <div class="acciones visualizar" style="display: none;">                                        
-                </div>
-                <div class="acciones editar" style="display: none;">
-                </div>
-                </div>
+        <div class="botones">
+            <div class="acciones">
+                <button class="boton boton-copiar">Copiar Presupuesto</button>
+            </div>
         </div>
     </div>
-
+    </div>
     <!-- // End wrapper //////// ///////////-->
     <!-- Scripts -->
     <% Response.WriteFile("JsScripts.aspx")%>

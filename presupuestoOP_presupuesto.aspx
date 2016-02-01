@@ -81,7 +81,7 @@
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane active" id="registro">
                                             <div class="mt10 row">
-                                                
+
                                                 <div class="col-lg-3 col-md-6">
                                                     <div class="form-group">
                                                         <label>Cuenta Bancaria</label>
@@ -247,7 +247,7 @@
                                                 </fieldset>
                                             </div>
                                             <div>
-                            </div>
+                                            </div>
                                         </div>
                                         <!--  PESTAÑA DE INGRESOS //////////////////////////// -->
                                         <div role="tabpanel" class="tab-pane" id="ingresos">
@@ -885,24 +885,24 @@
                 <button class="boton boton-guardar">Guardar</button>
                 <button class="boton boton-cerrar">Cerrar</button>
             </div>
-            
+
             <!-- ACCIONES /////////////// -->
-                <div class="acciones nuevo" style="display:none">
-                    <button class="boton boton-imprimir" id="btn-AgregarPartida">Agregar Partida</button>
-                </div>
-                <div class="acciones visualizar" style="display:none">
-                    <button class="boton boton-editar-2" id="btn-EditarResolucion">Resoluciones</button>
-                    <button class="boton boton-aprobar">Aprobar</button>
-                    <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
-                    <button class="boton boton-cerrar-2">Cerrar</button>
-                    <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
-                </div>
-                <div class="acciones editar" style="display:none">
-                    <button class="boton boton-editar" id="btn-AgregarPartida2">Agregar Partida</button>
-                    <button class="boton boton-editar" id="btn-EditarPartida">Editar Partida</button>
+            <div class="acciones nuevo" style="display: none">
+                <button class="boton boton-imprimir" id="btn-AgregarPartida">Agregar Partida</button>
             </div>
-            
+            <div class="acciones visualizar" style="display: none">
+                <button class="boton boton-editar-2" id="btn-EditarResolucion">Resoluciones</button>
+                <button class="boton boton-aprobar">Aprobar</button>
+                <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
+                <button class="boton boton-cerrar-2">Cerrar</button>
+                <button class="boton boton-imprimir">Imprimir</button>
+                <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
+            </div>
+            <div class="acciones editar" style="display: none">
+                <button class="boton boton-editar" id="btn-AgregarPartida2">Agregar Partida</button>
+                <button class="boton boton-editar" id="btn-EditarPartida">Editar Partida</button>
+            </div>
+
         </div>
     </div>
     </div>

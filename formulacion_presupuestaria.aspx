@@ -87,13 +87,13 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="form-group">
                                                 <label>No. Transac.</label>
-                                                <input type="text" class="ui"disabled>
+                                                <input type="text" class="ui" disabled>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="form-group">
                                                 <label>Estado</label>
-                                                <select class="ui cbo"disabled>
+                                                <select class="ui cbo" disabled>
                                                     <option>Seleccione opciones</option>
                                                 </select>
                                             </div>
@@ -247,19 +247,7 @@
                 </div>
                 <div class="btnGuardarCerrar" style="display: none">
                     <button class="boton boton-guardar">Guardar</button>
-                    <!-- <button class="boton boton-guardarN">Guardar / Nuevo</button> -->
                     <button class="boton boton-cerrar">Cerrar</button>
-                </div>
-                <div class="acciones" style="display: none">
-                    <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-imprimir">Imprimir Revisión</button>
-                    <button class="boton boton-imprimir">Imprimir Bolante</button>
-                    <button class="boton boton-aprobar">Aprobar</button>
-                    <button class="boton boton-cancelar">Cancelar</button>
-                    <button class="boton boton-anular">Anular</button>
-                    <button class="boton boton-editar">Auditoría</button>
-                    <button class="boton boton-asientos">Asientos Contables</button>
-                    <button class="boton boton-cargarEmpleados">Cargar empreados</button>
                 </div>
             </div>
         </div>
