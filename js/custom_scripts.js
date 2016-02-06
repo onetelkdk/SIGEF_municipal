@@ -460,6 +460,28 @@ $(document).ready(function(){
         $('#modalParametrosObras').modal('show');
     });
 
+    $('#btn-CrearCargo').click(function(){
+        $('#modalCrearCargo').modal('show');
+    });
 
+    $('#btn-ModificarCargo').click(function(){
+        $('#modalModificarCargo').modal('show');
+    });
+
+    $('#btn-InsertarCargo').click(function(){
+        $('#modalInsertarCargo').modal('show');
+    });
+
+    $('#btn-EliminarCargo').click(function(){
+        $('#modalEliminarCargo').modal('show');
+    });
+
+    $('#btn-ConsultaEmpleadoPorNomina').click(function(){
+        $('#modalConsultaEmpleadoNomina').modal('show');
+    });
+
+     $('#btn-ConsultaEmpleadoPorNomina2').click(function(){
+        $('#modalConsultaEmpleadoNomina2').modal('show');
+    });
 
 });

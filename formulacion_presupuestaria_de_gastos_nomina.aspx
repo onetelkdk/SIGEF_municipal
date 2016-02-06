@@ -118,17 +118,17 @@
                                     </ul>
 
                                     <!-- Tab Contenido -->
-                                    <!--  PESTAÑA DE REGISTRO DE PRESUPUESTO //////////////////////////// -->
+                                    <!--  PESTAÑA DE REGISTRO DE DATOS //////////////////////////// -->
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane active" id="datos">
                                             <div class="mt10 row">
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                                     <div class="form-group">
                                                         <label>N&uacutemero</label>
                                                         <input type="text" class="ui">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                                     <div class="form-group">
                                                         <label>Fecha</label>
                                                         <select class="ui cbo">
@@ -136,7 +136,7 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                                     <div class="form-group">
                                                         <label>Estado</label>
                                                         <input type="text" class="ui">
@@ -145,122 +145,138 @@
                                                 <fieldset class="row m15">
                                                     <div class="col-lg-3 col-md-6">
                                                         <div class="form-group">
-                                                        <label>N&oacutemina</label>
+                                                            <label>N&oacutemina</label>
                                                             <input type="text" class="ui">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-3 col-md-6">
                                                         <div class="form-group">
-                                                        <label>Cta. Bco.</label>
+                                                            <label>Cta. Bco.</label>
                                                             <input type="text" class="ui">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-3 col-md-6">
                                                         <div class="form-group">
-                                                        <label>Program&aacutetica</label>
+                                                            <label>Program&aacutetica</label>
                                                             <input type="text" class="ui">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-3 col-md-6">
                                                         <div class="form-group">
-                                                        <label>Objeto</label>
+                                                            <label>Objeto</label>
                                                             <input type="text" class="ui">
                                                         </div>
                                                     </div>
                                                 </fieldset>
-                                                
-                                            </div>
-                                        </div>
-                                        <!--  PESTAÑA DE GASTOS //////////////////////////// -->
-                                        <div role="tabpanel" class="tab-pane" id="grafico">
-                                            <div class="row">
-                                                <fieldset class="m15">
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                                <fieldset class="row m15">
+                                                    <legend>Formulaci&oacuten Presupuestaria</legend>
+                                                    <div class="col-lg-4 col-md-6">
                                                         <div class="form-group">
-                                                            <label for="" class="label-left">Presupuesto</label>
+                                                            <label>Formulaci&oacuten no.</label>
+                                                            <input type="number" class="ui">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6">
+                                                        <div class="form-group">
+                                                            <label>Desde</label>
                                                             <select class="ui cbo">
                                                                 <option>Seleccione opciones</option>
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                                    <div class="col-lg-4 col-md-6">
                                                         <div class="form-group">
-                                                            <label>Fecha trx.</label>
-                                                            <input class="ui fecha" disabled>
+                                                            <label>Hasta</label>
+                                                            <select class="ui cbo">
+                                                                <option>Seleccione opciones</option>
+                                                            </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                                    <div class="col-lg-4 col-md-6">
                                                         <div class="form-group">
-                                                            <label>Presupuesto:</label>
-                                                            <input class="ui fecha" disabled>
+                                                            <label>Per&iacuteodo</label>
+                                                            <input type="number" class="ui">
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                                    <div class="col-lg-4 col-md-6">
                                                         <div class="form-group">
-                                                            <label>Estado</label>
-                                                            <input type="text" class="ui" disabled>
+                                                            <label>% Aumento</label>
+                                                            <input type="number" class="ui">
                                                         </div>
                                                     </div>
                                                 </fieldset>
-                                                <fieldset class="m15">
-                                                    <legend>Detalle de gastos</legend>
+                                                <fieldset class="row m15">
+                                                    <legend>Salario actual</legend>
                                                     <div class="table-responsive">
-                                                        <table class="table table-striped table-bordered table-hover font13 datatable" id="detallegasto">
+                                                        <table class="table table-striped table-bordered table-hover datatable" id="table2">
                                                             <thead>
                                                                 <tr class="table_heading">
-                                                                    <th>Program&aacutetica</th>
-                                                                    <th class="center">Programa</th>
-                                                                    <th class="center">Objeto</th>
-                                                                    <th class="center">Descripci&oacuten</th>
-                                                                    <th class="center">Tipo Cuenta</th>
-                                                                    <th class="center">Monto</th>
+                                                                    <th>Cargo</th>
+                                                                    <th>No. Personas</th>
+                                                                    <th>Mensual</th>
+                                                                    <th>Anual</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
-                                                                <tr>
-                                                                    <td><a href="#">01.0000.03000</a></td>
-                                                                    <td>0</td>
-                                                                    <td>1</td>
-                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                    <td>Servicios</td>
-                                                                    <td>10,000.00</td>
+                                                                <tr class="center">
+                                                                    <td>Mantenimiento</td>
+                                                                    <td>4</td>
+                                                                    <td>RD$15,000.00</td>
+                                                                    <td>RD$180,000.00</td>
                                                                 </tr>
-                                                                <tr>
-                                                                    <td><a href="#">01.0000.03000</a></td>
-                                                                    <td>0</td>
-                                                                    <td>1</td>
-                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                    <td>Servicios</td>
-                                                                    <td>10,000.00</td>
+                                                                <tr class="center">
+                                                                    <td>Mantenimiento</td>
+                                                                    <td>4</td>
+                                                                    <td>RD$15,000.00</td>
+                                                                    <td>RD$180,000.00</td>
                                                                 </tr>
-                                                                <tr>
-                                                                    <td><a href="#">01.0000.03000</a></td>
-                                                                    <td>0</td>
-                                                                    <td>1</td>
-                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                    <td>Servicios</td>
-                                                                    <td>10,000.00</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><a href="#">01.0000.03000</a></td>
-                                                                    <td>0</td>
-                                                                    <td>1</td>
-                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                    <td>Servicios</td>
-                                                                    <td>10,000.00</td>
+                                                                <tr class="center">
+                                                                    <td>Mantenimiento</td>
+                                                                    <td>4</td>
+                                                                    <td>RD$15,000.00</td>
+                                                                    <td>RD$180,000.00</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
                                                     </div>
                                                 </fieldset>
-                                                <fieldset class="m15 col-lg-12">
-                                                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                        <div class="form-group">
-                                                            <label>Total presupuestado</label>
-                                                            <input type="text" class="ui" disabled>
-                                                        </div>
+                                                <fieldset class="row m15">
+                                                    <legend>Salario solicitado</legend>
+                                                    <div class="table-responsive">
+                                                        <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                                                            <thead>
+                                                                <tr class="table_heading">
+                                                                    <th>No. Personas</th>
+                                                                    <th>Mensual</th>
+                                                                    <th>Anual</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr class="center">
+                                                                    <td>4</td>
+                                                                    <td>RD$15,000.00</td>
+                                                                    <td>RD$180,000.00</td>
+                                                                </tr>
+                                                                <tr class="center">
+                                                                    <td>4</td>
+                                                                    <td>RD$15,000.00</td>
+                                                                    <td>RD$180,000.00</td>
+                                                                </tr>
+                                                                <tr class="center">
+                                                                    <td>4</td>
+                                                                    <td>RD$15,000.00</td>
+                                                                    <td>RD$180,000.00</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
                                                 </fieldset>
+                                            </div>
+                                        </div>
+                                        <!--  PESTAÑA DE GRAFICO //////////////////////////// -->
+                                        <div role="tabpanel" class="tab-pane" id="grafico">
+                                            <div class="row">
+                                                <img src="images/grafico2.jpg">
                                             </div>
                                             <div>
                                             </div>
@@ -268,7 +284,6 @@
                                     </div>
                                 </div>
                             </fieldset>
-
                             <!--Final de tab-->
                         </div>
 
@@ -283,26 +298,24 @@
 
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="modalDetalleGastos" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
+    <div class="modal fade" id="modalCrearCargo" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Detalle de la partida</h4>
+                    <h4 class="modal-title" id="myModalLabel">Cargos</h4>
                 </div>
                 <div class="modal-body">
-                    <fieldset class="m15">
+                    <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Clas. Objetal</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
+                                <label>N&uacutemero</label>
+                                <input type="number" class="ui">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Tipo de gasto</label>
+                                <label>Estado</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
                                 </select>
@@ -310,7 +323,114 @@
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Program&aacutetica</label>
+                                <label>Nombre</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Modal-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalModificarCargo" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modificar cargos</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>N&uacutemero</label>
+                                <input type="number" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Estado</label>
+                                <select class="ui cbo">
+                                    <option>Seleccione opciones</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Nombre</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Modal-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalConsultaEmpleadoNomina" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Consulta empleados por n&oacutemina</h4>
+                </div>
+                <div class="modal-body">
+                    <fieldset class="row m0 mb10">
+                        <legend>Fecha</legend>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Desde</label>
+                                <input type="text fecha" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Hasta</label>
+                                <input type="text fecha" class="ui">
+                            </div>
+                        </div>                        
+                    </fieldset>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>C&oacutedigo</label>
+                                <input type="number" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>C&eacutedula</label>
+                                <input type="text" class="ui mask-ced">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Nombres</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Apellidos</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Departamento</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
                                 </select>
@@ -318,62 +438,44 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Fuente</label>
+                                <label>N&oacutemina</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Organismo</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>F. Especifica</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Funci&oacuten</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Destino</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Entidad</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Monto</label>
-                                <input type="text" class="ui bg-info">
-                            </div>
-                        </div>
+                    </div>
+                    <fieldset class="row m0">
+                        <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                            <thead>
+                                <tr class="table_heading">
+                                    <th>Empleado</th>
+                                    <th>Identificaci&oacuten</th>
+                                    <th>Fecha</th>
+                                    <th>Forma de pago</th>
+                                    <th>Sueldo B.</th>
+                                    <th>Total de desc.</th>
+                                    <th>Neto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Kerlin Garc&iacutea</td>
+                                    <td>012-0124521-9</td>
+                                    <td>21-05-2016</td>
+                                    <td>Cheque</td>
+                                    <td>RD$40,000.00</td>
+                                    <td>RD$5,000.00</td>
+                                    <td>RD$35,000.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </fieldset>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-successr" data-dismiss="modal">Limpiar</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Refrescar</button>
                 </div>
             </div>
         </div>
@@ -381,34 +483,57 @@
     <!--End Modal-->
 
     <!-- Modal -->
-    <div class="modal fade" id="modalAgregarPartida" tabindex="-1" role="dialog">
+    <div class="modal fade" id="modalConsultaEmpleadoNomina2" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Agregar Partida</h4>
+                    <h4 class="modal-title" id="myModalLabel">Consulta empleados por n&oacutemina</h4>
                 </div>
                 <div class="modal-body">
+                    <fieldset class="row m0 mb10">
+                        <legend>Fecha</legend>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Desde</label>
+                                <input type="text fecha" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Hasta</label>
+                                <input type="text fecha" class="ui">
+                            </div>
+                        </div>                        
+                    </fieldset>
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Clas. Objetal</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
+                                <label>C&oacutedigo</label>
+                                <input type="number" class="ui">
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Tipo de gasto</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
+                                <label>C&eacutedula</label>
+                                <input type="text" class="ui mask-ced">
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Program&aacutetica</label>
+                                <label>Nombres</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Apellidos</label>
+                                <input type="text" class="ui">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Departamento</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
                                 </select>
@@ -416,63 +541,44 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Fuente</label>
+                                <label>N&oacutemina</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
                                 </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Organismo</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>F. Especifica</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Funci&oacuten</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Destino</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Entidad</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Monto</label>
-                                <input type="text" class="ui bg-info">
                             </div>
                         </div>
                     </div>
+                    <fieldset class="row m0">
+                        <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                            <thead>
+                                <tr class="table_heading">
+                                    <th>Empleado</th>
+                                    <th>Identificaci&oacuten</th>
+                                    <th>Fecha</th>
+                                    <th>Forma de pago</th>
+                                    <th>Sueldo B.</th>
+                                    <th>Total de desc.</th>
+                                    <th>Neto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Kerlin Garc&iacutea</td>
+                                    <td>012-0124521-9</td>
+                                    <td>21-05-2016</td>
+                                    <td>Cheque</td>
+                                    <td>RD$40,000.00</td>
+                                    <td>RD$5,000.00</td>
+                                    <td>RD$35,000.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+                    <button type="button" class="btn btn-successr" data-dismiss="modal">Limpiar</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Refrescar</button>
                 </div>
             </div>
         </div>
@@ -480,27 +586,24 @@
     <!--End Modal-->
 
     <!-- Modal -->
-    <div class="modal fade" id="modalEditarPartida" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
+    <div class="modal fade" id="modalInsertarCargo" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Editar Partida</h4>
+                    <h4 class="modal-title" id="myModalLabel">Insertar cargos</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
-
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Clas. Objetal</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
+                                <label>N&uacutemero</label>
+                                <input type="number" class="ui">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Tipo de gasto</label>
+                                <label>Estado</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
                                 </select>
@@ -508,178 +611,20 @@
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Program&aacutetica</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Fuente</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Organismo</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>F. Especifica</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Funci&oacuten</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Destino</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Entidad</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Monto</label>
-                                <input type="text" class="ui bg-info">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End Modal-->
-
-    <!-- Modal -->
-    <div class="modal fade" id="modalAgregarPartida2" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Agregar Partida</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Clas. Objetal</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Tipo de gasto</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Program&aacutetica</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Fuente</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Organismo</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>F. Especifica</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Funci&oacuten</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Destino</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Entidad</label>
-                                <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <div class="form-group">
-                                <label>Monto</label>
-                                <input type="text" class="ui bg-info">
+                                <label>Nombre</label>
+                                <input type="text" class="ui">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+                    <button type="button" class="btn btn-success" data-dismiss="modal">aceptar</button>
                 </div>
             </div>
         </div>
     </div>
     <!--End Modal-->
-
 
     <!-- Modal de auditoria -->
     <div class="modal fade" id="modalAuditoria" tabindex="-1" role="dialog">
@@ -727,6 +672,51 @@
         </div>
     </div>
     <!--End Modal-->
+
+    <!-- Modal de auditoria -->
+    <div class="modal fade" id="modalEliminarCargo" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Eliminar cargo</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                            <thead>
+                                <tr class="table_heading">
+                                    <th>
+                                        <input type="checkbox">
+                                        Todos</th>
+                                    <th>Empleado</th>
+                                    <th>Nombre del empleado</th>
+                                    <th>Salario</th>
+                                    <th>Salario solicitado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="center">
+                                    <td>
+                                        <input type="checkbox"></td>
+                                    <td>23</td>
+                                    <td>Jose Emmanuel Almanzar</td>
+                                    <td>RD$15,000</td>
+                                    <td>RD$30,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Modal-->
+
     <footer class="main-footer">
     </footer>
     <div class="caja-btn-acciones alert">
@@ -746,16 +736,21 @@
                 <button class="boton boton-imprimir" id="btn-AgregarPartida">Agregar Partida</button>
             </div>
             <div class="acciones visualizar" style="display: none">
-                <button class="boton boton-editar-2" id="btn-EditarResolucion">Resoluciones</button>
-                <button class="boton boton-aprobar">Aprobar</button>
+                <button class="boton boton-user" id="btn-VerNominaDeEmpreados">Ver N&oacutemina de Empleados</button>
+                <button class="boton boton-aprobar" id="btn-ConsultaEmpleadoPorNomina">Consulta Empleado Por N&oacutemina</button>
                 <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
-                <button class="boton boton-cerrar-2">Cerrar</button>
-                <button class="boton boton-imprimir">Imprimir</button>
+                <button class="boton boton-cancelar" id="btn-Cancelar">Cancelar</button>
+                <button class="boton boton-imprimir" id="btn-Imprimir">Imprimir</button>
                 <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
             </div>
             <div class="acciones editar" style="display: none">
-                <button class="boton boton-editar" id="btn-AgregarPartida2">Agregar Partida</button>
-                <button class="boton boton-editar" id="btn-EditarPartida">Editar Partida</button>
+                <button class="boton boton-refrescar" id="btn-CargarData">Cargar Data</button>
+                <button class="boton boton-user" id="btn-CrearCargo">Crear Cargo</button>
+                <button class="boton boton-add-users" id="btn-ModificarCargo">Modificar Cargo</button>
+                <button class="boton boton-editar" id="btn-InsertarCargo">Insertar Cargo</button>
+                <button class="boton boton-anular" id="btn-EliminarCargo">Eliminar Cargo</button>
+                <button class="boton boton-cargar" id="btn-ConsultaEmpleadoPorNomina2">Cosulta Empleado N&oacutemina</button>
+                <button class="boton boton-ver" id="btn-VerEmpladoNomina">Ver Empleado N&oacutemina</button>
             </div>
 
         </div>
