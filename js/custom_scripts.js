@@ -484,4 +484,8 @@ $(document).ready(function(){
         $('#modalConsultaEmpleadoNomina2').modal('show');
     });
 
+      $('#btn-EditarResolucion').click(function(){
+        $('#modalResolucion').modal('show');
+    });
+
 });

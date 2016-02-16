@@ -25,6 +25,10 @@
                             <label>Presup. Anterior</label>
                             <select class="ui cbo">
                                 <option>Seleccione opciones</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                                <option>2016</option>
                             </select>
                         </div>
                     </div>
@@ -33,7 +37,13 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>Estado</label>
-                            <input type="text" class="ui" disabled>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                                <option>En espera</option>
+                                <option>Iniciado</option>
+                                <option>Anulado</option>
+                                <option>Aprobado</option>
+                            </select>
                         </div>
                     </div>
 
@@ -42,33 +52,44 @@
                             <label>Presup. Actual</label>
                             <select class="ui cbo">
                                 <option>Seleccione opciones</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                                <option>2016</option>
                             </select>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="form-group">
                             <label>Estado</label>
-                            <input type="text" class="ui" disabled>
+                            <select class="ui cbo">
+                                <option>Seleccione opciones</option>
+                                <option>En espera</option>
+                                <option>Iniciado</option>
+                                <option>Anulado</option>
+                                <option>Aprobado</option>
+                            </select>
                         </div>
                     </div>
+                    <fieldset class="row m15">
+                        <legend>Presupuesto</legend>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group chk">
+                                <div>
+                                    <label class="block"><input type="radio" class="radio-ui" name="presupuesto"> Presupuesto de Ingreso</label>
 
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="form-group chk">
-                            <div>
-                                <label class="block">Presupuesto de Ingreso</label>
-                                <input type="checkbox" data-toggle="toggle" data-on="si" checked data-off="no">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="form-group chk">
-                            <div>
-                                <label class="block">Presupuesto de Gasto</label>
-                                <input type="checkbox" data-toggle="toggle" data-on="si" checked data-off="no">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group chk">
+                                <div>
+                                    <label class="block"><input type="radio" class="radio-ui" name="presupuesto"> Presupuesto de Gasto</label>
+
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </fieldset>
                 </fieldset>
             </div>
         </div>

@@ -81,34 +81,32 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="form-group">
                                                 <label>No. Docum.</label>
-                                                <input type="text" class="ui">
+                                                <input type="text" class="ui" value="4521">
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="form-group">
                                                 <label>No. Transac.</label>
-                                                <input type="text" class="ui" disabled>
+                                                <input type="text" class="ui" value="257" disabled>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="form-group">
                                                 <label>Estado</label>
-                                                <select class="ui cbo" disabled>
-                                                    <option>Seleccione opciones</option>
-                                                </select>
+                                                <input type="text" value="Iniciado" class="ui">
                                             </div>
 
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="form-group">
                                                 <label>Fecha docum.</label>
-                                                <input type="text" class="ui fecha">
+                                                <input type="text" class="ui fecha" value="13/02/2016">
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="form-group">
                                                 <label>Fecha trx.</label>
-                                                <input type="text" class="ui" disabled>
+                                                <input type="text" class="ui" value="13/02/2016" disabled>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6">

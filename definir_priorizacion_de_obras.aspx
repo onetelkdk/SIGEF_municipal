@@ -25,6 +25,10 @@
                             <label>Presupuesto</label>
                             <select class="ui cbo">
                                 <option>Seleccione opciones</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                                <option>2016</option>
                             </select>
                         </div>
                     </div>
@@ -51,89 +55,14 @@
                                 <tbody>
                                     <tr>
                                         <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td>2016</td>
+                                        <td>12/03/2016</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>Asfaltado en diferentes calles</td>
+                                        <td>RD$200,000.00</td>
+                                        <td>RD$250,000.00</td>
+                                        <td>RD$190,000.00</td>
                                         <td>1</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -153,6 +82,9 @@
             <div class="botones">
                 <div class="acciones">
                     <button class="boton boton-ingeniero">Priorizar Obra</button>
+                    <button class="boton boton-oficio">Emitir Oficio</button>
+                    <button class="boton boton-atras">Carga Ppto.</button>
+                    <button class="boton boton-add">Insertar</button>
                 </div>
                 <div class="acciones nuevo" style="display: none;">
                 </div>

@@ -25,6 +25,10 @@
                             <label>Presupuesto</label>
                             <select class="ui cbo">
                                 <option>Seleccione opciones</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                                <option>2016</option>
                             </select>
                         </div>
                     </div>
@@ -33,62 +37,74 @@
                             <label>Mes</label>
                             <select class="ui cbo">
                                 <option>Seleccione opciones</option>
+                                <option>Enero</option>
+                                <option>Febrero</option>
+                                <option>Marzo</option>
+                                <option>Abril</option>
+                                <option>Mayo</option>
+                                <option>Junio</option>
+                                <option>Julio</option>
+                                <option>Agosto</option>
+                                <option>Septiembre</option>
+                                <option>Octubre</option>
+                                <option>Noviembre</option>
+                                <option>Diciembre</option>
                             </select>
                         </div>
                     </div>
                     <fieldset class="row m15">
-                    	<legend>Ingresos</legend>
-                    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    		<div class="form-group">
-                    			<input type="radio">
-                    			<label>Formulaci&oacuten</label>                    			
-                    		</div>
-                    	</div>
-                    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    		<div class="form-group">
-                    			<input type="radio">
-                    			<label>Presupuesto</label>                    			
-                    		</div>
-                    	</div>
-                    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    		<div class="form-group">
-                    			<input type="radio">
-                    			<label>Modificaciones</label>                    			
-                    		</div>
-                    	</div>
-                    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    		<div class="form-group">
-                    			<input type="radio">
-                    			<label>Ejecuci&oacuten</label>                    			
-                    		</div>
-                    	</div>
+                        <legend>Ingresos</legend>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="radio" name="ingresos">
+                                <label>Formulaci&oacuten</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="radio" name="ingresos">
+                                <label>Presupuesto</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="radio" name="ingresos">
+                                <label>Modificaciones</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="radio" name="ingresos">
+                                <label>Ejecuci&oacuten</label>
+                            </div>
+                        </div>
                     </fieldset>
                     <fieldset class="row m15">
-                    	<legend>Gastos</legend>
-                    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    		<div class="form-group">
-                    			<input type="radio">
-                    			<label>Formulaci&oacuten</label>                    			
-                    		</div>
-                    	</div>
-                    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    		<div class="form-group">
-                    			<input type="radio">
-                    			<label>Presupuesto</label>                    			
-                    		</div>
-                    	</div>
-                    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    		<div class="form-group">
-                    			<input type="radio">
-                    			<label>Modificaciones</label>                    			
-                    		</div>
-                    	</div>
-                    	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    		<div class="form-group">
-                    			<input type="radio">
-                    			<label>Ejecuci&oacuten</label>                    			
-                    		</div>
-                    	</div>
+                        <legend>Gastos</legend>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="radio" name="gastos">
+                                <label>Formulaci&oacuten</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="radio" name="gastos">
+                                <label>Presupuesto</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="radio" name="gastos">
+                                <label>Modificaciones</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="radio" name="gastos">
+                                <label>Ejecuci&oacuten</label>
+                            </div>
+                        </div>
                     </fieldset>
                 </fieldset>
             </div>
@@ -100,13 +116,6 @@
             <div class="botones">
                 <div class="acciones">
                     <button class="boton boton-aprobar">Generar</button>
-                    <button class="boton boton-cerrar-2">Cerrar</button>
-                </div>
-                <div class="acciones nuevo" style="display: none;">
-                </div>
-                <div class="acciones visualizar" style="display: none;">
-                </div>
-                <div class="acciones editar" style="display: none;">
                 </div>
             </div>
         </div>
