@@ -113,13 +113,13 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>No. Docum.</label>
-                                <input type="text" class="ui" />
+                                <input type="text" class="ui" value="121" />
                             </div>                              
                         </div>                        
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>No. Trx.</label>
-                                <input type="text" class="ui" />                               
+                                <input type="text" class="ui" value="121" />                               
                             </div> 
                             
                         </div>
@@ -127,32 +127,32 @@
                             <div class="form-group">
                                 <label>Estado</label>
                                 <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
+                                    <option>Registrado</option>
                                 </select>
                             </div>                             
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui fecha" value="16/02/2016">
                             </div>                             
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha docum.</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui fecha" value="16/02/2016">
                             </div>                             
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha trx.</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui fecha" value="16/02/2016">
                             </div>                             
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha cierre</label>
-                                <input type="text" class="ui fecha">
+                                <input type="text" class="ui fecha" value="16/02/2016">
                             </div>                             
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -160,6 +160,9 @@
                                 <label>Pres. Anterior</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
                                 </select>
                             </div>                             
                         </div>
@@ -168,6 +171,9 @@
                                 <label>Pres. Actual</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
                                 </select>
                             </div>                             
                         </div>
@@ -176,6 +182,7 @@
                                 <label>Cta. Pres. Ingreso</label>
                                 <select class="ui cbo">
                                     <option>Seleccione opciones</option>
+                                    <option>31100200</option>
                                 </select>
                             </div>                             
                         </div>

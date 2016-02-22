@@ -210,6 +210,63 @@ $(document).ready(function () {
         
     });
 
+    //Menu aciones del modal de Resumen de Gastos
+        $('.boton-nuevoRGastos').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerRGastos').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.nuevoRGastos').show('slow');
+            $('.btnGuardarCerrarRGastos').show('slow');
+        });
+
+        $('.boton-editarRGastos').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerRGastos').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.editarRGastos').show('slow');
+            $('.btnGuardarCerrarRGastos').show('slow');
+        });
+
+        $('.boton-visualizarRGastos').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerRGastos').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.visualizarRGastos').show('slow');
+            $('.btnGuardarCerrarRGastos').show('slow');
+        });
+
+        $('.boton-guardarRGastos').click(function(){
+            //Ocultar
+            $('.btnGuardarCerrarRGastos').hide('slow');
+            $('.nuevoRGastos').hide('slow');
+            $('.visualizarRGastos').hide('slow');
+            $('.editarRGastos').hide('slow');
+
+            //Mostrar
+            $('.btnNuevoEditVerRGastos').show('slow');
+            $('.ModalCerrar').show('slow');
+        });
+
+        $('.boton-volverRGastos').click(function(){
+            //Ocultar
+            $('.btnGuardarCerrarRGastos').hide('slow');
+            $('.nuevoRGastos').hide('slow');
+            $('.visualizarRGastos').hide('slow');
+            $('.editarRGastos').hide('slow');
+
+            //Mostrar
+            $('.btnNuevoEditVerRGastos').show('slow');
+            $('.ModalCerrar').show('slow');
+        });
+
+    //Fin de aciones del modal de Resumen de Gastos
+
 })
 
 $(function () {
@@ -417,7 +474,7 @@ $(document).ready(function(){
     });
 
     $('#btn-Gastos').click(function() {
-         $('#modalGastos').modal('show');
+        $('#modalGastos').modal('show');
     });
 
     $('#btn-Ingresos').click(function() {

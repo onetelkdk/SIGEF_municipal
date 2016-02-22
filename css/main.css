@@ -1170,7 +1170,7 @@ div.dataTables_filter label {
     float: left;
 }
 
-.btnNuevoEditVer, .btnGuardarCerrar {
+.btnNuevoEditVer, .btnGuardarCerrar, .btnNuevoEditVerRGastos, .btnGuardarCerrarRGastos{
     float: left;
     margin-right: 5px;
 }
@@ -1194,7 +1194,7 @@ div.dataTables_filter label {
         background-color: #f7f7f7;
     }
 
-.boton-editar {
+.boton-editar, .boton-editarRGastos {
     background-image: url("../images/editar.ico");
 }
 
@@ -1202,11 +1202,11 @@ div.dataTables_filter label {
     background-image: url("../images/add-users.png");
 }
 
-.boton-nuevo {
+.boton-nuevo, .boton-nuevoRGastos {
     background-image: url("../images/new.png");
 }
 
-.boton-visualizar {
+.boton-visualizar, .boton-visualizarRGastos{
     background-image: url("../images/visualizar.png");
 }
 
@@ -1315,14 +1315,14 @@ div.dataTables_filter label {
     background-image: url("../images/ingeniero.png");
 }
 
-.boton-guardar {
+.boton-guardar, .boton-guardarRGastos {
     background-color: #337ab7;
     color: #fff;
     border-color: #2e6da4;
     background-image: url("../images/guardar.png");
 }
 
-    .boton-guardar:hover {
+    .boton-guardar:hover, .boton-guardarRGastos:hover {
         background-color: #2661A7;
     }
 
@@ -1337,7 +1337,7 @@ div.dataTables_filter label {
         background-color: #25BFEC;
     }
 
-.boton-cerrar {
+.boton-cerrar, .boton-volverRGastos  {
     color: #fff;
     font-size: 13px;
     background-color: #d9534f;
@@ -1345,7 +1345,7 @@ div.dataTables_filter label {
     background-image: url("../images/cerrar.png");
 }
 
-    .boton-cerrar:hover {
+    .boton-cerrar:hover, .boton-volverRGastos:hover {
         background-color: #BD312C;
     }
 
@@ -1371,7 +1371,7 @@ div.dataTables_filter label {
     background-image: url("../images/cancelar.png");
 }
 
-.acciones {
+.acciones, .ModalCerrar {
     float: right;
 }
 
