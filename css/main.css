@@ -605,6 +605,15 @@ option {
     background-color: rgba(217, 229, 241, 0.43) !important;
 }
 
+.table-m0 {
+    margin: -9px;
+    margin-bottom: -9px !important;
+}
+
+.table-m0 th {
+    color: #3E82BF;
+}
+
 .table_heading {
     background-color: #3e82bf;
     color: #fff;
@@ -1170,7 +1179,12 @@ div.dataTables_filter label {
     float: left;
 }
 
-.btnNuevoEditVer, .btnGuardarCerrar, .btnNuevoEditVerRGastos, .btnGuardarCerrarRGastos{
+.btnNuevoEditVer, .btnGuardarCerrar, .btnNuevoEditVerRGastos, .btnGuardarCerrarRGastos, .btnNuevoEditVerPIngreso, .btnGuardarCerrarPIngreso{
+    float: left;
+    margin-right: 5px;
+}
+
+.btnNuevoEditVerVNomina, .btnGuardarCerrarVNomina {
     float: left;
     margin-right: 5px;
 }
@@ -1194,7 +1208,11 @@ div.dataTables_filter label {
         background-color: #f7f7f7;
     }
 
-.boton-editar, .boton-editarRGastos {
+.boton-editar, .boton-editarRGastos, .boton-editarPIngreso, .boton-editarVNomina {
+    background-image: url("../images/editar.ico");
+}
+
+.boton-editar2 {
     background-image: url("../images/editar.ico");
 }
 
@@ -1202,11 +1220,11 @@ div.dataTables_filter label {
     background-image: url("../images/add-users.png");
 }
 
-.boton-nuevo, .boton-nuevoRGastos {
+.boton-nuevo, .boton-nuevoRGastos, .boton-nuevoPIngreso, .boton-nuevoVNomina {
     background-image: url("../images/new.png");
 }
 
-.boton-visualizar, .boton-visualizarRGastos{
+.boton-visualizar, .boton-visualizarRGastos, .boton-visualizarPIngreso, .boton-visualizarVNomina{
     background-image: url("../images/visualizar.png");
 }
 
@@ -1315,14 +1333,14 @@ div.dataTables_filter label {
     background-image: url("../images/ingeniero.png");
 }
 
-.boton-guardar, .boton-guardarRGastos {
+.boton-guardar, .boton-guardarRGastos, .boton-guardarPIngreso, .boton-guardarVNomina {
     background-color: #337ab7;
     color: #fff;
     border-color: #2e6da4;
     background-image: url("../images/guardar.png");
 }
 
-    .boton-guardar:hover, .boton-guardarRGastos:hover {
+    .boton-guardar:hover, .boton-guardarRGastos:hover, .boton-guardarPIngreso:hover, .boton-guardarVNomina:hover {
         background-color: #2661A7;
     }
 
@@ -1337,7 +1355,7 @@ div.dataTables_filter label {
         background-color: #25BFEC;
     }
 
-.boton-cerrar, .boton-volverRGastos  {
+.boton-cerrar, .boton-volverRGastos, .boton-volverPIngreso, .boton-volverVNomina  {
     color: #fff;
     font-size: 13px;
     background-color: #d9534f;
@@ -1345,9 +1363,9 @@ div.dataTables_filter label {
     background-image: url("../images/cerrar.png");
 }
 
-    .boton-cerrar:hover, .boton-volverRGastos:hover {
-        background-color: #BD312C;
-    }
+.boton-cerrar:hover, .boton-volverRGastos:hover, .boton-volverPIngreso:hover, .boton-volverVNomina:hover {
+    background-color: #BD312C;
+}
 
 .boton-cargarEmpleados {
     background-image: url("../images/add-user2.png");
@@ -1355,6 +1373,18 @@ div.dataTables_filter label {
 
 .boton-user {
     background-image: url("../images/add-user2.png");
+}
+
+.boton-procesar {
+    background-image: url("../images/procesar.png");
+}
+
+.boton-cargar2 {
+    background-image: url("../images/cargar2.png");
+}
+
+.boton-info {
+    background-image: url("../images/info.png");
 }
 
 .boton-limpiar {
