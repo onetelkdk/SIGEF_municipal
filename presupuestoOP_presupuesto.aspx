@@ -400,6 +400,114 @@
 
     </div>
     <!-- Modal -->
+        <div class="modal fade" id="resoluciones" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Resoluciones</h4>
+                    </div>
+                    <div class="modal-body">
+                        <fieldset>
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover datatable">
+                                    <thead>
+                                        <tr class="table_heading">
+                                            <th>
+                                                <input type="checkbox" /></th>
+                                            <th>No.</th>
+                                            <th>T&iacutetulo</th>
+                                            <th>Fecha</th>
+                                            <th>Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>24578</td>
+                                            <td>Este es el titulo de la resoluci&oacuten</td>
+                                            <td>12/20/4789</td>
+                                            <td><span class="estado Inactivo">Inactivo</span></td>
+                                        </tr>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>1455587</td>
+                                            <td>Esta es una resoluci&oacuten que esta aprobada</td>
+                                            <td>08/20/2016</td>
+                                            <td><span class="estado Activo">Activo</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </fieldset>
+                        <div class="row m0">
+                            <fieldset class="mt15" style="padding: 10px 0 !important;">
+                                <legend>Detalles</legend>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>T&iacutetulo</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Tipo</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Fecha</label>
+                                        <input class="ui fecha">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>No. Docum. Aprobaci&oacuten</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>No. Docum. Origen</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="mt15 p0">
+                                <legend>Imagenes</legend>
+                                <div class="img p10 mt-10">
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/1_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+                                        <img src="js/plugins/fancyBox/demo/1_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp">
+                                        <img src="js/plugins/fancyBox/demo/2_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon">
+                                        <img src="js/plugins/fancyBox/demo/3_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno">
+                                        <img src="js/plugins/fancyBox/demo/4_s.jpg" alt=""></a>
+                                </div>
+                                <div class="newImg btn-add-img">
+                                    <p>Subir imagenes (Formatos permitidos: JPG, PNG, GIF. Tama&ntildeo m&aacuteximo de archivo: 5MB).</p>
+                                    <button type="button" class="btn btn-primary">+ Agregar imagenes</button>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="boton boton-nuevo">Nuevo</button>
+                        <button class="boton boton-editar">Editar</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Modal-->
+    <!-- Modal -->
     <div class="modal fade" id="modalDetalleGastos" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -499,47 +607,108 @@
 
     <!-- Modal -->
     <div class="modal fade" id="modalResolucion" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-md" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="myModalLabel">Documento de aprobaci&oacuten</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>No. Documento aprobaci&oacuten</label>
-                                <input type="number" class="ui" value="100">
+                        <fieldset>
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover datatable">
+                                    <thead>
+                                        <tr class="table_heading">
+                                            <th>
+                                                <input type="checkbox" /></th>
+                                            <th>No.</th>
+                                            <th>T&iacutetulo</th>
+                                            <th>Fecha</th>
+                                            <th>Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>24578</td>
+                                            <td>Este es el titulo de la resoluci&oacuten</td>
+                                            <td>12/20/4789</td>
+                                            <td><span class="estado Inactivo">Inactivo</span></td>
+                                        </tr>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>1455587</td>
+                                            <td>Esta es una resoluci&oacuten que esta aprobada</td>
+                                            <td>08/20/2016</td>
+                                            <td><span class="estado Activo">Activo</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Fecha</label>
-                                <input type="text" class="ui cbo" value="02/01/2015">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>No. Documento origen</label>
-                                <input type="number" class="ui" value="102">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label>Tipo</label>
-                                <input type="text" class="ui">
-                            </div>
+                        </fieldset>
+                        <div class="row m0">
+                            <fieldset class="mt15" style="padding: 10px 0 !important;">
+                                <legend>Detalles</legend>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>T&iacutetulo</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Tipo</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Fecha</label>
+                                        <input class="ui fecha">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>No. Docum. Aprobaci&oacuten</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>No. Docum. Origen</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset class="mt15 p0">
+                                <legend>Imagenes</legend>
+                                <div class="img p10 mt-10">
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/1_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+                                        <img src="js/plugins/fancyBox/demo/1_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp">
+                                        <img src="js/plugins/fancyBox/demo/2_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon">
+                                        <img src="js/plugins/fancyBox/demo/3_s.jpg" alt=""></a>
+
+                                    <a class="fancybox" href="js/plugins/fancyBox/demo/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno">
+                                        <img src="js/plugins/fancyBox/demo/4_s.jpg" alt=""></a>
+                                </div>
+                                <div class="newImg btn-add-img">
+                                    <p>Subir imagenes (Formatos permitidos: JPG, PNG, GIF. Tama&ntildeo m&aacuteximo de archivo: 5MB).</p>
+                                    <button type="button" class="btn btn-primary">+ Agregar imagenes</button>
+                                </div>
+                            </fieldset>
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                    <button class="boton boton-camara" id="btn-InsertarImagen">Insertar Im&aacutegen</button>
-                    <button class="boton boton-image" id="btn-VerImagen">Ver Im&aacutegen</button>
-                    <button class="boton boton-resolucion" id="btn-AgregarResolucion">Agregar</button>
-                    <button class="boton boton-editar-2" id="btn-EditarRe">Editar</button>
-                </div>
+                    <div class="modal-footer">
+                        <button class="boton boton-nuevo">Nuevo</button>
+                        <button class="boton boton-editar">Editar</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
             </div>
         </div>
     </div>

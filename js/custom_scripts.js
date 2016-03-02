@@ -210,6 +210,177 @@ $(document).ready(function () {
         
     });
 
+    //Menu aciones del modal de Resumen de Gastos
+        $('.boton-nuevoRGastos').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerRGastos').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.nuevoRGastos').show('slow');
+            $('.btnGuardarCerrarRGastos').show('slow');
+        });
+
+        $('.boton-editarRGastos').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerRGastos').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.editarRGastos').show('slow');
+            $('.btnGuardarCerrarRGastos').show('slow');
+        });
+
+        $('.boton-visualizarRGastos').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerRGastos').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.visualizarRGastos').show('slow');
+            $('.btnGuardarCerrarRGastos').show('slow');
+        });
+
+        $('.boton-guardarRGastos').click(function(){
+            //Ocultar
+            $('.btnGuardarCerrarRGastos').hide('slow');
+            $('.nuevoRGastos').hide('slow');
+            $('.visualizarRGastos').hide('slow');
+            $('.editarRGastos').hide('slow');
+
+            //Mostrar
+            $('.btnNuevoEditVerRGastos').show('slow');
+            $('.ModalCerrar').show('slow');
+        });
+
+        $('.boton-volverRGastos').click(function(){
+            //Ocultar
+            $('.btnGuardarCerrarRGastos').hide('slow');
+            $('.nuevoRGastos').hide('slow');
+            $('.visualizarRGastos').hide('slow');
+            $('.editarRGastos').hide('slow');
+
+            //Mostrar
+            $('.btnNuevoEditVerRGastos').show('slow');
+            $('.ModalCerrar').show('slow');
+        });
+
+    //Fin de aciones del modal de Resumen de Gastos
+
+    //Menu aciones del modal de Ver Presupuesto de Ingresos de formulacion presupuestaria
+        $('.boton-nuevoPIngreso').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerPIngreso').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.nuevoPIngreso').show('slow');
+            $('.btnGuardarCerrarPIngreso').show('slow');
+        });
+
+        $('.boton-editarPIngreso').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerPIngreso').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.editarPIngreso').show('slow');
+            $('.btnGuardarCerrarPIngreso').show('slow');
+        });
+
+        $('.boton-visualizarPIngreso').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerPIngreso').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.visualizarPIngreso').show('slow');
+            $('.btnGuardarCerrarPIngreso').show('slow');
+        });
+
+        $('.boton-guardarPIngreso').click(function(){
+            //Ocultar
+            $('.btnGuardarCerrarPIngreso').hide('slow');
+            $('.nuevoPIngreso').hide('slow');
+            $('.visualizarPIngreso').hide('slow');
+            $('.editarPIngreso').hide('slow');
+
+            //Mostrar
+            $('.btnNuevoEditVerPIngreso').show('slow');
+            $('.ModalCerrar').show('slow');
+        });
+
+        $('.boton-volverPIngreso').click(function(){
+            //Ocultar
+            $('.btnGuardarCerrarPIngreso').hide('slow');
+            $('.nuevoPIngreso').hide('slow');
+            $('.visualizarPIngreso').hide('slow');
+            $('.editarPIngreso').hide('slow');
+
+            //Mostrar
+            $('.btnNuevoEditVerPIngreso').show('slow');
+            $('.ModalCerrar').show('slow');
+        });
+
+    //Fin de aciones del modal de Ver Presupuesto de Ingresos de formulacion presupuestaria
+
+    //Menu aciones del modal de Ver Nomina de formulacion presupuestaria
+        $('.boton-nuevoVNomina').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerVNomina').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.nuevoVNomina').show('slow');
+            $('.btnGuardarCerrarVNomina').show('slow');
+        });
+
+        $('.boton-editarVNomina').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerVNomina').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.editarVNomina').show('slow');
+            $('.btnGuardarCerrarVNomina').show('slow');
+        });
+
+        $('.boton-visualizarVNomina').click(function(){
+            //Ocultar
+            $('.btnNuevoEditVerVNomina').hide('slow');
+            $('.ModalCerrar').hide('slow');
+
+            //Mostrar
+            $('.visualizarVNomina').show('slow');
+            $('.btnGuardarCerrarVNomina').show('slow');
+        });
+
+        $('.boton-guardarVNomina').click(function(){
+            //Ocultar
+            $('.btnGuardarCerrarVNomina').hide('slow');
+            $('.nuevoVNomina').hide('slow');
+            $('.visualizarVNomina').hide('slow');
+            $('.editarVNomina').hide('slow');
+
+            //Mostrar
+            $('.btnNuevoEditVerVNomina').show('slow');
+            $('.ModalCerrar').show('slow');
+        });
+
+        $('.boton-volverVNomina').click(function(){
+            //Ocultar
+            $('.btnGuardarCerrarVNomina').hide('slow');
+            $('.nuevoVNomina').hide('slow');
+            $('.visualizarVNomina').hide('slow');
+            $('.editarVNomina').hide('slow');
+
+            //Mostrar
+            $('.btnNuevoEditVerVNomina').show('slow');
+            $('.ModalCerrar').show('slow');
+        });
+
+    //Fin de aciones del modal de Ver Presupuesto de Ingresos de formulacion presupuestaria
+
 })
 
 $(function () {
@@ -417,7 +588,7 @@ $(document).ready(function(){
     });
 
     $('#btn-Gastos').click(function() {
-         $('#modalGastos').modal('show');
+        $('#modalGastos').modal('show');
     });
 
     $('#btn-Ingresos').click(function() {
@@ -460,6 +631,10 @@ $(document).ready(function(){
         $('#modalParametrosObras').modal('show');
     });
 
+    $('#btn-DetalleTransferencia').click(function(){
+        $('#modalDetalleTransferencia').modal('show');
+    });
+
     $('#btn-CrearCargo').click(function(){
         $('#modalCrearCargo').modal('show');
     });
@@ -484,8 +659,12 @@ $(document).ready(function(){
         $('#modalConsultaEmpleadoNomina2').modal('show');
     });
 
-      $('#btn-EditarResolucion').click(function(){
-        $('#modalResolucion').modal('show');
+    $('#btn-VerPresupuestoIngreso').click(function(){
+        $('#modalVerPresupuestoIngreso').modal('show');
+    });
+
+    $('#btn-VerNomina').click(function(){
+        $('#modalVerNomina').modal('show');
     });
 
 });

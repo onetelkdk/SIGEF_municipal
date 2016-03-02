@@ -25,6 +25,7 @@
                         <table class="table table-striped table-bordered table-hover datatable">
                             <thead>
                                 <tr class="table_heading">
+                                    <th></th>
                                     <th>Codigo</th>
                                     <th>Docum. No.</th>
                                     <th>Tipo</th>
@@ -36,6 +37,7 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td><input type="radio" name="seleccion"></td>
                                     <td>216</td>
                                     <td>175</td>
                                     <td>RES</td>
@@ -45,6 +47,7 @@
                                     <td><span class="estado Activo">Aprobado</span></td>
                                 </tr>
                                 <tr>
+                                    <td><input type="radio" name="seleccion"></td>
                                     <td>216</td>
                                     <td>175</td>
                                     <td>RES</td>
@@ -54,6 +57,7 @@
                                     <td><span class="estado Activo">Aprobado</span></td>
                                 </tr>
                                 <tr>
+                                    <td><input type="radio" name="seleccion"></td>
                                     <td>216</td>
                                     <td>175</td>
                                     <td>RES</td>
@@ -63,6 +67,7 @@
                                     <td><span class="estado Activo">Aprobado</span></td>
                                 </tr>
                                 <tr>
+                                    <td><input type="radio" name="seleccion"></td>
                                     <td>216</td>
                                     <td>175</td>
                                     <td>RES</td>
@@ -72,6 +77,7 @@
                                     <td><span class="estado Activo">Aprobado</span></td>
                                 </tr>
                                 <tr>
+                                    <td><input type="radio" name="seleccion"></td>
                                     <td>216</td>
                                     <td>175</td>
                                     <td>RES</td>
@@ -81,6 +87,7 @@
                                     <td><span class="estado Activo">Aprobado</span></td>
                                 </tr>
                                 <tr>
+                                    <td><input type="radio" name="seleccion"></td>
                                     <td>216</td>
                                     <td>175</td>
                                     <td>RES</td>
@@ -90,6 +97,7 @@
                                     <td><span class="estado Activo">Aprobado</span></td>
                                 </tr>
                                 <tr>
+                                    <td><input type="radio" name="seleccion"></td>
                                     <td>216</td>
                                     <td>175</td>
                                     <td>RES</td>
@@ -99,6 +107,7 @@
                                     <td><span class="estado Activo">Aprobado</span></td>
                                 </tr>
                                 <tr>
+                                    <td><input type="radio" name="seleccion"></td>
                                     <td>216</td>
                                     <td>175</td>
                                     <td>RES</td>
@@ -116,33 +125,44 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>A&ntildeo</label>
-                                <input type="text" class="ui" />
+                                <select class="ui cbo">
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
+                                </select>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <label>Fecha trx</label>
-                                <input type="text" class="ui fecha " disabled />
+                                <label>Fecha trx.</label>
+                                <input type="text" class="ui fecha" value="16/02/2016" disabled />
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Estado</label>
                                 <select class="ui cbo">
-                                    <option>Seleccione opciones</option>
+                                    <option>Iniciado</option>
+                                    <option>Anulado</option>
+                                    <option>Impreso</option>
+                                    <option>Registrado</option> 
+                                    <option>Cancelado</option> 
+                                    <option>Aprobado</option> 
+                                    <option>Pendiente</option>
+
                                 </select>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>No. Docum.</label>
-                                <input type="text" class="ui" disabled>
+                                <input type="text" class="ui" value="156"disabled>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha docum.</label>
-                                <input type="text" class="ui fecha" disabled>
+                                <input type="text" class="ui fecha" value="16/02/2016" disabled>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -159,6 +179,8 @@
                                             <label>Clasificador</label>
                                             <select class="ui cbo">
                                                 <option>Seleccione opciones</option>
+                                                <option>142902-Transferencia de capital</option>
+                                                <option>422112- Disminuci&oacuten de gasto</option>
                                             </select>
                                         </div>
                                     </div>
@@ -206,25 +228,25 @@
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Cta. de banco</label>
-                                        <input class="ui" type="text" disabled>
+                                        <input class="ui" type="text" value="130-0011321-2" disabled>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Presupuesto original</label>
-                                        <input class="ui" type="text" disabled>
+                                        <input class="ui" type="text" value="RD$12,000,000" disabled>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Disponibilidad</label>
-                                        <input class="ui bg-success" type="text" disabled>
+                                        <input class="ui bg-success" type="text" value="RD$12,000,000" disabled>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Monto</label>
-                                        <input class="ui" type="text">
+                                        <input class="ui" type="text" value="RD$12,000,000">
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +254,7 @@
                                 <table class="table table-striped table-bordered table-hover datatable">
                                     <thead>
                                         <tr class="table_heading">
-                                            <th>Programática</th>
+                                            <th>Program&aacutetica</th>
                                             <th>Actividad / Obra / Sub-Actividad</th>
                                             <th>Objeto</th>
                                             <th>Nombre del objeto</th>
@@ -242,9 +264,9 @@
                                     <tbody>
                                         <tr>
                                             <td>11.03.0069.000</td>
-                                            <td>Remozamiento de tuberías</td>
+                                            <td>Remozamiento de tuber&iacuteas</td>
                                             <td>69400</td>
-                                            <td>Obras hidráulicas y sanitarias</td>
+                                            <td>Obras hidr&aacuteulicas y sanitarias</td>
                                             <td>RD$68,997.00</td>
                                         </tr>
                                     </tbody>
@@ -256,19 +278,19 @@
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Ingresos</label>
-                                        <input class="ui bg-success" type="text" disabled>
+                                        <input class="ui bg-success" type="text" value="RD$12,000,000" disabled>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Gastos</label>
-                                        <input class="ui bg-danger" type="text" disabled>
+                                        <input class="ui bg-danger" type="text" value="RD$12,000,000" disabled>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Diferencias</label>
-                                        <input class="ui" type="text" disabled>
+                                        <input class="ui" type="text" value="RD$12,000,000" disabled>
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +363,7 @@
                                             <th>
                                                 <input type="checkbox" /></th>
                                             <th>No.</th>
-                                            <th>Título</th>
+                                            <th>T&iacutetulo</th>
                                             <th>Fecha</th>
                                             <th>Estado</th>
                                         </tr>
@@ -351,7 +373,7 @@
                                             <td>
                                                 <input type="checkbox"></td>
                                             <td>24578</td>
-                                            <td>Este es el titulo de la resolución</td>
+                                            <td>Este es el titulo de la resoluci&oacuten</td>
                                             <td>12/20/4789</td>
                                             <td><span class="estado Inactivo">Inactivo</span></td>
                                         </tr>
@@ -359,7 +381,7 @@
                                             <td>
                                                 <input type="checkbox"></td>
                                             <td>1455587</td>
-                                            <td>Esta es una resolución que esta aprobada</td>
+                                            <td>Esta es una resoluci&oacuten que esta aprobada</td>
                                             <td>08/20/2016</td>
                                             <td><span class="estado Activo">Activo</span></td>
                                         </tr>
@@ -372,7 +394,7 @@
                                 <legend>Detalles</legend>
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                     <div class="form-group">
-                                        <label>Título</label>
+                                        <label>T&iacutetulo</label>
                                         <input class="ui">
                                     </div>
                                 </div>
@@ -417,7 +439,7 @@
                                         <img src="js/plugins/fancyBox/demo/4_s.jpg" alt=""></a>
                                 </div>
                                 <div class="newImg btn-add-img">
-                                    <p>Subir imagenes (Formatos permitidos: JPG, PNG, GIF. Tamaño máximo de archivo: 5MB).</p>
+                                    <p>Subir imagenes (Formatos permitidos: JPG, PNG, GIF. Tama&ntildeo m&aacuteximo de archivo: 5MB).</p>
                                     <button type="button" class="btn btn-primary">+ Agregar imagenes</button>
                                 </div>
                             </fieldset>
@@ -451,8 +473,9 @@
                 <div class="acciones visualizar" style="display: none;">
                     <button class="boton boton-editar-2" id="btn-EditarResolucion">Resoluciones</button>
                     <button class="boton boton-aprobar">Aprobar</button>
+                    <button class="boton boton-imprimir">Imprimir</button>
                     <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
-                    <button class="boton boton-cerrar-2">Cerrar</button>
+                    <button class="boton boton-cerrar-2">Anular</button>
                 </div>
                 <div class="acciones editar" style="display: none;">
                 </div>
