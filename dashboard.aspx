@@ -6,7 +6,7 @@
     <div id="wrapper">
         <header class="main-header">
             <div class="logo">
-                <a href="dashboard.html">
+                <a href="dashboard.aspx">
                     <img src="images/logo-sigef.png" alt="Sigef Municipal"/>
                 </a>
             </div>

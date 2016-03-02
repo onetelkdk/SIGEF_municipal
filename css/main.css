@@ -1110,6 +1110,7 @@ div.dataTables_filter label {
 /* Login */
 .SintilloBandera {
     height: 55px;
+    margin-top: -21px;
     border-top: 1px solid #3378b4;
     text-align: center;
     background: -moz-linear-gradient(180deg, #E0EEFB 0, #FFFFFF 85%);
