@@ -38,7 +38,7 @@
                 <div class="row rowLoginBtn">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" align="left">
                         <div class="form-group">
-                            <a href="login2.html"><button class="btn-continuar">CONTINUAR</button></a>
+                            <a href="login2.aspx"><button class="btn-continuar">CONTINUAR</button></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 fr" align="right">

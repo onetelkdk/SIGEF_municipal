@@ -385,6 +385,7 @@
     $("#fotoEmpleado").click(function ()
     {
         $.fancybox.open('images/add-user.png');
-    });
+    });
+
 </script>
 </html>
