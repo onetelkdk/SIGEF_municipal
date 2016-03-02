@@ -95,26 +95,7 @@
                                                             <td>16/11/2015</td>
                                                             <td><span class="estado Activo">Aprobado</span></td>
                                                         </tr>
-                                                        <tr>
-                                                            <td><input type="checkbox"></td>
-                                                            <td>45676</td>
-                                                            <td>1315</td>
-                                                            <td>TRA</td>
-                                                            <td>2015</td>
-                                                            <td>16/11/2015</td>
-                                                            <td>16/11/2015</td>
-                                                            <td><span class="estado Activo">Aprobado</span></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><input type="checkbox"></td>
-                                                            <td>45676</td>
-                                                            <td>1315</td>
-                                                            <td>TRA</td>
-                                                            <td>2015</td>
-                                                            <td>16/11/2015</td>
-                                                            <td>16/11/2015</td>
-                                                            <td><span class="estado Activo">Aprobado</span></td>
-                                                        </tr>
+                                                        
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -136,6 +117,7 @@
                                                     <div class="form-group">
                                                         <label>A&ntildeo</label>
                                                         <select class="ui cbo">
+                                                            <option>Seleccione opciones</option>
                                                             <option>2015</option>
                                                         </select>
                                                     </div>
@@ -143,30 +125,30 @@
                                                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="form-group">
                                                         <label>No. Docum.</label>
-                                                        <input class="ui" disabled>
+                                                        <input class="ui" value="45632" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Fecha trx.</label>
-                                                        <input class="ui fecha" disabled>
+                                                        <input class="ui fecha" value="13/02/2016" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Fecha docum.</label>
-                                                        <input class="ui fecha" disabled>
+                                                        <input class="ui fecha" value="13/02/2016" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Estado</label>
-                                                       <input type="text" class="ui" disabled>
+                                                       <input type="text" class="ui" value="Iniciado" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                     <div class="form-group">
-                                                        <label>Observación</label>
+                                                        <label>Observaci&oacuten</label>
                                                         <textarea class="area"></textarea>
                                                     </div>
                                                 </div>
@@ -178,33 +160,34 @@
                                                         <label>Objeto</label>
                                                         <select class="ui cbo">
                                                             <option>Seleccione opciones</option>
+                                                            <option>421101 - Disminuci&oacuten de gastos</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Monto</label>
-                                                        <input class="ui bg-success">
+                                                        <input class="ui bg-success" value="RD$50,000.00">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Actividad/Proyecto/Sub-Actividad</label>
                                                         <select class="ui cbo">
-                                                            <option>Seleccione opciones</option>
+                                                            <option>01000003005-ADMINISTRACION MUNICIPAL NOMINAL</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Original</label>
-                                                        <input type="text" class="ui bg-warning" disabled>
+                                                        <input type="text" class="ui bg-warning" value="RD$50,000.00" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Disponibilidad</label>
-                                                        <input type="text" class="ui bg-warning" disabled>
+                                                        <input type="text" class="ui bg-warning" value="RD$50,000.00" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="table-responsive col-lg-12 col-md-12">
@@ -213,7 +196,7 @@
                                                             <tr class="table_heading">
                                                                 <th>Program&aacutetica</th>
                                                                 <th>Objeto</th>
-                                                                <th>Descripción</th>
+                                                                <th>Descripci&oacuten</th>
                                                                 <th>Tipo Cuenta</th>
                                                                 <th>Monto</th>
                                                             </tr>
@@ -222,7 +205,7 @@
                                                             <tr>
                                                                 <td><a href="#">01.0000.03000</a></td>
                                                                 <td>1</td>
-                                                                <td>Compensación por horas extraordinarias</td>
+                                                                <td>Compensaci&oacuten por horas extraordinarias</td>
                                                                 <td>Servicios</td>
                                                                 <td>10,000.00</td>
                                                             </tr>
@@ -237,33 +220,34 @@
                                                         <label>Objeto</label>
                                                         <select class="ui cbo">
                                                             <option>Seleccione opciones</option>
+                                                            <option>421101 - Disminuci&oacuten de gastos</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Monto</label>
-                                                        <input class="ui bg-success">
+                                                        <input class="ui bg-success" value="RD$50,000.00">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Actividad/Proyecto/Sub-Actividad</label>
                                                         <select class="ui cbo">
-                                                            <option>Seleccione opciones</option>
+                                                            <option>01000003005-ADMINISTRACION MUNICIPAL NOMINAL</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Original</label>
-                                                        <input type="text" class="ui bg-warning" disabled>
+                                                        <input type="text" class="ui bg-warning" value="RD$50,000.00" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Disponibilidad</label>
-                                                        <input type="text" class="ui bg-warning" disabled>
+                                                        <input type="text" class="ui bg-warning" value="RD$50,000.00" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="table-responsive col-lg-12 col-md-12">
@@ -272,7 +256,7 @@
                                                             <tr class="table_heading">
                                                                 <th>Program&aacutetica</th>
                                                                 <th>Objeto</th>
-                                                                <th>Descripción</th>
+                                                                <th>Descripci&oacuten</th>
                                                                 <th>Tipo Cuenta</th>
                                                                 <th>Monto</th>
                                                             </tr>
@@ -281,7 +265,7 @@
                                                             <tr>
                                                                 <td><a href="#">01.0000.03000</a></td>
                                                                 <td>1</td>
-                                                                <td>Compensación por horas extraordinarias</td>
+                                                                <td>Compensaci&oacuten por horas extraordinarias</td>
                                                                 <td>Servicios</td>
                                                                 <td>10,000.00</td>
                                                             </tr>
@@ -293,19 +277,19 @@
                                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Total origen</label>
-                                                        <input type="text" class="ui bg-danger" disabled>
+                                                        <input type="text" class="ui bg-danger" value="RD$20,000.00" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Total destino</label>
-                                                        <input type="text" class="ui bg-success" disabled>
+                                                        <input type="text" class="ui bg-success" value="RD$20,000.00" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                                     <div class="form-group">
                                                         <label>Diferencia</label>
-                                                        <input type="text" class="ui bg-warning" disabled>
+                                                        <input type="text" class="ui bg-warning" value="RD$20,000.00" disabled>
                                                     </div>
                                                 </div>
                                             </fieldset>
@@ -480,7 +464,7 @@
                                                                     <th class="center">Sub. Act</th>
                                                                     <th class="center">Objeto</th>
                                                                     <th class="center">Aux.</th>
-                                                                    <th class="center">Descripción</th>
+                                                                    <th class="center">Descripci&oacuten</th>
                                                                     <th class="center">Tipo Cuenta</th>
                                                                     <th class="center">Monto</th>
                                                                 </tr>
@@ -1099,7 +1083,7 @@
                                                                     <th class="center">Sub. Act</th>
                                                                     <th class="center">Objeto</th>
                                                                     <th class="center">Aux.</th>
-                                                                    <th class="center">Descripción</th>
+                                                                    <th class="center">Descripci&oacuten</th>
                                                                     <th class="center">Tipo Cuenta</th>
                                                                     <th class="center">Monto</th>
                                                                 </tr>

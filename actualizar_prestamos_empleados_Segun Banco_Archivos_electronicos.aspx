@@ -29,10 +29,6 @@
             <div class="data-body shadow">
                 <div class="row m0 p15">
                     <div class="table-responsive">
-
-                       
-
-
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Nomina</label>
@@ -49,13 +45,10 @@
                                 </select>
                             </div>
                         </div>
-                        
                     </div>
                     <fieldset class="m15">
-
                         <table class="table table-striped table-bordered table-hover datatable">
                             <thead>
-
                                 <tr class="table_heading">
                                     <th>Identificaci&oacute;n</th>
                                     <th>Empleado</th>
@@ -63,23 +56,16 @@
                                     <th>Identificaci&oacute;n</th>
                                     <th>Prestamo (Nomina)</th>
                                     <th>Prestamo (Banco)</th>
-                                   
-                                    
-
-
+                                </tr>
                             </thead>
                             <tbody>
                                 <tr>
-
-                                   
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-
-
                                 </tr>
                                 <tr>
                                       <td>0</td>
@@ -88,9 +74,6 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-
-
-
                                 </tr>
                                 <tr>
                                     <td>0</td>
@@ -99,8 +82,6 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-
-
                                 </tr>
                                 <tr>
                                      <td>0</td>
@@ -109,9 +90,6 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-
-
-
                                 </tr>
                                 <tr>
                                      <td>0</td>
@@ -128,41 +106,13 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                </tr>
-                                <tr>
-                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-
-                                </tr>
-
-                                <tr>
-                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-
-
-                                </tr>
+                                </tr>                                
                             </tbody>
                         </table>
                     </fieldset>
-
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
         <!-- // end data body //////// //////-->
 
         <!-- // sidebar-menu ///////////-->

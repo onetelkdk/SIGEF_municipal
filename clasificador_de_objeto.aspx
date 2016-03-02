@@ -32,22 +32,18 @@
                                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Código</label>
-                                                    <input type="text" class="ui">
+                                                    <input type="text" class="ui" disabled>
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Estado</label>
-                                                    <select class="ui cbo">
+                                                    <select class="ui cbo" disabled>
                                                         <option>Seleccione opciones</option>
                                                     </select>
                                                 </div>
                                             </div>
-
-
-                                         
-
 
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">

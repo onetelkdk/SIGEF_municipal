@@ -25,7 +25,7 @@
                         <table class="table table-striped table-bordered table-hover datatable">
                             <thead>
                                <tr class="table_heading">
-                               	   <th><input type="checkbox" /></th>
+                                   <th><input type="checkbox" /></th>
                                    <th>No.</th>
                                    <th>Fecha</th>
                                    <th>Fecha docum.</th>
@@ -38,7 +38,7 @@
                            </thead>
                            <tbody>
                             <tr>
-                            	<td><input type="checkbox" /></td>
+                                <td><input type="checkbox" /></td>
                                 <td>1</td>
                                 <td>24/01/2015</td>
                                 <td>1</td>
@@ -49,7 +49,7 @@
                                 <td><span class="estado Activo">Aprobado</span></td>               
                             </tr>
                             <tr>
-                            	<td><input type="checkbox" /></td>
+                                <td><input type="checkbox" /></td>
                                 <td>1</td>
                                 <td>24/01/2015</td>
                                 <td>1</td>
@@ -60,7 +60,7 @@
                                 <td><span class="estado Activo">Aprobado</span></td>               
                             </tr>
                             <tr>
-                            	<td><input type="checkbox" /></td>
+                                <td><input type="checkbox" /></td>
                                 <td>1</td>
                                 <td>24/01/2015</td>
                                 <td>1</td>
@@ -71,7 +71,7 @@
                                 <td><span class="estado Activo">Aprobado</span></td>               
                             </tr>
                             <tr>
-                            	<td><input type="checkbox" /></td>
+                                <td><input type="checkbox" /></td>
                                 <td>1</td>
                                 <td>24/01/2015</td>
                                 <td>1</td>
@@ -82,7 +82,7 @@
                                 <td><span class="estado Activo">Aprobado</span></td>               
                             </tr>
                             <tr>
-                            	<td><input type="checkbox" /></td>
+                                <td><input type="checkbox" /></td>
                                 <td>1</td>
                                 <td>24/01/2015</td>
                                 <td>1</td>
@@ -93,7 +93,7 @@
                                 <td><span class="estado Activo">Aprobado</span></td>               
                             </tr>
                             <tr>
-                            	<td><input type="checkbox" /></td>
+                                <td><input type="checkbox" /></td>
                                 <td>1</td>
                                 <td>24/01/2015</td>
                                 <td>1</td>
@@ -292,7 +292,7 @@
             </div>
         <!--End Modal-->
         <!-- Modal -->
-            <di	v class="modal fade" id="modalDetallarProgramatica" tabindex="-1" role="dialog">
+            <di v class="modal fade" id="modalDetallarProgramatica" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -301,7 +301,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="row m0">
-                            	<div class="row">
+                                <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
                                             <label>Cuenta de banco</label>
@@ -323,60 +323,60 @@
                                         </div>
                                     </div> 
                                     <fieldset class="m15">
-                                    	<div class="row">
-                                    	</div>
-                                    	<div class="table-responsive">
-                                    		<table class="table table-striped table-bordered table-hover datatable">
-                                    			<thead>
-                                    				<tr class="table_heading">
-                                    					<th>Objeto</th>
-                                    					<th>Descripci&oacuten del objeto</th>
-                                    					<th>Program&aacutetica</th>
-                                    					<th>Descripci&oacuten Program&aacutetica</th>
-                                    					<th>Monto</th>
-                                    				</tr>
-                                    			</thead>
-                                    			<tbody>
-                                    				<tr>
-                                    					<td>13600</td>
-                                    					<td>Compensaci&oacuten de servicios</td>
-                                    					<td>010000041</td>
-                                    					<td>Servicios de personal</td>
-                                    					<td>RD$2,000.00</td>
-                                    				</tr>
-                                    				<tr>
-                                    					<td>13600</td>
-                                    					<td>Compensaci&oacuten de servicios</td>
-                                    					<td>010000041</td>
-                                    					<td>Servicios de personal</td>
-                                    					<td>RD$2,000.00</td>
-                                    				</tr>
-                                    				<tr>
-                                    					<td>13600</td>
-                                    					<td>Compensaci&oacuten de servicios</td>
-                                    					<td>010000041</td>
-                                    					<td>Servicios de personal</td>
-                                    					<td>RD$2,000.00</td>
-                                    				</tr>
-                                    				<tr>
-                                    					<td>13600</td>
-                                    					<td>Compensaci&oacuten de servicios</td>
-                                    					<td>010000041</td>
-                                    					<td>Servicios de personal</td>
-                                    					<td>RD$2,000.00</td>
-                                    				</tr>
-                                    				<tr>
-                                    					<td>13600</td>
-                                    					<td>Compensaci&oacuten de servicios</td>
-                                    					<td>010000041</td>
-                                    					<td>Servicios de personal</td>
-                                    					<td>RD$2,000.00</td>
-                                    				</tr>
-                                    			</tbody>
-                                    		</table>
-                                    	</div>
+                                        <div class="row">
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered table-hover datatable">
+                                                <thead>
+                                                    <tr class="table_heading">
+                                                        <th>Objeto</th>
+                                                        <th>Descripci&oacuten del objeto</th>
+                                                        <th>Program&aacutetica</th>
+                                                        <th>Descripci&oacuten Program&aacutetica</th>
+                                                        <th>Monto</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>13600</td>
+                                                        <td>Compensaci&oacuten de servicios</td>
+                                                        <td>010000041</td>
+                                                        <td>Servicios de personal</td>
+                                                        <td>RD$2,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>13600</td>
+                                                        <td>Compensaci&oacuten de servicios</td>
+                                                        <td>010000041</td>
+                                                        <td>Servicios de personal</td>
+                                                        <td>RD$2,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>13600</td>
+                                                        <td>Compensaci&oacuten de servicios</td>
+                                                        <td>010000041</td>
+                                                        <td>Servicios de personal</td>
+                                                        <td>RD$2,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>13600</td>
+                                                        <td>Compensaci&oacuten de servicios</td>
+                                                        <td>010000041</td>
+                                                        <td>Servicios de personal</td>
+                                                        <td>RD$2,000.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>13600</td>
+                                                        <td>Compensaci&oacuten de servicios</td>
+                                                        <td>010000041</td>
+                                                        <td>Servicios de personal</td>
+                                                        <td>RD$2,000.00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </fieldset>                                   
-                            	</div>                               
+                                </div>                               
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -553,22 +553,11 @@
                     <button class="boton boton-guardar">Guardar</button>
                     <button class="boton boton-cerrar">Cerrar</button>
                 </div>
-            <!-- <div class="acciones" style="display: none">
-                    <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-imprimir">Imprimir Revisi&oacuten</button>
-                    <button class="boton boton-imprimir">Imprimir Bolante</button>
-                    <button class="boton boton-aprobar">Aprobar</button>
-                    <button class="boton boton-cancelar">Cancelar</button>
-                    <button class="boton boton-anular">Anular</button>
-                    <button class="boton boton-editar" id="btn-auditoria">Auditor&iacutea</button>
-                    <button class="boton boton-asientos">Asientos Contables</button>
-                    <button class="boton boton-cargarEmpleados">Cargar empreados</button>
-                </div>  -->
                 <div class="acciones nuevo" style="display: none;">
-                	<button class="boton boton-programatica">Detallar Program&aacutetica</button>
+                    <button class="boton boton-programatica">Detallar Program&aacutetica</button>
                 </div>
                 <div class="acciones visualizar" style="display: none;">
-                	<button class="boton boton-programatica" id="btn-DetallarProgramatica">Detallar Program&aacutetica</button>
+                    <button class="boton boton-programatica" id="btn-DetallarProgramatica">Detallar Program&aacutetica</button>
                     <button class="boton boton-add" id="btn-AgregarResolucion">Agregar Resoluci&oacuten</button> 
                     <button class="boton boton-editar-2" id="btn-EditarResolucion">Editar Resoluci&oacuten</button> 
                     <button class="boton boton-ver" id="btn-VerResolucion">Ver Resoluci&oacuten</button> 
