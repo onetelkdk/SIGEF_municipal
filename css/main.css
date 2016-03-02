@@ -461,7 +461,7 @@ li a.link img {
 }
 
 .shadow {
-    box-shadow: rgba(0, 0, 0, 0.498039) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0 5px 15px;
 }
 /* End Data Body */
 
@@ -1053,6 +1053,40 @@ b, strong {
     background-position: 10px;
 }
 
+.ic_home {
+    background: url(../images/ic_home.png);
+    background-repeat: no-repeat;
+    background-position: 99% 2px;
+    background-size: 25px;
+}
+
+.ic_iphone {
+    background: url(../images/ic_iphone.png);
+    background-repeat: no-repeat;
+    background-position: 99% 2px;
+    background-size: 25px;
+}
+
+.ic_tel1 {
+    background: url(../images/ic_tel1.png);
+    background-repeat: no-repeat;
+    background-position: 99% 2px;
+    background-size: 25px;
+}
+
+.ic_email {
+    background: url(../images/ic_email.png);
+    background-repeat: no-repeat;
+    background-position: 99% 2px;
+    background-size: 25px;
+}
+
+.ic_iexplorer {
+    background: url(../images/ic_iexplorer.png);
+    background-repeat: no-repeat;
+    background-position: 99% 2px;
+    background-size: 25px;
+}
 
 div.dataTables_filter label {
     float: right;
@@ -1764,3 +1798,9 @@ div.dataTables_filter label {
     .newImg > .btn {
         float: none;
     }
+
+.help img {
+    width: 28px;
+    float: right;
+    margin: 5px;
+}

@@ -98,14 +98,19 @@
                                 <li><a href="#contactos" role="tab" data-toggle="tab">Contactos</a></li>
                                 <li><a href="#dependientes" role="tab" data-toggle="tab">Dependientes</a></li>
                                 <li><a href="#accionp" role="tab" data-toggle="tab">Acciones de Personal</a></li>
+                                <div class="help">
+                                    <a href="#" title="Ver la documentación de esta sección"><img src="images/help_question.png" alt="" /></a>
+                                </div>
                             </ul>
+
                             <!-- Tab Contenido -->
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane pt10 active" id="datos">
                                     <div class="row">
                                         <div class="col-lg-2 col-md-4 col-sm-6">
                                             <fieldset style="text-align: center" class="mb15">
-                                                <img src="images/add-user.png" class="imgUsuario">
+                                                <a id="fotoEmpleado" href="javascript:;">
+                                                    <img src="images/add-user.png" class="imgUsuario"></a>
                                                 <button class="btn btn-cargar" type="file">Adjuntar foto</button>
                                             </fieldset>
                                         </div>
@@ -163,10 +168,17 @@
                                                 <input type="text" class="ui">
                                             </div>
                                         </div>
+
                                         <div class="col-lg-3 col-md-4 col-sm-6">
                                             <div class="form-group">
                                                 <label>Apodo</label>
                                                 <input type="text" class="ui">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                <label>Fecha de Nacimiento</label>
+                                                <input type="text" class="ui fecha">
                                             </div>
                                         </div>
                                         <div class="col-lg-3 col-md-4 col-sm-6">
@@ -181,18 +193,18 @@
                                             <div class="form-group">
                                                 <label>Sexo</label>
                                                 <select class="ui cbo">
-                                                    <option>Dominicana</option>
+                                                    <option>Masculino</option>
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-lg-2 col-md-4 col-sm-6">
+                                        <%--<div class="col-lg-2 col-md-4 col-sm-6">
                                             <div class="form-group">
                                                 <label>Estado Civíl</label>
                                                 <select class="ui cbo">
                                                     <option>Soltero</option>
                                                 </select>
                                             </div>
-                                        </div>
+                                        </div>--%>
                                         <div class="row m0">
                                             <div class="col-lg-12 col-md-12 col-sm-12">
                                                 <fieldset class="mb15">
@@ -271,12 +283,61 @@
                                         </div>
                                         <div class="row"></div>
                                     </div>
-                                    <div role="tabpanel" class="tab-pane" id="contactos">
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="contactos">
+                                    <div class="row p0">
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="form-group">
+                                                <label>Dirección</label>
+                                                <input type="text" class="ui ic_home">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <label>Provincia</label>
+                                            <select class="ui cbo">
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <label>Municipio</label>
+                                            <select class="ui cbo">
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <label>Sector</label>
+                                            <select class="ui cbo">
+                                            </select>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="form-group">
+                                                <label>Teléfono movil</label>
+                                                <input type="text" class="ui ic_iphone">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="form-group">
+                                                <label>Teléfono 2</label>
+                                                <input type="text" class="ui ic_tel1">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="form-group">
+                                                <label>Correo electrónico</label>
+                                                <input type="text" class="ui ic_email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6">
+                                            <div class="form-group">
+                                                <label>Sitio web</label>
+                                                <input type="text" class="ui ic_iexplorer">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div role="tabpanel" class="tab-pane" id="dependientes">
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane" id="accionp">
-                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="dependientes">
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="accionp">
                                 </div>
                             </div>
                         </div>
@@ -320,5 +381,10 @@
 <!-- // End wrapper //////// ///////////-->
 <!-- Scripts -->
 <% Response.WriteFile("JsScripts.aspx")%>
-
+<script>
+    $("#fotoEmpleado").click(function ()
+    {
+        $.fancybox.open('images/add-user.png');
+    });
+</script>
 </html>
