@@ -667,4 +667,8 @@ $(document).ready(function(){
         $('#modalVerNomina').modal('show');
     });
 
+     $('#btn-FormularNominas').click(function(){
+        $('#modalFormularNominas').modal('show');
+    });
+
 });

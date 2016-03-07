@@ -350,7 +350,7 @@
                                     </select>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -471,45 +471,45 @@
                                 <legend>Detallar presupuesto</legend>
                                 <div class="table-responsive">
                                     <div class="table-responsive">
-                            <table class="table table-striped table-bordered table-hover datatable">
-                                <thead>
-                                    <tr class="table_heading">
-                                        <th></th>
-                                        <th>C&oacutedigo ing.</th>
-                                        <th>Grupo</th>
-                                        <th>Aux./Sub.Aux.</th>
-                                        <th>Presu. Original</th>
-                                        <th>Ejecuci&oacuten estimada</th>
-                                        <th>Presu. Sig.</th>
-                                        <th>Aplicar %</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <input type="radio" name="seleccion"></td>
-                                        <td>125</td>
-                                        <td>12316</td>
-                                        <td>21210313</td>
-                                        <td>2016</td>
-                                        <td>01/01/2016</td>
-                                        <td>31/12/2016</td>
-                                        <td>2016</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <input type="radio" name="seleccion"></td>
-                                        <td>125</td>
-                                        <td>12316</td>
-                                        <td>21210313</td>
-                                        <td>2016</td>
-                                        <td>01/01/2016</td>
-                                        <td>31/12/2016</td>
-                                        <td>2016</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                                        <table class="table table-striped table-bordered table-hover datatable">
+                                            <thead>
+                                                <tr class="table_heading">
+                                                    <th></th>
+                                                    <th>C&oacutedigo ing.</th>
+                                                    <th>Grupo</th>
+                                                    <th>Aux./Sub.Aux.</th>
+                                                    <th>Presu. Original</th>
+                                                    <th>Ejecuci&oacuten estimada</th>
+                                                    <th>Presu. Sig.</th>
+                                                    <th>Aplicar %</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" name="seleccion"></td>
+                                                    <td>125</td>
+                                                    <td>12316</td>
+                                                    <td>21210313</td>
+                                                    <td>2016</td>
+                                                    <td>01/01/2016</td>
+                                                    <td>31/12/2016</td>
+                                                    <td>2016</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" name="seleccion"></td>
+                                                    <td>125</td>
+                                                    <td>12316</td>
+                                                    <td>21210313</td>
+                                                    <td>2016</td>
+                                                    <td>01/01/2016</td>
+                                                    <td>31/12/2016</td>
+                                                    <td>2016</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </fieldset>
                         </div>
@@ -542,7 +542,7 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
         </div>
         <!--End Modal-->
         <!-- Modal -->
@@ -632,45 +632,45 @@
                                 <legend>Detallar presupuesto</legend>
                                 <div class="table-responsive">
                                     <div class="table-responsive">
-                            <table class="table table-striped table-bordered table-hover datatable">
-                                <thead>
-                                    <tr class="table_heading">
-                                        <th></th>
-                                        <th>C&oacutedigo ing.</th>
-                                        <th>Grupo</th>
-                                        <th>Aux./Sub.Aux.</th>
-                                        <th>Presu. Original</th>
-                                        <th>Ejecuci&oacuten estimada</th>
-                                        <th>Presu. Sig.</th>
-                                        <th>Aplicar %</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <input type="radio" name="seleccion"></td>
-                                        <td>125</td>
-                                        <td>12316</td>
-                                        <td>21210313</td>
-                                        <td>2016</td>
-                                        <td>01/01/2016</td>
-                                        <td>31/12/2016</td>
-                                        <td>2016</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <input type="radio" name="seleccion"></td>
-                                        <td>125</td>
-                                        <td>12316</td>
-                                        <td>21210313</td>
-                                        <td>2016</td>
-                                        <td>01/01/2016</td>
-                                        <td>31/12/2016</td>
-                                        <td>2016</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                                        <table class="table table-striped table-bordered table-hover datatable">
+                                            <thead>
+                                                <tr class="table_heading">
+                                                    <th></th>
+                                                    <th>C&oacutedigo ing.</th>
+                                                    <th>Grupo</th>
+                                                    <th>Aux./Sub.Aux.</th>
+                                                    <th>Presu. Original</th>
+                                                    <th>Ejecuci&oacuten estimada</th>
+                                                    <th>Presu. Sig.</th>
+                                                    <th>Aplicar %</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" name="seleccion"></td>
+                                                    <td>125</td>
+                                                    <td>12316</td>
+                                                    <td>21210313</td>
+                                                    <td>2016</td>
+                                                    <td>01/01/2016</td>
+                                                    <td>31/12/2016</td>
+                                                    <td>2016</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" name="seleccion"></td>
+                                                    <td>125</td>
+                                                    <td>12316</td>
+                                                    <td>21210313</td>
+                                                    <td>2016</td>
+                                                    <td>01/01/2016</td>
+                                                    <td>31/12/2016</td>
+                                                    <td>2016</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </fieldset>
                         </div>
@@ -703,107 +703,213 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
         </div>
         <!--End Modal-->
         <!-- Modal-->
-            <div class="modal fade" id="modalVerNomina" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Ver N&oacuteminas</h4>
+        <div class="modal fade" id="modalVerNomina" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Ver N&oacuteminas</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                                <thead>
+                                    <tr class="table_heading">
+                                        <th>
+                                            <input type="checkbox">
+                                            Todos</th>
+                                        <th class="center">No.</th>
+                                        <th class="center">Fecha</th>
+                                        <th>N&oacutemina</th>
+                                        <th>Program&aacutetica</th>
+                                        <th>Objeto del gasto</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr class="center">
+                                        <td>
+                                            <input type="checkbox"></td>
+                                        <td>26</td>
+                                        <td>01/12/2016</td>
+                                        <td>Normas y Seguimiento</td>
+                                        <td>Normas y Seguimiento</td>
+                                        <td>Sueldos Fijos</td>
+                                    </tr>
+                                    <tr class="center">
+                                        <td>
+                                            <input type="checkbox"></td>
+                                        <td>26</td>
+                                        <td>01/12/2016</td>
+                                        <td>Normas y Seguimiento</td>
+                                        <td>Normas y Seguimiento</td>
+                                        <td>Sueldos Fijos</td>
+                                    </tr>
+                                    <tr class="center">
+                                        <td>
+                                            <input type="checkbox"></td>
+                                        <td>26</td>
+                                        <td>01/12/2016</td>
+                                        <td>Normas y Seguimiento</td>
+                                        <td>Normas y Seguimiento</td>
+                                        <td>Sueldos Fijos</td>
+                                    </tr>
+                                    <tr class="center">
+                                        <td>
+                                            <input type="checkbox"></td>
+                                        <td>26</td>
+                                        <td>01/12/2016</td>
+                                        <td>Normas y Seguimiento</td>
+                                        <td>Normas y Seguimiento</td>
+                                        <td>Sueldos Fijos</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
                         </div>
-                        <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <div class="botones">
+                            <button class="boton boton-user" id="btn-FormularNominas">Formular N&oacuteminas</button>
+                            <button class="boton boton-ver" id="btn-Gasto">Pensiones, Ayudas, Subvenciones</button>
+                            <button type="button" class="boton btn-danger boton-cerrar" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Modal-->
+        <!--End Modal-->
+        <!-- Modal -->
+        <div class="modal fade" id="modalFormularNominas" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Formulaci&oacuten Presupuestaria de Gastos (N&oacutemina)</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row m0">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>No.</label>
+                                    <input class="ui number" type="number">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>Fecha</label>
+                                    <input class="ui fecha" type="Text">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>Estado</label>
+                                    <select class="ui">
+                                        <option>Seleccione opciones</option>
+                                        <option>Registrado</option>
+                                        <option>Cancelado</option>
+                                        <option>Anulado</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <fieldset class="mt15" style="padding: 10px 0 !important;">
+                                <legend>Datos de N&oacutemina</legend>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>N&oacutemina</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Cta. de banco</label>
+                                        <input class="ui number" type="number">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Program&aacutetica</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Objeto</label>
+                                        <input class="ui number" >
+                                    </div>
+                                </div>                                
+                            </fieldset>
+
+                        </div>
+                        <fieldset>
                             <div class="table-responsive">
-                                <table class="table table-striped table-bordered table-hover datatable" id="table2">
+                                <table class="table table-striped table-bordered table-hover datatable">
                                     <thead>
                                         <tr class="table_heading">
                                             <th>
-                                                <input type="checkbox">
-                                                Todos</th>
-                                                <th class="center">No.</th>
-                                                <th class="center">Fecha</th>
-                                                <th>N&oacutemina</th>
-                                                <th>Program&aacutetica</th>
-                                                <th>Objeto del gasto</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-                                            <tr class="center">
-                                                <td>    
-                                                    <input type="checkbox"></td>
-                                                    <td>26</td>
-                                                    <td>01/12/2016</td>
-                                                    <td>Normas y Seguimiento</td>
-                                                    <td>Normas y Seguimiento</td>
-                                                    <td>Sueldos Fijos</td>
-                                                </tr>
-                                                <tr class="center">
-                                                <td>    
-                                                    <input type="checkbox"></td>
-                                                    <td>26</td>
-                                                    <td>01/12/2016</td>
-                                                    <td>Normas y Seguimiento</td>
-                                                    <td>Normas y Seguimiento</td>
-                                                    <td>Sueldos Fijos</td>
-                                                </tr>
-                                                <tr class="center">
-                                                <td>    
-                                                    <input type="checkbox"></td>
-                                                    <td>26</td>
-                                                    <td>01/12/2016</td>
-                                                    <td>Normas y Seguimiento</td>
-                                                    <td>Normas y Seguimiento</td>
-                                                    <td>Sueldos Fijos</td>
-                                                </tr>
-                                                <tr class="center">
-                                                <td>    
-                                                    <input type="checkbox"></td>
-                                                    <td>26</td>
-                                                    <td>01/12/2016</td>
-                                                    <td>Normas y Seguimiento</td>
-                                                    <td>Normas y Seguimiento</td>
-                                                    <td>Sueldos Fijos</td>
-                                                </tr>
-                                                
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                     <div class="botones">
-                                         <div class="btnNuevoEditVerVNomina">
-                                             <button class="boton boton-nuevoVNomina">Nuevo</button>
-                                             <button class="boton boton-editarVNomina">Editar</button>
-                                             <button class="boton boton-visualizarVNomina">Visualizar</button>
-                                         </div>
-                                         <div class="ModalCerrar">
-                                            <button type="button" class="boton btn-danger boton-cerrar" data-dismiss="modal">Cerrar</button>
-                                        </div>
-                                        <div class="btnGuardarCerrarVNomina" style="display: none">
-                                            <button class="boton boton-guardarVNomina">Guardar</button>
-                                            <button class="boton boton-volverVNomina">Volver</button>
-                                        </div>
-                                        <div class="acciones nuevoVNomina" style="display: none">
-                                        </div>
-                                        <div class="acciones visualizarVNomina" style="display: none;">
-                                        </div>
-                                        <div class="acciones editarVNomina" style="display: none;">
-                                            <button class="boton boton-cargar2">Cargar Data</button>
-                                            <button class="boton boton-add" id="btn-ParametrosObras">Insertar Valor Obra</button>
-                                            <button class="boton boton-marcar_todos" id="btn-DetalleTransferencia">Detalle Transferencia</button>
-                                            <button class="boton boton-ingeniero">Recargar Obras</button>
-                                            <button class="boton boton-refrescar">Refrescar</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
+                                                <input type="checkbox" /></th>
+                                            <th>No.</th>
+                                            <th>T&iacutetulo</th>
+                                            <th>Fecha</th>
+                                            <th>Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>24578</td>
+                                            <td>Este es el titulo de la resoluci&oacuten</td>
+                                            <td>12/20/4789</td>
+                                            <td><span class="estado Inactivo">Inactivo</span></td>
+                                        </tr>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>1455587</td>
+                                            <td>Esta es una resoluci&oacuten que esta aprobada</td>
+                                            <td>08/20/2016</td>
+                                            <td><span class="estado Activo">Activo</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
+                        </fieldset>
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btnNuevoEditVerVNomina">
+                            <button class="boton boton-nuevoVNomina">Nuevo</button>
+                            <button class="boton boton-editarVNomina">Editar</button>
+                            <button class="boton boton-visualizarVNomina">Visualizar</button>
                         </div>
-                        <!--End Modal-->
-            <!--End Modal-->
+                        <div class="ModalCerrar">
+                            <button type="button" class="boton btn-danger boton-cerrar" data-dismiss="modal">Cerrar</button>
+                        </div>
+                        <div class="btnGuardarCerrarVNomina" style="display: none">
+                            <button class="boton boton-guardarVNomina">Guardar</button>
+                            <button class="boton boton-volverVNomina">Volver</button>
+                        </div>
+                        <div class="acciones nuevoVNomina" style="display: none">
+                        </div>
+                        <div class="acciones visualizarVNomina" style="display: none;">
+                        </div>
+                        <div class="acciones editarVNomina" style="display: none;">
+                            <button class="boton boton-cargar2">Cargar Data</button>
+                            <button class="boton boton-add" id="btn-ParametrosObras">Insertar Valor Obra</button>
+                            <button class="boton boton-marcar_todos" id="btn-DetalleTransferencia">Detalle Transferencia</button>
+                            <button class="boton boton-ingeniero">Recargar Obras</button>
+                            <button class="boton boton-refrescar">Refrescar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Modal -->
         <div class="modal fade" id="resoluciones" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
