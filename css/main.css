@@ -1273,6 +1273,10 @@ div.dataTables_filter label {
     background-image: url("../images/cerrar-2.png");
 }
 
+.boton-calculadora {
+    background-image: url("../images/calculadora.png");
+}
+
 .boton-resolucion {
     background-image: url("../images/resolucion.png");
 }

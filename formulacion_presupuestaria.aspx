@@ -794,22 +794,22 @@
                     </div>
                     <div class="modal-body">
                         <div class="row m0">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="form-group">
                                     <label>No.</label>
                                     <input class="ui number" type="number">
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="form-group">
                                     <label>Fecha</label>
                                     <input class="ui fecha" type="Text">
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="form-group">
                                     <label>Estado</label>
-                                    <select class="ui">
+                                    <select class="ui cbo">
                                         <option>Seleccione opciones</option>
                                         <option>Registrado</option>
                                         <option>Cancelado</option>
@@ -844,37 +844,100 @@
                                     </div>
                                 </div>                                
                             </fieldset>
+                            <fieldset class="mt15" style="padding: 10px 0 !important;">
+                                <legend>Formulaci&oacuten Presupuestaria</legend>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Formulaci&oacuten no.</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Fecha</label>
+                                        <input class="ui fecha" type="Text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>Periodo</label>
+                                        <input class="ui">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <label>%Aumento</label>
+                                        <input class="ui number" >
+                                    </div>
+                                </div>                                
+                            </fieldset>
 
                         </div>
-                        <fieldset>
+                        <fieldset class="mt10">
+                            <legend>Salario Actual</legend>
                             <div class="table-responsive">
-                                <table class="table table-striped table-bordered table-hover datatable">
+                                <table class="table table-s triped table-bordered table-hover datatable">
                                     <thead>
                                         <tr class="table_heading">
                                             <th>
                                                 <input type="checkbox" /></th>
-                                            <th>No.</th>
-                                            <th>T&iacutetulo</th>
-                                            <th>Fecha</th>
-                                            <th>Estado</th>
+                                            <th>Cargo</th>
+                                            <th>No. Personas</th>
+                                            <th>Mensual</th>
+                                            <th>Anual</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr class="center">
                                             <td>
                                                 <input type="checkbox"></td>
-                                            <td>24578</td>
-                                            <td>Este es el titulo de la resoluci&oacuten</td>
-                                            <td>12/20/4789</td>
-                                            <td><span class="estado Inactivo">Inactivo</span></td>
+                                            <td>Secretaria</td>
+                                            <td>25</td>
+                                            <td>RD$13,000.00</td>
+                                            <td>RD$208,000.00</td>
                                         </tr>
                                         <tr class="center">
                                             <td>
                                                 <input type="checkbox"></td>
-                                            <td>1455587</td>
-                                            <td>Esta es una resoluci&oacuten que esta aprobada</td>
-                                            <td>08/20/2016</td>
-                                            <td><span class="estado Activo">Activo</span></td>
+                                            <td>Tecnico</td>
+                                            <td>25</td>
+                                            <td>RD$16,000.00</td>
+                                            <td>RD$260,000.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </fieldset>
+                        <fieldset class="mt10">
+                            <legend>Salario Solicitado</legend>
+                            <div class="table-responsive">
+                                <table class="table table-s triped table-bordered table-hover datatable">
+                                    <thead>
+                                        <tr class="table_heading">
+                                            <th>
+                                                <input type="checkbox" /></th>
+                                            <th>Cargo</th>
+                                            <th>No. Personas</th>
+                                            <th>Mensual</th>
+                                            <th>Anual</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>Secretaria</td>
+                                            <td>25</td>
+                                            <td>RD$13,000.00</td>
+                                            <td>RD$208,000.00</td>
+                                        </tr>
+                                        <tr class="center">
+                                            <td>
+                                                <input type="checkbox"></td>
+                                            <td>Tecnico</td>
+                                            <td>25</td>
+                                            <td>RD$16,000.00</td>
+                                            <td>RD$260,000.00</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -896,6 +959,10 @@
                             <button class="boton boton-volverVNomina">Volver</button>
                         </div>
                         <div class="acciones nuevoVNomina" style="display: none">
+                            <button class="boton boton-cargar2">Cargar Data</button>
+                            <button class="boton boton-cargar2">Cargo</button>
+                            <button class="boton boton-cargar2">Consulta</button>
+
                         </div>
                         <div class="acciones visualizarVNomina" style="display: none;">
                         </div>

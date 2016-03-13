@@ -667,8 +667,24 @@ $(document).ready(function(){
         $('#modalVerNomina').modal('show');
     });
 
-     $('#btn-FormularNominas').click(function(){
+    $('#btn-FormularNominas').click(function(){
         $('#modalFormularNominas').modal('show');
+    });
+
+    $('#btn-registroNuevo').click(function(){
+        $('#modalRegistro606').modal('show');
+    });
+
+    $('#btn-registroVisualizar').click(function(){
+        $('#modalRegistro606').modal('show');
+    });
+
+    $('#btn-registroEditar').click(function(){
+        $('#modalRegistro606').modal('show');
+    });
+
+     $('#btn-visualizarProcesarPago').click(function(){
+        $('#modalvisualizarProcesarPago').modal('show');
     });
 
 });
