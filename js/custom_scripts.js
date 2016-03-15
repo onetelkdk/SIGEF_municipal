@@ -687,4 +687,8 @@ $(document).ready(function(){
         $('#modalvisualizarProcesarPago').modal('show');
     });
 
+     $('.detallePgoRecurrente').click(function(){
+        $('#modalDetallePgoRecurrente').modal('show');
+    });
+
 });

@@ -1946,3 +1946,6 @@ div.dataTables_filter label {
     background-color: rgb(62, 132, 192);
     border: 2px solid rgb(53, 111, 165);
 }
+.modal-footer > button {
+    margin-left: 3px;
+}   
