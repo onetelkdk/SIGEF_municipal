@@ -115,7 +115,7 @@
             <!-- // end data body //////// //////-->
         </div>
         <!-- // sidebar-menu ///////////-->
-        <div class="caja-btn-acciones alert">
+        <div class="dv-btn-acciones alert">
             <div class="botones">
                 <div class="btnNuevoEditVer">
                     <button class="boton boton-nuevo">Nuevo</button>

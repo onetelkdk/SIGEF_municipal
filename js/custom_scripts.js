@@ -575,8 +575,8 @@ $(document).ready(function(){
          $('#modalAuditoria').modal('show');
     });
 
-    $('#btn-AgregarPartida').click(function() {
-         $('#modalAgregarPartida').modal('show');
+    $('#btn-AgregarPartidaGastos').click(function() {
+        $('#mdAgregarPartida').modal('show');
     });
 
     $('#btn-AgregarPartida2').click(function() {
@@ -671,4 +671,11 @@ $(document).ready(function(){
         $('#modalFormularNominas').modal('show');
     });
 
+    /* Modal wide*/
+
+     $(".modal-wide").on("show.bs.modal", function ()
+     {
+         var height = $(window).height() - 200;
+         $(this).find(".modal-body").css("max-height", height);
+     });
 });
