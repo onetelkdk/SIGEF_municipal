@@ -79,14 +79,14 @@
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane active" id="registro">
                                             <div class="mt10 row">
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-6">
                                                     <div class="form-group">
                                                         <label>C&oacute;digo</label>
                                                         <input type="text" class="ui" value="5" disabled>
                                                     </div>
                                                 </div>
 
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-6">
                                                     <div class="form-group">
                                                         <label>Estado</label>
                                                         <select class="ui cbo">
@@ -97,7 +97,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-6">
                                                     <div class="form-group">
                                                         <label>A&ntilde;o</label>
                                                         <select class="ui cbo">
@@ -109,47 +109,26 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-6">
                                                     <div class="form-group">
                                                         <label>Inicio</label>
                                                         <input type="text" class="ui fecha" value="01/01/2016" disabled>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-6">
                                                     <div class="form-group">
                                                         <label>Fin</label>
                                                         <input type="text" class="ui fecha" value="31/12/2016" disabled>
                                                     </div>
                                                 </div>
 
-                                                <div class="col-lg-3 col-md-6">
+                                                <div class="col-lg-4 col-md-6">
                                                     <div class="form-group">
                                                         <label>Fecha Trx</label>
                                                         <input type="text" class="ui fecha">
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Fecha Apro.</label>
-                                                        <input type="text" class="ui fecha">
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-lg-3 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>No. Resolucion</label>
-                                                        <input type="text" class="ui">
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-lg-3 col-md-6">
-                                                    <div class="form-group">
-                                                        <label>Fecha Resoluci&oacute;n.</label>
-                                                        <input type="text" class="ui fecha">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-12 mb15">
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                         <!--  PESTAÑA DE GASTOS //////////////////////////// -->
@@ -193,46 +172,45 @@
                                                         <table class="table table-striped table-bordered table-hover font13 datatable" id="detallegasto">
                                                             <thead>
                                                                 <tr class="table_heading">
-                                                                    <th>Program&aacutetica</th>
-                                                                    <th class="center">Programa</th>
-                                                                    <th class="center">Objeto</th>
-                                                                    <th class="center">Descripci&oacuten</th>
-                                                                    <th class="center">Tipo Cuenta</th>
-                                                                    <th class="center">Monto</th>
+                                                                    <th><input type="checkbox">#</th>
+                                                                    <th>Est. Prog.</th>
+                                                                    <th>Obj. Gasto</th>
+                                                                    <th>Cta. Banco</th>
+                                                                    <th>Ent. Rec.</th>
+                                                                    <th>Org</th>
+                                                                    <th>Func.</th>
+                                                                    <th>Cuenta</th>
+                                                                    <th>Fuente Fina</th>
+                                                                    <th>Fuente Esp.</th>
+                                                                    <th>Presupuesto</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td><a href="#">01.0000.03000</a></td>
-                                                                    <td>0</td>
-                                                                    <td>1</td>
-                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                    <td>Servicios</td>
-                                                                    <td>10,000.00</td>
+                                                                    <td><input type="checkbox"></td>
+                                                                    <td>01.00.00.0001</td>
+                                                                    <td>2.1.1.4.01</td>
+                                                                    <td>10001502</td>
+                                                                    <td>0000</td>
+                                                                    <td>100</td>
+                                                                    <td>1.1.01</td>
+                                                                    <td>Sueldo anual no. 13</td>
+                                                                    <td>20</td>
+                                                                    <td>1955</td>
+                                                                    <td>RD$431,200.00</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><a href="#">01.0000.03000</a></td>
-                                                                    <td>0</td>
-                                                                    <td>1</td>
-                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                    <td>Servicios</td>
-                                                                    <td>10,000.00</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><a href="#">01.0000.03000</a></td>
-                                                                    <td>0</td>
-                                                                    <td>1</td>
-                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                    <td>Servicios</td>
-                                                                    <td>10,000.00</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><a href="#">01.0000.03000</a></td>
-                                                                    <td>0</td>
-                                                                    <td>1</td>
-                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                    <td>Servicios</td>
-                                                                    <td>10,000.00</td>
+                                                                    <td><input type="checkbox"></td>
+                                                                    <td>01.00.00.0001</td>
+                                                                    <td>2.1.1.5.01</td>
+                                                                    <td>10001602</td>
+                                                                    <td>0000</td>
+                                                                    <td>100</td>
+                                                                    <td>1.1.01</td>
+                                                                    <td>Contribuciones al sector salud</td>
+                                                                    <td>30</td>
+                                                                    <td>1955</td>
+                                                                    <td>RD$230,500.00</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
