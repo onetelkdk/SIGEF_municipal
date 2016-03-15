@@ -575,8 +575,8 @@ $(document).ready(function(){
          $('#modalAuditoria').modal('show');
     });
 
-    $('#btn-AgregarPartida').click(function() {
-         $('#modalAgregarPartida').modal('show');
+    $('#btn-AgregarPartidaGastos').click(function() {
+        $('#mdAgregarPartida').modal('show');
     });
 
     $('#btn-AgregarPartida2').click(function() {
@@ -667,7 +667,7 @@ $(document).ready(function(){
         $('#modalVerNomina').modal('show');
     });
 
-    $('#btn-FormularNominas').click(function(){
+     $('#btn-FormularNominas').click(function(){
         $('#modalFormularNominas').modal('show');
     });
 

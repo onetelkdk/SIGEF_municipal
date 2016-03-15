@@ -19,6 +19,10 @@ time, mark, audio, video {
     vertical-align: middle;
 }
 
+body {
+    padding: 0 !important;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -31,6 +35,11 @@ body {
     background-attachment: fixed;
     background: #003C74;
     line-height: 1;
+}
+
+fieldset {
+    display: block;
+    min-width: -webkit-min-content !important;
 }
 
 .main-header {
@@ -69,7 +78,7 @@ body {
     background: #F9FBFC;
     position: inherit;
     margin-left: 300px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     padding: 0 15px;
     border-left: 1px solid #e7e7e7;
     -webkit-box-sizing: border-box;
@@ -144,6 +153,15 @@ body {
 .mlr-20 {
     margin: 5px -20px;
 }
+
+.mb-5 {
+    margin-bottom: -5px !important;
+}
+
+.mt-10 {
+    margin-top: -10px !important;
+}
+
 /* Padding */
 .p0 {
     padding: 0 !important;
@@ -528,13 +546,13 @@ li a.link img {
 
 .ui {
     width: 100%;
-    height: 31px;
+    height: 27px;
     background-position: 99% center;
     background-repeat: no-repeat;
-    background-size: 25px;
-    padding: 4px;
+    background-size: 22px;
+    padding: 2px;
     padding-right: 30px;
-    font-size: 15px;
+    font-size: 13px;
     border: 1px solid #cdcdda;
     border-radius: 3px;
     -webkit-appearance: none;
@@ -606,7 +624,23 @@ option {
 }
 
 .table-striped > tbody > tr:nth-of-type(even) {
-    background-color: rgba(217, 229, 241, 0.43) !important;
+    background-color: #a8cbf0 !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #fff !important;
+}
+
+.table tr > td, tr > th {
+    border: 1px solid #B5B5B5 !important;
+}
+
+.table tr > th:first-child {
+    border-left: 2px solid #DCDCDC !important;
+}
+
+.table tr > th:last-child {
+    border-right: 2px solid #DCDCDC !important;
 }
 
 .table-m0 {
@@ -614,13 +648,14 @@ option {
     margin-bottom: -9px !important;
 }
 
-.table-m0 th {
-    color: #3E82BF;
-}
+    .table-m0 th {
+        color: #3E82BF;
+    }
 
 .table_heading {
-    background-color: #3e82bf;
+    background-color: #2e76c2;
     color: #fff;
+    font-weight: bold;
 }
 
 table.dataTable thead .sorting:after {
@@ -1165,7 +1200,7 @@ div.dataTables_filter label {
 }
 /* End Login*/
 /* caja acciones y botones */
-.caja-btn-acciones {
+.dv-btn-acciones {
     position: fixed;
     bottom: 0;
     border: 0 !important;
@@ -1184,7 +1219,7 @@ div.dataTables_filter label {
     float: left;
 }
 
-.btnNuevoEditVer, .btnGuardarCerrar, .btnNuevoEditVerRGastos, .btnGuardarCerrarRGastos, .btnNuevoEditVerPIngreso, .btnGuardarCerrarPIngreso{
+.btnNuevoEditVer, .btnGuardarCerrar, .btnNuevoEditVerRGastos, .btnGuardarCerrarRGastos, .btnNuevoEditVerPIngreso, .btnGuardarCerrarPIngreso {
     float: left;
     margin-right: 5px;
 }
@@ -1229,7 +1264,7 @@ div.dataTables_filter label {
     background-image: url("../images/new.png");
 }
 
-.boton-visualizar, .boton-visualizarRGastos, .boton-visualizarPIngreso, .boton-visualizarVNomina{
+.boton-visualizar, .boton-visualizarRGastos, .boton-visualizarPIngreso, .boton-visualizarVNomina {
     background-image: url("../images/visualizar.png");
 }
 
@@ -1364,7 +1399,7 @@ div.dataTables_filter label {
         background-color: #25BFEC;
     }
 
-.boton-cerrar, .boton-volverRGastos, .boton-volverPIngreso, .boton-volverVNomina  {
+.boton-cerrar, .boton-volverRGastos, .boton-volverPIngreso, .boton-volverVNomina {
     color: #fff;
     font-size: 13px;
     background-color: #d9534f;
@@ -1372,9 +1407,9 @@ div.dataTables_filter label {
     background-image: url("../images/cerrar.png");
 }
 
-.boton-cerrar:hover, .boton-volverRGastos:hover, .boton-volverPIngreso:hover, .boton-volverVNomina:hover {
-    background-color: #BD312C;
-}
+    .boton-cerrar:hover, .boton-volverRGastos:hover, .boton-volverPIngreso:hover, .boton-volverVNomina:hover {
+        background-color: #BD312C;
+    }
 
 .boton-cargarEmpleados {
     background-image: url("../images/add-user2.png");
@@ -1856,15 +1891,58 @@ div.dataTables_filter label {
 
 .addon2 {
     background-color: #fff !important;
-    border:none !important;
-    padding: 0px !important;
+    border: none !important;
+    padding: 0 !important;
 }
 
 .addonInput {
-    border:1px solid #000;
+    border: 1px solid #000;
     border: 1px solid #ccc;
     border-radius: 3px;
     height: 30px;
     width: 63px;
     margin-right: 7px;
+}
+
+.descripcionTb {
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #2196F3;
+    background: #EBF9FF;
+    padding-right: 2px;
+    margin-bottom: 10px;
+}
+
+.descBorderBlue {
+    border: 1px solid #2196F3;
+    padding: 3px;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+/* Modal wide*/
+.modal.modal-wide .modal-dialog {
+    width: 90%;
+}
+
+.modal-wide .modal-body {
+    overflow-y: auto;
+}
+
+.dv-btn-acciones .dropdown-menu {
+    margin-left: -36px !important;
+}
+
+.dropup button span {
+    margin: 0;
+}
+
+.dropup ul.dropdown-menu {
+    max-width: 250px;
+    padding: 5px;
+    background-color: rgb(62, 132, 192);
+    border: 2px solid rgb(53, 111, 165);
 }

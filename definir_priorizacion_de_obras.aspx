@@ -82,7 +82,7 @@
             <!-- // end data body //////// //////-->
         </div>
         <!-- // sidebar-menu ///////////-->
-        <div class="caja-btn-acciones alert">
+        <div class="dv-btn-acciones alert">
             <div class="botones">
                 <div class="acciones">
                     <button class="boton boton-ingeniero">Priorizar Obra</button>

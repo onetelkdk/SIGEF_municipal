@@ -129,7 +129,7 @@
         <!-- // sidebar-menu ///////////-->
     </div>
 
-    <div class="caja-btn-acciones alert">
+    <div class="dv-btn-acciones alert">
         <div class="botones">
         <!--
             <div class="btnNuevoEditVer">

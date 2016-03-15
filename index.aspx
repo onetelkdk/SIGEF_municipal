@@ -27,7 +27,6 @@
                         </div>
                         <div class="form-group">
                             <input type="text" placeholder="Nombre de Usuario" class="userLoginIcon" id="usuario">  
-                            
                         </div>
                     </div>
                     <div class="col-md-6">
