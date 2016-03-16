@@ -579,6 +579,10 @@ $(document).ready(function(){
         $('#mdAgregarPartida').modal('show');
     });
 
+    $('#btn-AgregarPartidaIngresos').click(function() {
+        $('#mdAgregarPartidaIn').modal('show');
+    });
+
     $('#btn-AgregarPartida2').click(function() {
          $('#modalAgregarPartida2').modal('show');
     });

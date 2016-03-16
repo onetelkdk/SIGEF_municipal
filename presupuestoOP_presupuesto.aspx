@@ -473,7 +473,7 @@
     </div>
     <!--End Modal-->
     <!-- Modal -->
-    <div class="modal fade" id="modalDetalleGastos" tabindex="-1" role="dialog">
+    <div class="modal fade modal-wide" id="modalDetalleGastos" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -571,7 +571,7 @@
     <!--End Modal-->
 
     <!-- Modal -->
-    <div class="modal fade" id="modalResolucion" tabindex="-1" role="dialog">
+    <div class="modal fade modal-wide" id="modalResolucion" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -680,7 +680,7 @@
     <!--End Modal-->
 
     <!-- Modal -->
-    <div id="mdAgregarPartida" class="modal modal-wide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
+    <div id="mdAgregarPartida" class="modal modal-wide fade modal-wide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -820,10 +820,108 @@
             </div>
         </div>
     </div>
-    <!--End Modal-->
+    <!--End Modal-->  
+    <!-- Modal -->
+    <div id="mdAgregarPartidaIn" class="modal modal-wide fade modal-wide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="addpartidaGastos">Agregar Partida</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <fieldset class="mt-10 mb10 text-center">
+                                <legend class="mb-5">Descripci&oacute;n / objeto del Ingreso</legend>
+                                <input type="text" class="ui descripcionTb" placeholder="Por favor ingrese el nombre de la denominaci&oacuten" />
+                            </fieldset>
+                        </div>
+                        <fieldset class="m15">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>Fuente financiamiento</label>
+                                    <select class="ui cbo">
+                                        <option>Seleccione opciones</option>
+                                        <option>Fondo General</option>
+                                        <option>Fondo Propios</option>
+                                        <option>Transferencias</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>F. Especifica</label>
+                                    <select class="ui cbo">
+                                        <option>Seleccione opciones</option>
+                                        <option>Banco Central Dominicano</option>
+                                        <option>Instituto DOminicano</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>Org. Financiador</label>
+                                    <select class="ui cbo">
+                                        <option>Seleccione opciones</option>
+                                        <option>Finanzas Internacionales</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>Entidad Otorgante</label>
+                                    <select class="ui cbo">
+                                        <option>Seleccione opciones</option>
+                                        <option>Presidencia de la Rep&uacuteblica</option>
+                                        <option>Embajada de Estados Unidos</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="m15">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>Proyectado A&ntildeo Siguiente</label>
+                                    <select class="ui cbo">
+                                        <option>Seleccione opciones</option>
+                                        <option>2014</option>
+                                        <option>2015</option>
+                                        <option>2016</option>
+                                        <option>2017</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>Monto Presupuestado Actual</label>
+                                    <input type="text" class="ui bg-info" value="RD$3,500,000.00">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="form-group">
+                                    <label>Monto Ejecuci&oacuten Actual</label>
+                                    <input type="text" class="ui bg-info" value="RD$2,900,000.00">
+                                </div>
+                            </div>
+                            
+                        </fieldset> 
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--End Modal-->   
 
     <!-- Modal -->
-    <div class="modal fade" id="modalEditarPartida" tabindex="-1" role="dialog">
+    <div class="modal fade modal-wide" id="modalEditarPartida" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -959,9 +1057,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                <div class="modal-footer">                    
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -969,7 +1067,7 @@
     <!--End Modal-->
 
     <!-- Modal -->
-    <div class="modal fade" id="modalAgregarPartida2" tabindex="-1" role="dialog">
+    <div class="modal fade modal-wide" id="modalAgregarPartida2" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1105,9 +1203,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                <div class="modal-footer">                    
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -1154,8 +1252,9 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
                     <button type="button" class="btn btn-primary">Guardar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    
                 </div>
             </div>
         </div>
@@ -1184,10 +1283,10 @@
                     </button>
                     <ul class="dropdown-menu">
                         <li>
-                            <button class="boton boton-imprimir" id="btn-AgregarPartidaGastos">Agregar partida - Gasttos</button>
+                            <button class="boton boton-add" id="btn-AgregarPartidaGastos">Agregar partida - Gastos</button>
                         </li>
                         <li>
-                            <button class="boton boton-imprimir" id="btn-AgregarPartidaIngresos">Agregar partida - Ingresos</button>
+                            <button class="boton boton-add" id="btn-AgregarPartidaIngresos">Agregar partida - Ingresos</button>
                         </li>
                     </ul>
                 </div>
