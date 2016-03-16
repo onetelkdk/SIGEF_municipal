@@ -113,6 +113,10 @@ fieldset {
     margin: 15px !important;
 }
 
+.m5 {
+    margin: 5px !important;
+}
+
 .m10 {
     margin: 10px !important;
 }
@@ -1306,6 +1310,10 @@ div.dataTables_filter label {
 
 .boton-cerrar-2 {
     background-image: url("../images/cerrar-2.png");
+}
+
+.boton-calculadora {
+    background-image: url("../images/calculadora.png");
 }
 
 .boton-resolucion {

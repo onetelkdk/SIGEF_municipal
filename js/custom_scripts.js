@@ -671,11 +671,20 @@ $(document).ready(function(){
         $('#modalFormularNominas').modal('show');
     });
 
-    /* Modal wide*/
+    $('#btn-registroNuevo').click(function(){
+        $('#modalRegistro606').modal('show');
+    });
 
-     $(".modal-wide").on("show.bs.modal", function ()
-     {
-         var height = $(window).height() - 200;
-         $(this).find(".modal-body").css("max-height", height);
-     });
+    $('#btn-registroVisualizar').click(function(){
+        $('#modalRegistro606').modal('show');
+    });
+
+    $('#btn-registroEditar').click(function(){
+        $('#modalRegistro606').modal('show');
+    });
+
+     $('#btn-visualizarProcesarPago').click(function(){
+        $('#modalvisualizarProcesarPago').modal('show');
+    });
+
 });
