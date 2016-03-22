@@ -20,7 +20,7 @@
             <!-- // Data body //////// //////-->
             <div class="data-body shadow">
                 <fieldset style="border: none !important">
-                    <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 m15">
+                    <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
                     <div class="form-group">
                         <label>Presupuesto</label>
                         <select class="ui cbo">
@@ -32,53 +32,51 @@
                         </select>
                     </div>
                 </div>
-                    <div class="col-md-12">
-                    <div class="table-responsive col-lg-12">
-                            <fieldset>
-                            <table class="table table-striped table-bordered table-hover datatable">
-                                <thead>
-                                    <tr class="table_heading">
-                                        <th>Datos obra</th>
-                                        <th>Presupuesto </th>
-                                        <th>Primer Avance</th>
-                                        <th>Priorizaci&oacute;n</th>
-                                        <th>No.</th>
-                                        <th>Nombre de la obra trx</th>
-                                        <th>Inicial</th>
-                                        <th>Modificaci&oacute;n</th>
-                                        <th>Actual</th>
-                                        <th>%</th>
-                                        <th>Avance</th>
-                                        <th>Marque</th>
-                                        <th>Orden</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>0</td>
-                                        <td>2016</td>
-                                        <td>12/03/2016</td>
-                                        <td>3</td>
-                                        <td>4</td>
-                                        <td>Asfaltado en diferentes calles</td>
-                                        <td>RD$200,000.00</td>
-                                        <td>RD$250,000.00</td>
-                                        <td>RD$190,000.00</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            </fieldset>
-                            <br />
-                        </div>
-                        </div>
+                <div class="col-md-6 col-md-offset-6"></div>
+                <fieldset class="m15">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover datatable">
+                            <thead>
+                                <tr class="table_heading">
+                                    <th>Datos obra</th>
+                                    <th>Presupuesto </th>
+                                    <th>Primer Avance</th>
+                                    <th>Priorizaci&oacute;n</th>
+                                    <th>No.</th>
+                                    <th>Nombre de la obra trx</th>
+                                    <th>Inicial</th>
+                                    <th>Modificaci&oacute;n</th>
+                                    <th>Actual</th>
+                                    <th>%</th>
+                                    <th>Avance</th>
+                                    <th>Marque</th>
+                                    <th>Orden</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>2016</td>
+                                    <td>12/03/2016</td>
+                                    <td>3</td>
+                                    <td>4</td>
+                                    <td>Asfaltado en diferentes calles</td>
+                                    <td>RD$200,000.00</td>
+                                    <td>RD$250,000.00</td>
+                                    <td>RD$190,000.00</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </fieldset>
                 </div>
                 </fieldset>
             </div>
-              <div class="clearfix"></div>
+              
             <!-- // end data body //////// //////-->
         </div>
         <!-- // sidebar-menu ///////////-->

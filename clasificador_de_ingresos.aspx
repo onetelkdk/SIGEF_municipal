@@ -42,6 +42,9 @@
                                                     <label>Estado</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Impuesto</option>
+                                                        <option>Donaciones</option>
+                                                        <option>Transferencias</option>
                                                     </select>
                                                 </div>
                                             </div>

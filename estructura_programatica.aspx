@@ -31,8 +31,12 @@
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Presupuesto</label>
-                                                    <select class="ui cbo" disabled>
+                                                    <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>2013</option>
+                                                        <option>2014</option>
+                                                        <option>2015</option>
+                                                        <option>2016</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -40,7 +44,12 @@
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Estado</label>
-                                                    <input type="text" class="ui" disabled value="Activo">
+                                                    <select class="ui cbo">
+                                                        <option>Seleccione opciones</option>
+                                                        <option>Registrado</option>
+                                                        <option>Cancelado</option>
+                                                        <option>Anulado</option>
+                                                    </select>
                                                 </div>
                                             </div>
 
@@ -50,6 +59,8 @@
                                                     <label>Programa</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Obras p&uacuteblicas</option>
+                                                        <option>Saneamiento ambiental y foresta</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -57,7 +68,7 @@
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Nombre</label>
-                                                    <input type="text" class="ui">
+                                                    <input type="text" class="ui" value="Kerlin Garcia">
                                                 </div>
                                             </div>
 
@@ -67,6 +78,9 @@
                                                     <label>Proyecto</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Normas y seguimientos</option>
+                                                        <option>Recursos humanos</option>
+                                                        <option>Gesti&oacuten y administraci&oacuten</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -76,6 +90,9 @@
                                                     <label>Actividad/Obra</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Obras P&uacuteblicas Municipales</option>
+                                                        <option>Obras usbanisticas</option>
+                                                        <option>Alumbrados</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -86,6 +103,8 @@
                                                     <label>Sub-Actividad</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Normas y seguimiento</option>
+                                                        <option>Obras municipales</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -96,6 +115,8 @@
                                                     <label>Area</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Concejo Municipal</option>
+                                                        <option>Servicios municipales</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -103,7 +124,7 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Nivel</label>
-                                                    <input type="text" class="ui">
+                                                    <input type="Number" class="ui number" value="5">
                                                 </div>
                                             </div>
 
@@ -112,6 +133,9 @@
                                                     <label>CI.Funcional</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Servicios generales</option>
+                                                        <option>Defenza nacional</option>
+                                                        <option>Justicia</option>
                                                     </select>
                                                 </div>
                                             </div>

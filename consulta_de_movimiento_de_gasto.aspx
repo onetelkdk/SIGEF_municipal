@@ -39,47 +39,28 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        
+                                        <td>21545</td>
+                                        <td>Pago a proveedor</td>
+                                        <td>19-03-2016</td>
+                                        <td>RD$12,556.32</td>
+                                        <td>RD$5,122,336.00</td>
+                                        <td>15653</td>
                                     </tr>
                                     <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td>22144</td>
+                                        <td>Transferencia bancaria</td>
+                                        <td>23-02-2016</td>
+                                        <td>RD$14,800.22</td>
+                                        <td>RD$5,100,536.00</td>
+                                        <td>15653</td>
                                     </tr>
                                     <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                    </tr>
-
-                                    <tr>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>0</td>
+                                        <td>55455</td>
+                                        <td>Pago a proveedor</td>
+                                        <td>15-02-2016</td>
+                                        <td>RD$18,800.22</td>
+                                        <td>RD$5,090,536.00</td>
+                                        <td>65565</td>
                                     </tr>
                                 </tbody>
                             </table>

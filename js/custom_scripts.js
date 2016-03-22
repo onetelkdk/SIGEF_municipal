@@ -611,7 +611,7 @@ $(document).ready(function(){
          $('#modalAgregarResolucion').modal('show');
     });
 
-    $('#btn-DetallarProgramatica').click(function() {
+    $('#btn-DetallarProgramatica, btn-DetallarProgramatica2').click(function() {
          $('#modalDetallarProgramatica').modal('show');
     });
 
@@ -693,6 +693,14 @@ $(document).ready(function(){
 
      $('.detallePgoRecurrente').click(function(){
         $('#modalDetallePgoRecurrente').modal('show');
+    });
+
+     $('#graficosTab, #comprobantesTab').click(function(){
+        $('.acciones').hide();
+    });
+
+     $('#movimientosTab').click(function(){
+        $('.acciones').show();
     });
 
 });

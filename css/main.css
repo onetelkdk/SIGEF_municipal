@@ -39,7 +39,6 @@ body {
 
 fieldset {
     display: block;
-    min-width: -webkit-min-content !important;
 }
 
 .main-header {
@@ -560,6 +559,7 @@ li a.link img {
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+    padding-left: 7px;
 }
 
 fieldset {
@@ -1809,7 +1809,7 @@ div.dataTables_filter label {
 
 .t-acordeon {
     display: flex !important;
-    color: #0656B5;
+    color: #000;
     font-weight: bold;
     padding: 10px !important;
     font-size: 14px;
@@ -1820,13 +1820,13 @@ div.dataTables_filter label {
     background-image: url(../images/abajo.png) !important;
     background-repeat: no-repeat !important;
     padding-left: 30px !important;
-    background-color: #E3EAE2 !important;
+    background-color: #A8CBF0 !important;
 }
 
     .t-acordeon:hover {
-        background-color: #f4f4f4 !important;
-        color: #0024ff;
-        border: 1px solid #0024ff !important;
+        background-color: #EBF2EA !important;
+        color: #000 !important;
+        border: 1px solid #CCC !important;
     }
 
 .acordeon h5 {
@@ -1949,3 +1949,4 @@ div.dataTables_filter label {
 .modal-footer > button {
     margin-left: 5px;
 }   
+
