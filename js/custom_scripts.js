@@ -703,4 +703,16 @@ $(document).ready(function(){
         $('.acciones').show();
     });
 
+    $('#btn-AgregarPartidaOrigen').click(function(){
+        $('#modalOrigenTransferencia').modal('show');
+    });
+
+    $('#btn-btn-EditarPartidaOrigen').click(function(){
+        $('#modalOrigenTransferencia').modal('show');
+    });
+
+    $('#btn-BorrarPartidaOrigen').click(function(){
+        $('#modalOrigenTransferencia').modal('show');
+    });
+
 });

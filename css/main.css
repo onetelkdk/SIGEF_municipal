@@ -993,6 +993,41 @@ b, strong {
         border-color: #62ae5d;
     }
 
+.btn-edit {
+    color: #fff !important;
+    background-color: rgba(0, 81, 159, 0.53);
+    border-color: rgba(0, 82, 159, 0.84);
+    display: inline-block;
+    padding: 5px 8px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+    .btn-edit:hover {
+        color: #fff !important;
+        background-color:  rgba(0, 81, 159, 0.61);
+        border-color:  rgba(0, 81, 159, 0.61);
+    }
+
+    .btn-edit:active {
+        color: #fff !important;
+        background-color: rgba(0, 94, 166, 0.72);
+        border-color: rgba(0, 94, 166, 0.72);
+    }
+
 .btn-editar2 {
     color: #fff !important;
     background-color: #8ba6bf;
@@ -1950,3 +1985,8 @@ div.dataTables_filter label {
     margin-left: 5px;
 }   
 
+.btnDataTable {
+    float: left !important;
+    margin:6px 0px;
+    margin-top: -3px;
+}
