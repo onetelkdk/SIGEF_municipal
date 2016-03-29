@@ -33,6 +33,9 @@
                                                     <label>Grupo</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Impuesto</option>
+                                                        <option>Donaciones</option>
+                                                        <option>Transferencias</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -42,9 +45,8 @@
                                                     <label>Estado</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
-                                                        <option>Impuesto</option>
-                                                        <option>Donaciones</option>
-                                                        <option>Transferencias</option>
+                                                        <option>Activa</option>
+                                                        <option>Inactiva</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -53,7 +55,7 @@
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Nombre</label>
-                                                    <input type="text" class="ui">
+                                                    <input type="text" class="ui" value="Kerlin Garcia">
                                                 </div>
                                             </div>
 
@@ -63,16 +65,18 @@
                                                     <label>Sub-Grupo</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Impuesto</option>
+                                                        <option>Donaciones</option>
+                                                        <option>Transferencias</option>
                                                     </select>
                                                 </div>
                                             </div>
-
-
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Cuenta</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>130-012021-00</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -92,6 +96,7 @@
                                                     <label>Sub-Auxiliar</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Contribuciones sociales</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -100,14 +105,14 @@
                                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Nivel</label>
-                                                    <input type="text" class="ui">
+                                                    <input type="number" class="ui number" value="3">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Codigo</label>
-                                                    <input type="text" class="ui"/>
+                                                    <input type="text" class="ui" value="2123" />
                                                 </div>
                                             </div>
 
