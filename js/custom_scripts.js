@@ -611,7 +611,7 @@ $(document).ready(function(){
          $('#modalAgregarResolucion').modal('show');
     });
 
-    $('#btn-DetallarProgramatica, btn-DetallarProgramatica2').click(function() {
+    $('#btn-DetallarProgramatica, #btn-DetallarProgramatica2').click(function() {
          $('#modalDetallarProgramatica').modal('show');
     });
 

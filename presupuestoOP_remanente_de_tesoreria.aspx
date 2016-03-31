@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="row m0 ptb-15" id="panelMantenimiento" style="display: none">
-                    <fieldset class="m15 row">
+                    <div class="m15 row">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="form-group">
                                 <label>No. Docum.</label>
@@ -238,7 +238,7 @@
                                             <tr>
                                                 <td>4</td>
                                                 <td>130-415454-4</td>
-                                                <td>Educaci&oacuten, Salud y Género</td>
+                                                <td>Educaci&oacuten, Salud y G&eacute   nero</td>
                                                 <td></td>
                                                 <td>RD$2,000,454.00</td>
                                                 <td>RD$0.00</td>
@@ -248,7 +248,7 @@
                                 </div>
                             </fieldset>
                         </div>
-                    </fieldset>
+                    </div>
                 </div>
             </div>
             <!-- // end data body //////// //////-->
