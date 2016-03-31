@@ -34,6 +34,10 @@
                                                         <label>Presupuesto</label>
                                                         <select class="ui cbo">
                                                             <option>Seleccione opciones</option>
+                                                            <option>2013</option>
+                                                            <option>2014</option>
+                                                            <option>2015</option>
+                                                            <option>2016</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -42,19 +46,30 @@
                                                         <label>Mes</label>
                                                         <select class="ui cbo">
                                                             <option>Seleccione opciones</option>
+                                                            <option>Enero</option>
+                                                            <option>Febrero</option>
+                                                            <option>Marzo</option>
+                                                            <option>Abril</option>
+                                                            <option>Junio</option>
+                                                            <option>Julio</option>
+                                                            <option>Agosto</option>
+                                                            <option>Septioembre</option>
+                                                            <option>Octubre</option>
+                                                            <option>Noviembre</option>
+                                                            <option>Diciembre</option>
                                                         </select>
                                                     </div>
                                                 </div>
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Desde</label>
-                                                    <input type="text" class="ui fecha">
+                                                    <input type="text" class="ui fecha" value="12-05-2016">
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Hasta</label>
-                                                    <input type="text" class="ui fecha">
+                                                    <input type="text" class="ui fecha" value="13-05-2016">
                                                 </div>
                                             </div>
 

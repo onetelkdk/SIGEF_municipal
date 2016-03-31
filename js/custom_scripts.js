@@ -611,7 +611,7 @@ $(document).ready(function(){
          $('#modalAgregarResolucion').modal('show');
     });
 
-    $('#btn-DetallarProgramatica').click(function() {
+    $('#btn-DetallarProgramatica, #btn-DetallarProgramatica2').click(function() {
          $('#modalDetallarProgramatica').modal('show');
     });
 
@@ -695,4 +695,35 @@ $(document).ready(function(){
         $('#modalDetallePgoRecurrente').modal('show');
     });
 
+     $('#graficosTab, #comprobantesTab').click(function(){
+        $('.acciones').hide();
+    });
+
+     $('#movimientosTab').click(function(){
+        $('.acciones').show();
+    });
+
+    $('#btn-AgregarPartidaOrigen').click(function(){
+        $('#modalOrigenTransferencia').modal('show');
+    });
+
+    $('#btn-btn-EditarPartidaOrigen').click(function(){
+        $('#modalOrigenTransferencia').modal('show');
+    });
+
+    $('#btn-EditarPartidaOrigen').click(function(){
+        $('#modalOrigenTransferencia').modal('show');
+    });
+
+    $('#btn-AgregarPartidaDestino').click(function(){
+        $('#modalDestinoTransferencia').modal('show');
+    });
+
+    $('#btn-btn-EditarPartidaDestino').click(function(){
+        $('#modalDestinoTransferencia').modal('show');
+    });
+
+    $('#btn-EditarPartidaDestino').click(function(){
+        $('#modalDestinoTransferencia').modal('show');
+    });
 });

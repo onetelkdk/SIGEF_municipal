@@ -32,15 +32,18 @@
                                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Código</label>
-                                                    <input type="text" class="ui" disabled>
+                                                    <input type="text" class="ui" value="1345">
                                                 </div>
                                             </div>
 
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Estado</label>
-                                                    <select class="ui cbo" disabled>
+                                                    <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Registrado</option>
+                                                        <option>Cancelado</option>
+                                                        <option>Anulado</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -50,6 +53,10 @@
                                                     <label>Objeto</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Remuneraciones y Contribuciones</option>
+                                                        <option>Contrataciones y Servicios</option>
+                                                        <option>Transferencias de Capital</option>
+                                                        <option>Obras</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -58,7 +65,7 @@
                                              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Nombre</label>
-                                                    <input type="text" class="ui">
+                                                    <input type="text" class="ui" value="Kerlin Garcia">
                                                 </div>
                                             </div>
 
@@ -68,6 +75,9 @@
                                                     <label>Cuenta</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Disminuci&oacuten de activos</option>
+                                                        <option>Gastos Finanacieros</option>
+                                                        <option>Materiales y suministros</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -77,31 +87,29 @@
                                                     <label>Sub-cuenta</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Disminuci&oacuten de activos</option>
+                                                        <option>Gastos Finanacieros</option>
+                                                        <option>Materiales y suministros</option>
                                                     </select>
                                                 </div>
                                             </div>
-
-
                                             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Auxiliar</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>Sobresueldos</option>
+                                                        <option>Jornales</option>
+                                                        <option>Honorarios</option>
                                                     </select>
                                                 </div>
                                             </div>
-
-
                                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                                                 <div class="form-group">
                                                     <label>Nivel</label>
-                                                    <input type="text" class="ui">
+                                                    <input type="number" class="ui number" value="2">
                                                 </div>
                                             </div>
-
-                                            
-
-
                                         </fieldset>
                                     </div>
                                 </div>

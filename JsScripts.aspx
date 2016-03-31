@@ -12,8 +12,7 @@
 <script src="js/main.js"></script>
 <script src="js/plugins/fancyBox/source/jquery.fancybox.js"></script>
 <script src="js\plugins\bootstrap-toggle-master\js\bootstrap-toggle.min.js"></script>
-
-<script>
+ <script>
     $(function () {
         $("#accordion").accordion();
     });

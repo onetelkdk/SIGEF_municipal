@@ -154,106 +154,72 @@
                                                 </div>
                                             </fieldset>
                                             <fieldset class="m15">
-                                                <legend>Origen</legend>
-                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Objeto</label>
-                                                        <select class="ui cbo">
-                                                            <option>Seleccione opciones</option>
-                                                            <option>421101 - Disminuci&oacuten de gastos</option>
-                                                        </select>
+                                                <legend>Partidas presupuestarias - origen</legend>
+                                                <div class="col-md-12 flex-center p0">
+                                                    <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+                                                        <div class="btnDataTable">
+                                                        <button class="btn-agregar" id="btn-AgregarPartidaOrigen">Agregar</button>
+                                                        <button class="btn-edit ml10" id="btn-EditarPartidaOrigen">Editar</button>
+                                                        <button class="btn-borrar ml10">Borrar</button>
+                                                    </div>
+                                                    </div>
+                                                    <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+                                                        <div class="alert alert-warning">
+                                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                                        <strong>Info:</strong> Pulse agregar, editar o borrar para modificar las partidas presupuestaria.
+                                                    </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Monto</label>
-                                                        <input class="ui bg-success" value="RD$50,000.00">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Actividad/Proyecto/Sub-Actividad</label>
-                                                        <select class="ui cbo">
-                                                            <option>01000003005-ADMINISTRACION MUNICIPAL NOMINAL</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Original</label>
-                                                        <input type="text" class="ui bg-warning" value="RD$50,000.00" disabled>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Disponibilidad</label>
-                                                        <input type="text" class="ui bg-warning" value="RD$50,000.00" disabled>
-                                                    </div>
-                                                </div>
-                                                <div class="table-responsive col-lg-12 col-md-12">
-                                                    <table class="table table-striped table-bordered table-hover font13 datatable">
-                                                        <thead>
-                                                            <tr class="table_heading">
-                                                                <th>Program&aacutetica</th>
-                                                                <th>Objeto</th>
-                                                                <th>Descripci&oacuten</th>
-                                                                <th>Tipo Cuenta</th>
-                                                                <th>Monto</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td><a href="#">01.0000.03000</a></td>
-                                                                <td>1</td>
-                                                                <td>Compensaci&oacuten por horas extraordinarias</td>
-                                                                <td>Servicios</td>
-                                                                <td>10,000.00</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
+                                                
+                                                <fieldset class="m10"> 
+                                                    <div class="table-responsive col-lg-12 col-md-12">
+                                                        <table class="table table-striped table-bordered table-hover font13 datatable">
+                                                            <thead>
+                                                                <tr class="table_heading">
+                                                                    <th></th>
+                                                                    <th>Program&aacutetica</th>
+                                                                    <th>Objeto</th>
+                                                                    <th>Descripci&oacuten</th>
+                                                                    <th>Tipo Cuenta</th>
+                                                                    <th>Monto</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td><input type="checkbox"></td>
+                                                                    <td>01.0000.03000</td>
+                                                                    <td>1</td>
+                                                                    <td>Compensaci&oacuten por horas extraordinarias</td>
+                                                                    <td>Servicios</td>
+                                                                    <td>10,000.00</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div> 
+                                                </fieldset>
                                             </fieldset>
                                             <fieldset class="m15">
                                                 <legend>Destino</legend>
-                                                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Objeto</label>
-                                                        <select class="ui cbo">
-                                                            <option>Seleccione opciones</option>
-                                                            <option>421101 - Disminuci&oacuten de gastos</option>
-                                                        </select>
+                                               <div class="col-md-12 flex-center p0">
+                                                    <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+                                                        <div class="btnDataTable">
+                                                        <button class="btn-agregar" id="btn-AgregarPartidaDestino">Agregar</button>
+                                                        <button class="btn-edit ml10" id="btn-EditarPartidaDestino">Editar</button>
+                                                        <button class="btn-borrar ml10">Borrar</button>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Monto</label>
-                                                        <input class="ui bg-success" value="RD$50,000.00">
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Actividad/Proyecto/Sub-Actividad</label>
-                                                        <select class="ui cbo">
-                                                            <option>01000003005-ADMINISTRACION MUNICIPAL NOMINAL</option>
-                                                        </select>
+                                                    <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+                                                        <div class="alert alert-warning">
+                                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                                        <strong>Info:</strong> Pulse agregar, editar o borrar para modificar el destino de partidas presupuestaria.
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Original</label>
-                                                        <input type="text" class="ui bg-warning" value="RD$50,000.00" disabled>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                                    <div class="form-group">
-                                                        <label>Disponibilidad</label>
-                                                        <input type="text" class="ui bg-warning" value="RD$50,000.00" disabled>
                                                     </div>
                                                 </div>
                                                 <div class="table-responsive col-lg-12 col-md-12">
                                                     <table class="table table-striped table-bordered table-hover font13 datatable">
                                                         <thead>
                                                             <tr class="table_heading">
+                                                                <th></th>
                                                                 <th>Program&aacutetica</th>
                                                                 <th>Objeto</th>
                                                                 <th>Descripci&oacuten</th>
@@ -263,7 +229,8 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td><a href="#">01.0000.03000</a></td>
+                                                                <td><input type="radio"></td>
+                                                                <td>01.0000.03000</td>
                                                                 <td>1</td>
                                                                 <td>Compensaci&oacuten por horas extraordinarias</td>
                                                                 <td>Servicios</td>
@@ -1072,8 +1039,6 @@
                                                 <legend>Registros del presupuesto</legend>
                                                 <div class="table-responsive">
                                                         <table class="table table-striped table-bordered table-hover font13 datatable" id="table1">
-
-
                                                             <thead>
                                                                 <tr class="table_heading">
                                                                     <th>Program&aacutetica</th>
@@ -1290,7 +1255,7 @@
             </div>
                 
         </div>  
-        <!-- Modal de auditoria -->
+        <!-- Modal -->
             <div class="modal fade" id="modalAuditoria" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -1329,14 +1294,151 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
                                         <button type="button" class="btn btn-primary">Guardar</button>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--End Modal-->
-    <!-- Modal <--></-->
+     <!--End Modal-->
+  
+
+    <!-- Modal -->
+        <div class="modal fade modal-wide" id="modalOrigenTransferencia" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Partidas presupuestaria</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <fieldset>
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 p0">
+                                        <div class="form-group">
+                                            <label>Monto</label>
+                                            <input class="ui bg-success" value="RD$50,000.00">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <fieldset> 
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover font13 datatable">
+                                    <thead>
+                                        <tr class="table_heading">
+                                            <th></th>
+                                            <th>Program&aacutetica</th>
+                                            <th>Objeto</th>
+                                            <th>Disponibilidad</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>01.0000.03000-Normas Politicas y Administraci&oacuten</td>
+                                            <td>21101-Sueldos fijos</td>
+                                            <td>RD$54,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>01.0000.05000-Administraci&oacuten Municipal</td>
+                                            <td>21101-Jornales</td>
+                                            <td>RD$120,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>01.0020.06000-Descripci&oacuten de la Obra</td>
+                                            <td>21101-Publicidad</td>
+                                            <td>RD$305,000.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> 
+                        </fieldset>
+                    </div>
+                    
+
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Agregar</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--End Modal-->
+    <!-- Modal -->
+        <div class="modal fade modal-wide" id="modalDestinoTransferencia" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Destino</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <fieldset>
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 p0">
+                                        <div class="form-group">
+                                            <label>Monto</label>
+                                            <input class="ui bg-success" value="RD$50,000.00">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                        <fieldset> 
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover font13 datatable">
+                                    <thead>
+                                        <tr class="table_heading">
+                                            <th></th>
+                                            <th>Program&aacutetica</th>
+                                            <th>Objeto</th>
+                                            <th>Disponibilidad</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>01.0000.03000-Normas Politicas y Administraci&oacuten</td>
+                                            <td>21101-Sueldos fijos</td>
+                                            <td>RD$54,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>01.0000.05000-Administraci&oacuten Municipal</td>
+                                            <td>21101-Jornales</td>
+                                            <td>RD$120,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox"></td>
+                                            <td>01.0020.06000-Descripci&oacuten de la Obra</td>
+                                            <td>21101-Publicidad</td>
+                                            <td>RD$305,000.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div> 
+                        </fieldset>
+                    </div>
+                    
+
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Agregar</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--End Modal-->
         <footer class="main-footer">   
         </footer>       
         <div class="dv-btn-acciones alert">
@@ -1350,17 +1452,7 @@
                 <button class="boton boton-guardar">Guardar</button>
                 <button class="boton boton-cerrar">Cerrar</button>
             </div>
-            <!-- <div class="acciones" style="display: none">
-                    <button class="boton boton-imprimir">Imprimir</button>
-                    <button class="boton boton-imprimir">Imprimir Revisi&oacuten</button>
-                    <button class="boton boton-imprimir">Imprimir Bolante</button>
-                    <button class="boton boton-aprobar">Aprobar</button>
-                    <button class="boton boton-cancelar">Cancelar</button>
-                    <button class="boton boton-anular">Anular</button>
-                    <button class="boton boton-editar" id="btn-auditoria">Auditoría</button>
-                    <button class="boton boton-asientos">Asientos Contables</button>
-                    <button class="boton boton-cargarEmpleados">Cargar empreados</button>
-                </div>  -->
+            
             <div class="acciones nuevo" style="display: none;">
             </div>
             <div class="acciones visualizar" style="display: none;">

@@ -32,13 +32,13 @@
                                                     <label>POA</label>
                                                     <select class="ui cbo">
                                                         <option>Seleccione opciones</option>
+                                                        <option>2013</option>
+                                                        <option>2014</option>
+                                                        <option>2015</option>
+                                                        <option>2016</option>
                                                     </select>
                                                 </div>
                                             </div>
-                                           
-                                           
-                                            
-                                           
                                         </fieldset>
                                     </div>
                                 </div>

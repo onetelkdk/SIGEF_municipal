@@ -1,6 +1,29 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
 <% Response.WriteFile("CssStyles.aspx")%>
+<head>
+    <script type="text/javascript" src="js/plugins/graficos/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Erogado',     30],
+          ['Presupuesto',      70]
+        ]);
+
+        var options = {
+          title: 'Ejecución del Presupuesto'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+</head>
 <body>
 
 	<!-- wrapper //////// ////////////////////////////-->
@@ -35,13 +58,23 @@
 							<label>Presupuesto</label>
 							<select class="ui cbo">
 								<option>Seleccione opciones</option>
+								<option>2013</option>
+								<option>2014</option>
+								<option>2015</option>
+								<option>2016</option>
 							</select>
 						</div>                                
 					</div>
 					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 						<div class="form-group">
 							<label>Clasificador de ingreso</label>
-							<input type="text" class="ui">
+							<select class="ui cbo">
+								<option>Seleccione opciones</option>
+								<option>Impuesto sobre solares no edificados</option>
+								<option>Contribuciones municipales</option>
+								<option>Recargos, multas y sanciones terrenos no urbanizados</option>
+								<option>Anuncios, muestras y carteles</option>
+							</select>
 						</div>
 					</div>
 					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -190,9 +223,9 @@
 								</div>
 							</div>
 						</fieldset>
-						<div class="row m15">
-							<img src="images/barras.jpg" class="img-responsive col-md-12">
-						</div>
+					</div>
+					<div>
+						<div id="piechart" style="width: 900px; height: 500px;"></div>
 					</div>
 				</div>
 				<!-- // end data body //////// //////-->
@@ -235,7 +268,7 @@
         <div class="acciones">
             <button class="boton boton-cargar">Cargar</button>
             <button class="boton boton-vacio">Limpiar</button>
-            <button class="boton boton-carrar-2">Cerrar</button>
+            <button class="boton boton-cerrar-2">Cerrar</button>
         </div> 
     </div>
 </div>

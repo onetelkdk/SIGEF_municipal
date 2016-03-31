@@ -39,7 +39,6 @@ body {
 
 fieldset {
     display: block;
-    min-width: -webkit-min-content !important;
 }
 
 .main-header {
@@ -97,6 +96,10 @@ fieldset {
     margin-left: 0 !important;
 }
 
+.ml5 {
+    margin-left: 5 !important;
+}
+
 .mr0 {
     margin-right: 0 !important;
 }
@@ -123,6 +126,10 @@ fieldset {
 
 .ml15 {
     margin-left: 15px !important;
+}
+
+.ml10 {
+    margin-left: 10px !important;
 }
 
 .mr15 {
@@ -560,6 +567,7 @@ li a.link img {
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+    padding-left: 7px;
 }
 
 fieldset {
@@ -991,6 +999,41 @@ b, strong {
         color: #fff !important;
         background-color: #0bd400;
         border-color: #62ae5d;
+    }
+
+.btn-edit {
+    color: #fff !important;
+    background-color: rgba(0, 81, 159, 0.53);
+    border-color: rgba(0, 82, 159, 0.84);
+    display: inline-block;
+    padding: 5px 8px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+    .btn-edit:hover {
+        color: #fff !important;
+        background-color:  rgba(0, 81, 159, 0.61);
+        border-color:  rgba(0, 81, 159, 0.61);
+    }
+
+    .btn-edit:active {
+        color: #fff !important;
+        background-color: rgba(0, 94, 166, 0.72);
+        border-color: rgba(0, 94, 166, 0.72);
     }
 
 .btn-editar2 {
@@ -1809,7 +1852,7 @@ div.dataTables_filter label {
 
 .t-acordeon {
     display: flex !important;
-    color: #0656B5;
+    color: #000;
     font-weight: bold;
     padding: 10px !important;
     font-size: 14px;
@@ -1820,13 +1863,13 @@ div.dataTables_filter label {
     background-image: url(../images/abajo.png) !important;
     background-repeat: no-repeat !important;
     padding-left: 30px !important;
-    background-color: #E3EAE2 !important;
+    background-color: #A8CBF0 !important;
 }
 
     .t-acordeon:hover {
-        background-color: #f4f4f4 !important;
-        color: #0024ff;
-        border: 1px solid #0024ff !important;
+        background-color: #EBF2EA !important;
+        color: #000 !important;
+        border: 1px solid #CCC !important;
     }
 
 .acordeon h5 {
@@ -1949,3 +1992,15 @@ div.dataTables_filter label {
 .modal-footer > button {
     margin-left: 5px;
 }   
+
+.btnDataTable {
+    margin: 6px 0px;
+    margin-top: -3px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-center {
+    display: inline-flex;
+    align-items: center;
+}

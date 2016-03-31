@@ -422,19 +422,19 @@
                                     <input class="ui">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
                                 <div class="form-group">
                                     <label>Fecha</label>
                                     <input class="ui fecha">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
                                 <div class="form-group">
                                     <label>No. Docum. Aprobaci&oacuten</label>
                                     <input class="ui">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
                                 <div class="form-group">
                                     <label>No. Docum. Origen</label>
                                     <input class="ui">
@@ -680,7 +680,7 @@
     <!--End Modal-->
 
     <!-- Modal -->
-    <div id="mdAgregarPartida" class="modal modal-wide fade modal-wide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
+    <div id="mdAgregarPartida" class="modal modal-wide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -822,7 +822,7 @@
     </div>
     <!--End Modal-->  
     <!-- Modal -->
-    <div id="mdAgregarPartidaIn" class="modal modal-wide fade modal-wide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
+    <div id="mdAgregarPartidaIn" class="modal modal-wide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

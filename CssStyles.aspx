@@ -8,4 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/plugins/dataTables.bootstrap.css">
     <link rel="stylesheet" type="text/css" href="js/plugins/bootstrap-toggle-master/css/bootstrap-toggle.min.css">
     <link href="js/plugins/fancyBox/source/jquery.fancybox.css" rel="stylesheet" />
+
+    
 </head>

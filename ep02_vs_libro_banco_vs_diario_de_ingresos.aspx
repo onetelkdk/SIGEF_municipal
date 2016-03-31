@@ -36,8 +36,8 @@
                                     <div class="row m0">
                                         <div class="col-md-12 p0">
                                             <div class="form-group">
-                                                <fieldset class="mt10">
-                                                    <legend>Detalles la ejecición</legend>
+                                                <fieldset>
+                                                    <legend>Detalles la ejecución</legend>
                                                     <div class="table-responsive">
                                                         <table class="table table-striped table-bordered table-hover datatable">
                                                             <thead>
@@ -55,52 +55,26 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0 </td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-
+                                                                    <td>Transferencia</td>
+                                                                    <td>22-03-2016</td>
+                                                                    <td>5644</td>
+                                                                    <td>0100010000 </td>
+                                                                    <td>29987</td>
+                                                                    <td>Pago por servicios prestados</td>
+                                                                    <td>RD$45,000.00</td>
+                                                                    <td>RD$45,000.00</td>
+                                                                    <td>RD$45,000.00</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0 </td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0 </td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0 </td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-                                                                    <td>0</td>
-
+                                                                    <td>Transferencia</td>
+                                                                    <td>23-03-2016</td>
+                                                                    <td>9874</td>
+                                                                    <td>0100010000 </td>
+                                                                    <td>6532</td>
+                                                                    <td>Donaciones y ayudas</td>
+                                                                    <td>RD$30,000.00</td>
+                                                                    <td>RD$30,000.00</td>
+                                                                    <td>RD$30,000.00</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -131,46 +105,26 @@
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-                                                            <tr>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                            </tr>
-                                                            <tr>
-                                                                 <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                            </tr>
-                                                            <tr>
-                                                                 <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                            </tr>
+                                                                <tr>
+                                                                    <td>Transferencia</td>
+                                                                    <td>22-03-2016</td>
+                                                                    <td>5644</td>
+                                                                    <td>12345</td>
+                                                                    <td>29987</td>
+                                                                    <td>Kerlin Garcia</td>
+                                                                    <td>RD$45,000.00</td>
+                                                                    <td>Pago por servicios prestados</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Donaci&oacuten</td>
+                                                                    <td>22-03-2016</td>
+                                                                    <td>3219</td>
+                                                                    <td>65487</td>
+                                                                    <td>29987</td>
+                                                                    <td>Kerlin Garcia</td>
+                                                                    <td>RD$36,000.00</td>
+                                                                    <td>Pago por servicios prestados</td>
+                                                                </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
@@ -201,46 +155,27 @@
                                                             </tr>
                                                         </thead>
                                                         <tbody>
-                                                            <tr>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                            </tr>
-                                                            <tr>
-                                                                 <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                            </tr>
-                                                            <tr>
-                                                                 <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                                <td>0</td>
-                                                            </tr>
+                                                                <tr>
+                                                                    <td>Transferencia</td>
+                                                                    <td>22-03-2016</td>
+                                                                    <td>5644</td>
+                                                                    <td>12345</td>
+                                                                    <td>29987</td>
+                                                                    <td>Kerlin Garcia</td>
+                                                                    <td>RD$45,000.00</td>
+                                                                    <td>Pago por servicios prestados</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Donaci&oacuten</td>
+                                                                    <td>22-03-2016</td>
+                                                                    <td>3219</td>
+                                                                    <td>65487</td>
+                                                                    <td>29987</td>
+                                                                    <td>Kerlin Garcia</td>
+                                                                    <td>RD$36,000.00</td>
+                                                                    <td>Pago por servicios prestados</td>
+                                                                </tr>
+                                                                
                                                         </tbody>
                                                     </table>
                                                 </div>
