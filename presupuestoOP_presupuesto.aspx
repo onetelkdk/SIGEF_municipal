@@ -835,7 +835,7 @@
                         <div class="col-md-12">
                             <fieldset class="mt-10 mb10 text-center">
                                 <legend class="mb-5">Descripci&oacute;n / objeto del Ingreso</legend>
-                                <input type="text" class="ui descripcionTb" placeholder="Por favor ingrese el nombre de la denominaci&oacuten" />
+                                <input type="text" class="ui descripcionTb" value="Sueldos fijos (2.1.1.1.01)" />
                             </fieldset>
                         </div>
                         <fieldset class="m15">
