@@ -96,6 +96,10 @@ fieldset {
     margin-left: 0 !important;
 }
 
+.ml5 {
+    margin-left: 5 !important;
+}
+
 .mr0 {
     margin-right: 0 !important;
 }
@@ -122,6 +126,10 @@ fieldset {
 
 .ml15 {
     margin-left: 15px !important;
+}
+
+.ml10 {
+    margin-left: 10px !important;
 }
 
 .mr15 {
@@ -1986,7 +1994,14 @@ div.dataTables_filter label {
 }   
 
 .btnDataTable {
-    float: left !important;
-    margin:6px 0px;
+    margin: 6px 0px;
     margin-top: -3px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between
+}
+
+.flex-center {
+    display: inline-flex;
+    align-items: center;
 }

@@ -711,8 +711,19 @@ $(document).ready(function(){
         $('#modalOrigenTransferencia').modal('show');
     });
 
-    $('#btn-BorrarPartidaOrigen').click(function(){
+    $('#btn-EditarPartidaOrigen').click(function(){
         $('#modalOrigenTransferencia').modal('show');
     });
 
+    $('#btn-AgregarPartidaDestino').click(function(){
+        $('#modalDestinoTransferencia').modal('show');
+    });
+
+    $('#btn-btn-EditarPartidaDestino').click(function(){
+        $('#modalDestinoTransferencia').modal('show');
+    });
+
+    $('#btn-EditarPartidaDestino').click(function(){
+        $('#modalDestinoTransferencia').modal('show');
+    });
 });
