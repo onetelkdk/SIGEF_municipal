@@ -174,41 +174,73 @@
                                 </div>
                             </div>
                             <div class="row m15">
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="form-group">
-                                                <label>Clasificador</label>
-                                                <select class="ui cbo">
-                                                    <option>Seleccione opciones</option>
-                                                    <option>142902-Transferencia de capital</option>
-                                                    <option>422112- Disminuci&oacuten de gasto</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="table-responsive">
-                                        <table class="table table-striped table-bordered table-hover datatable">
-                                            <thead>
-                                                <tr class="table_heading">
-                                                    <th>Partida</th>
-                                                    <th>Descripci&oacuten</th>
-                                                    <th>Monto</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>59400541</td>
-                                                    <td>Sobrantes de caja</td>
-                                                    <td>RD$68,997.00</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </fieldset>
+                                
                             </div>
                         </fieldset>
                         <fieldset class="mt15">
+                                <legend>Detalle - Presupuesto Ingreso</legend>
+                                <div>
+                                    <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label>Clasificador</label>
+                                            <select class="ui cbo">
+                                                <option>Seleccione opciones</option>
+                                                <option>142902-Transferencia de capital</option>
+                                                <option>422112- Disminuci&oacuten de gasto</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="form-group">
+                                            <label>Monto</label>
+                                            <input type="text" class="ui bg-success" value="RD$54,000.00">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 flex-center p0">
+                                        <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+                                            <div class="btnDataTable">
+                                                <button class="btn-agregar">Agregar</button>
+                                                <button class="btn-edit ml10">Editar</button>
+                                                <button class="btn-borrar ml10">Borrar</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+                                            <div class="alert alert-warning">
+                                                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                                <strong>Info:</strong> Seleccione el clasificador, introdusca el monto y pulse agregar, editar o borrar para modificar el clasificador.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                    <div class="table-responsive">
+                                    <table class="table table-striped table-bordered table-hover datatable">
+                                        <thead>
+                                            <tr class="table_heading">
+                                                <th></th>
+                                                <th>Partida</th>
+                                                <th>Descripci&oacuten</th>
+                                                <th>Monto</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><input type="radio"></td>
+                                                <td>59400541</td>
+                                                <td>Sobrantes de caja</td>
+                                                <td>RD$68,997.00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </fieldset>
+                                </div>
+                                
+                            </fieldset>
+                        
+                        <fieldset class="mt15">
+                            <legend>Detalle - Presupuesto Gasto</legend>
                             <div class="row p15">
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
@@ -247,32 +279,54 @@
                                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label>Monto</label>
-                                        <input class="ui" type="text" value="RD$12,000,000">
+                                        <input class="ui bg-warning" type="text" value="RD$12,000,000">
                                     </div>
                                 </div>
                             </div>
-                            <div class="table-responsive p15">
-                                <table class="table table-striped table-bordered table-hover datatable">
-                                    <thead>
-                                        <tr class="table_heading">
-                                            <th>Program&aacutetica</th>
-                                            <th>Actividad / Obra / Sub-Actividad</th>
-                                            <th>Objeto</th>
-                                            <th>Nombre del objeto</th>
-                                            <th>Monto</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>11.03.0069.000</td>
-                                            <td>Remozamiento de tuber&iacuteas</td>
-                                            <td>69400</td>
-                                            <td>Obras hidr&aacuteulicas y sanitarias</td>
-                                            <td>RD$68,997.00</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                            <div class="col-md-12 flex-center p0">
+                                    <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+                                        <div class="btnDataTable">
+                                            <button class="btn-agregar">Agregar</button>
+                                            <button class="btn-edit ml10">Editar</button>
+                                            <button class="btn-borrar ml10">Borrar</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
+                                        <div class="alert alert-warning">
+                                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                            <strong>Info:</strong> Pulse agregar, editar o borrar para modificar el clasificador.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <fieldset>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered table-hover datatable">
+                                                <thead>
+                                                    <tr class="table_heading">
+                                                        <th></th>
+                                                        <th>Program&aacutetica</th>
+                                                        <th>Actividad / Obra / Sub-Actividad</th>
+                                                        <th>Objeto</th>
+                                                        <th>Nombre del objeto</th>
+                                                        <th>Monto</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><input type="radio"></td>
+                                                        <td>11.03.0069.000</td>
+                                                        <td>Remozamiento de tuber&iacuteas</td>
+                                                        <td>69400</td>
+                                                        <td>Obras hidr&aacuteulicas y sanitarias</td>
+                                                        <td>RD$68,997.00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            
                         </fieldset>
                         <fieldset class="mt15">
                             <div class="row p15">

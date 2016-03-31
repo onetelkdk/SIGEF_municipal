@@ -1998,7 +1998,6 @@ div.dataTables_filter label {
     margin-top: -3px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between
 }
 
 .flex-center {

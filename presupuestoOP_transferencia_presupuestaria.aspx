@@ -159,8 +159,8 @@
                                                     <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
                                                         <div class="btnDataTable">
                                                         <button class="btn-agregar" id="btn-AgregarPartidaOrigen">Agregar</button>
-                                                        <button class="btn-edit" id="btn-EditarPartidaOrigen">Editar</button>
-                                                        <button class="btn-borrar">Borrar</button>
+                                                        <button class="btn-edit ml10" id="btn-EditarPartidaOrigen">Editar</button>
+                                                        <button class="btn-borrar ml10">Borrar</button>
                                                     </div>
                                                     </div>
                                                     <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
@@ -204,8 +204,8 @@
                                                     <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
                                                         <div class="btnDataTable">
                                                         <button class="btn-agregar" id="btn-AgregarPartidaDestino">Agregar</button>
-                                                        <button class="btn-edit" id="btn-EditarPartidaDestino">Editar</button>
-                                                        <button class="btn-borrar">Borrar</button>
+                                                        <button class="btn-edit ml10" id="btn-EditarPartidaDestino">Editar</button>
+                                                        <button class="btn-borrar ml10">Borrar</button>
                                                     </div>
                                                     </div>
                                                     <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
@@ -1304,8 +1304,8 @@
   
 
     <!-- Modal -->
-        <div class="modal fade" id="modalOrigenTransferencia" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
+        <div class="modal fade modal-wide" id="modalOrigenTransferencia" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -1315,7 +1315,7 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <fieldset>
-                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 p0">
                                         <div class="form-group">
                                             <label>Monto</label>
                                             <input class="ui bg-success" value="RD$50,000.00">
@@ -1327,7 +1327,7 @@
                     </div>
                     <div class="col-lg-12 col-md-12">
                         <fieldset> 
-                            <div class="table-responsive col-lg-12 col-md-12">
+                            <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover font13 datatable">
                                     <thead>
                                         <tr class="table_heading">
@@ -1372,8 +1372,8 @@
         </div>
     <!--End Modal-->
     <!-- Modal -->
-        <div class="modal fade" id="modalDestinoTransferencia" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
+        <div class="modal fade modal-wide" id="modalDestinoTransferencia" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -1383,7 +1383,7 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <fieldset>
-                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 p0">
                                         <div class="form-group">
                                             <label>Monto</label>
                                             <input class="ui bg-success" value="RD$50,000.00">
@@ -1395,7 +1395,7 @@
                     </div>
                     <div class="col-lg-12 col-md-12">
                         <fieldset> 
-                            <div class="table-responsive col-lg-12 col-md-12">
+                            <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover font13 datatable">
                                     <thead>
                                         <tr class="table_heading">
